@@ -1,0 +1,1706 @@
+[
+ {
+  "file": "main_tartanaviation_H10_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 10,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 43452,
+  "sha256": "464567eed52a79eb5c634683110c624a8f7b5b35b382fab56c6763d2fcb55d57",
+  "reported": {
+   "ADE": 38.08728299185764,
+   "FDE": 63.82134701074111,
+   "MSE": 1278.1961216702982
+  }
+ },
+ {
+  "file": "main_tartanaviation_H10_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 10,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 43452,
+  "sha256": "b65e3931b7bc957528863e797508fa60a3afb0c148ed617526ec118d9d19f93e",
+  "reported": {
+   "ADE": 39.644479415238436,
+   "FDE": 67.2727775229748,
+   "MSE": 1354.7348057714992
+  }
+ },
+ {
+  "file": "main_tartanaviation_H10_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 10,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 43452,
+  "sha256": "f2734c5bfb38243f4a0c50bed74144d465b793aa1f01de5fe10dfe65d6fd3544",
+  "reported": {
+   "ADE": 38.939763751216326,
+   "FDE": 66.05930940812972,
+   "MSE": 1310.088964418043
+  }
+ },
+ {
+  "file": "main_tartanaviation_H10_tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 10,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 33504,
+  "sha256": "3c54dce45be36031d2f2d78cb87bbef5d059cbc46c6e7a91353b1bdde51aa2aa",
+  "reported": {
+   "ADE": 40.34156003243603,
+   "FDE": 67.78567650337304,
+   "MSE": 1392.6071152987915
+  }
+ },
+ {
+  "file": "main_tartanaviation_H10_tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 10,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 33504,
+  "sha256": "5bd294ecc9a91c8846a766cf87115ddb0cd55fa6b36cfe9d3acc8102bc1157ac",
+  "reported": {
+   "ADE": 41.26788499567184,
+   "FDE": 68.48324864527221,
+   "MSE": 1424.1017632978956
+  }
+ },
+ {
+  "file": "main_tartanaviation_H10_tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 10,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 33504,
+  "sha256": "7422e92d18a1bd3bd231fe702ce05614ef09fe57d4ccd34fa005d9f7abe300d0",
+  "reported": {
+   "ADE": 40.42090820721428,
+   "FDE": 67.7547380320438,
+   "MSE": 1396.0675981508937
+  }
+ },
+ {
+  "file": "main_tartanaviation_H20_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 20,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 44062,
+  "sha256": "9db6b05cb5d607def8171f1797b6331e551fb83a9548b40ed9236ea9658866dd",
+  "reported": {
+   "ADE": 68.74333418112407,
+   "FDE": 134.20690873569376,
+   "MSE": 4456.593914714922
+  }
+ },
+ {
+  "file": "main_tartanaviation_H20_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 20,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 44062,
+  "sha256": "06ea2dc8a8834244bb41bde6b34c47c9efeab9b733554ac9599856e466113136",
+  "reported": {
+   "ADE": 73.35325165881434,
+   "FDE": 143.7979493677773,
+   "MSE": 4890.75003250069
+  }
+ },
+ {
+  "file": "main_tartanaviation_H20_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 20,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 44062,
+  "sha256": "fec034b086355407c0bfd62d2335a00ce67559603b6f3f0b13acf30b63b0e734",
+  "reported": {
+   "ADE": 72.26000509867937,
+   "FDE": 142.39039096401788,
+   "MSE": 4775.781139704382
+  }
+ },
+ {
+  "file": "main_tartanaviation_H20_tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 20,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 34114,
+  "sha256": "6eb8b563e910585cb43a6641ee31285769c58eb17929e9ccd1131a7f60e81a6c",
+  "reported": {
+   "ADE": 79.78017013334126,
+   "FDE": 154.81114427571413,
+   "MSE": 5563.21752742441
+  }
+ },
+ {
+  "file": "main_tartanaviation_H20_tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 20,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 34114,
+  "sha256": "f61f99c707b7c0a0603f1c82128663f7cef3bd65558c5b386d2ec55d93b5160d",
+  "reported": {
+   "ADE": 80.1597274761121,
+   "FDE": 157.36316700628532,
+   "MSE": 5585.0566947132875
+  }
+ },
+ {
+  "file": "main_tartanaviation_H20_tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 20,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 34114,
+  "sha256": "8c2a7f5fbc4d36c20c599544ab5c00ab1ad207679ab48a5ead17d01879b4afe6",
+  "reported": {
+   "ADE": 80.0925976790067,
+   "FDE": 157.33200012443533,
+   "MSE": 5585.205181738861
+  }
+ },
+ {
+  "file": "main_tartanaviation_H30_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 44672,
+  "sha256": "dba6272124a0045cd05208a212003864c4dc832e616a8b16be0567c5d6e156d8",
+  "reported": {
+   "ADE": 104.65054017532162,
+   "FDE": 218.06493458197738,
+   "MSE": 10721.854328973639
+  }
+ },
+ {
+  "file": "main_tartanaviation_H30_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 44672,
+  "sha256": "54c8b26aa082a337b172b5196376f1b97af574a170224d810cfbb7f97eba61be",
+  "reported": {
+   "ADE": 112.36535110085116,
+   "FDE": 233.046056494712,
+   "MSE": 12125.2066645022
+  }
+ },
+ {
+  "file": "main_tartanaviation_H30_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 44672,
+  "sha256": "201e1b1df417f1ec3e592e628054853724f5272c99bc0aab664cb67179963ad4",
+  "reported": {
+   "ADE": 108.91567103407334,
+   "FDE": 226.90947360756581,
+   "MSE": 11236.04535858261
+  }
+ },
+ {
+  "file": "main_tartanaviation_H30_tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 34724,
+  "sha256": "83648badbb60386bbc48a8ec761921153184ff85e7b0309c53ee2e4e53470811",
+  "reported": {
+   "ADE": 123.9673618118728,
+   "FDE": 255.78467746394327,
+   "MSE": 13919.870620134288
+  }
+ },
+ {
+  "file": "main_tartanaviation_H30_tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 34724,
+  "sha256": "ce00625922a918e9631f2ab4ea6e864cf8c1b1fafc74e3029085c9f3ce7b90b0",
+  "reported": {
+   "ADE": 124.5622399235096,
+   "FDE": 251.019601194073,
+   "MSE": 13566.72491967757
+  }
+ },
+ {
+  "file": "main_tartanaviation_H30_tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 34724,
+  "sha256": "402d95f5586fa9a3e44ad7cc72224cccdcca6618449ca2ed550b0403a4d62f61",
+  "reported": {
+   "ADE": 138.18762163488836,
+   "FDE": 268.18647316827145,
+   "MSE": 15171.775095984207
+  }
+ },
+ {
+  "file": "main_tartanaviation_H60_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "c6bfbe3f9e8273e9133f0cba1253c6bd025f2ab4b7d41658567ae2b0034d4651",
+  "reported": {
+   "ADE": 254.23799514726386,
+   "FDE": 551.8647558940771,
+   "MSE": 62994.46463095405
+  }
+ },
+ {
+  "file": "main_tartanaviation_H60_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "a9a8297df20d2c535128608f158b177a08f0c3075eb1c7f332a4151e4117ff91",
+  "reported": {
+   "ADE": 259.73786134102573,
+   "FDE": 563.0584315918229,
+   "MSE": 66235.05987324033
+  }
+ },
+ {
+  "file": "main_tartanaviation_H60_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "67e3e31927de2e0d2c9d6bc49f1d914d9cf0277282384ff5d650e67ceec25389",
+  "reported": {
+   "ADE": 257.27341439080607,
+   "FDE": 557.2805557533229,
+   "MSE": 65313.15739993529
+  }
+ },
+ {
+  "file": "main_tartanaviation_H60_tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 36554,
+  "sha256": "e723b42290f48d3688dcb837a9a99c0a2fd61bc8030b42d10ae175e464e6229e",
+  "reported": {
+   "ADE": 281.3884680366871,
+   "FDE": 598.6270883896537,
+   "MSE": 73409.58576155963
+  }
+ },
+ {
+  "file": "main_tartanaviation_H60_tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 36554,
+  "sha256": "61dc12e8634554fc184e75e044fae4eb94d925258a878fd30c91200890038ee6",
+  "reported": {
+   "ADE": 291.2156414857883,
+   "FDE": 598.6150929812491,
+   "MSE": 74717.44963232578
+  }
+ },
+ {
+  "file": "main_tartanaviation_H60_tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 36554,
+  "sha256": "76a08ee8551dbd350d7c66f5ba850fb5de6bc0c4d0d9f6dc231e54f56dae91c6",
+  "reported": {
+   "ADE": 281.5018815641709,
+   "FDE": 591.2179087212593,
+   "MSE": 72931.7749520579
+  }
+ },
+ {
+  "file": "main_trajair_H10_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 10,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 43452,
+  "sha256": "731b557bdfc8df557dc090e0d2f3a37579b3c1a09d13b4423540d366e3421999",
+  "reported": {
+   "ADE": 35.61521820486496,
+   "FDE": 62.132389016376514,
+   "MSE": 799.5628853698107
+  }
+ },
+ {
+  "file": "main_trajair_H10_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 10,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 43452,
+  "sha256": "8ffac4ef03a1ebbdd9f084657384f93992b346e1256f14f45eab1f6d8215731e",
+  "reported": {
+   "ADE": 35.72900561919351,
+   "FDE": 62.39826346678629,
+   "MSE": 816.2834167834653
+  }
+ },
+ {
+  "file": "main_trajair_H10_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 10,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 43452,
+  "sha256": "f7f694758f968532235d7c53723a4d95951830f8bf195d8eec4d72d23d299a7e",
+  "reported": {
+   "ADE": 34.53633614320303,
+   "FDE": 60.202028012847144,
+   "MSE": 768.674337242044
+  }
+ },
+ {
+  "file": "main_trajair_H10_tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 10,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 33504,
+  "sha256": "c0e799de1452e18614331d1ea7484632f47e20c779727107af579b8a70004807",
+  "reported": {
+   "ADE": 38.6632414812602,
+   "FDE": 65.85231979207633,
+   "MSE": 933.6893356270216
+  }
+ },
+ {
+  "file": "main_trajair_H10_tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 10,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 33504,
+  "sha256": "a0aa7fcd39f4496c409cf0ddeb3276f80e1578652ed4f0edd7af5aee17762388",
+  "reported": {
+   "ADE": 38.931609581284015,
+   "FDE": 65.51624757335902,
+   "MSE": 950.4622858082274
+  }
+ },
+ {
+  "file": "main_trajair_H10_tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 10,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 33504,
+  "sha256": "40642eac53af1ca712e3dd67f17bdaa46ba5109d6e45e12ef1f6264796ce88f4",
+  "reported": {
+   "ADE": 37.84658654730947,
+   "FDE": 64.04189880998392,
+   "MSE": 901.5913794097689
+  }
+ },
+ {
+  "file": "main_trajair_H20_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 20,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 44062,
+  "sha256": "23653589a0ba85feca1de9e3068ac0c41fc5ec4cba1f93caa4ede776b87b92f3",
+  "reported": {
+   "ADE": 69.83282455345073,
+   "FDE": 142.205580209823,
+   "MSE": 3566.8876779466405
+  }
+ },
+ {
+  "file": "main_trajair_H20_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 20,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 44062,
+  "sha256": "501b6319d464b6dba83a8fd9e03147cebf7a1eb96794b13429d8a5c5737c4933",
+  "reported": {
+   "ADE": 69.02900341844354,
+   "FDE": 138.71775755521995,
+   "MSE": 3549.4118088185173
+  }
+ },
+ {
+  "file": "main_trajair_H20_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 20,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 44062,
+  "sha256": "b4cbb8974364f52b823f4b67396253808a4978575793cf1336227246605e54c3",
+  "reported": {
+   "ADE": 67.55258012831389,
+   "FDE": 138.08884134907188,
+   "MSE": 3438.014824411312
+  }
+ },
+ {
+  "file": "main_trajair_H20_tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 20,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 34114,
+  "sha256": "83e8713839e7de7dfcc413586475997fc71142199a50411ddc424046d10243af",
+  "reported": {
+   "ADE": 75.57614961772704,
+   "FDE": 149.7336205154837,
+   "MSE": 4088.920029645408
+  }
+ },
+ {
+  "file": "main_trajair_H20_tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 20,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 34114,
+  "sha256": "89189c470c74502f859749f69eca6425439f9f12839dfb6eefe435ee879842b1",
+  "reported": {
+   "ADE": 74.37126725370629,
+   "FDE": 148.19151037841,
+   "MSE": 3942.348837509569
+  }
+ },
+ {
+  "file": "main_trajair_H20_tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 20,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 34114,
+  "sha256": "c3496e4e2eaa3437a6692243fe1d37017453839756c0387d87069a0ecb602da9",
+  "reported": {
+   "ADE": 74.51361620736607,
+   "FDE": 148.27065314772938,
+   "MSE": 4011.0204773872974
+  }
+ },
+ {
+  "file": "main_trajair_H30_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 44672,
+  "sha256": "49c0725f61f3fd1d7e11b8ce2c6969566bfceae45d14f6c3191c3e9467ae278c",
+  "reported": {
+   "ADE": 109.12949768154124,
+   "FDE": 231.38923112348158,
+   "MSE": 9428.89046344318
+  }
+ },
+ {
+  "file": "main_trajair_H30_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 44672,
+  "sha256": "658ebb338ef53e3f4000062b7603b13d6ccd79c0bb37aed2ebfc3305bda8ec4a",
+  "reported": {
+   "ADE": 110.86310430549526,
+   "FDE": 234.43058821082977,
+   "MSE": 9716.1374982606
+  }
+ },
+ {
+  "file": "main_trajair_H30_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 44672,
+  "sha256": "2dc4538558158ae6611320465b8fe5d0f66bafc341ddf5d858c95483596998ed",
+  "reported": {
+   "ADE": 107.401758252536,
+   "FDE": 228.85849108357976,
+   "MSE": 9247.857223244799
+  }
+ },
+ {
+  "file": "main_trajair_H30_tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 34724,
+  "sha256": "dac3b0fb2023fa9e3afa4a9b7e8e41095c4b76ff4dbae453c04dceff05a2144a",
+  "reported": {
+   "ADE": 117.03232992468621,
+   "FDE": 248.1315255838128,
+   "MSE": 10511.956158982306
+  }
+ },
+ {
+  "file": "main_trajair_H30_tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 34724,
+  "sha256": "6031f79fba3435076507fe68c5de3b99864787b75b7f50e91abc1088779e2608",
+  "reported": {
+   "ADE": 121.62734193155907,
+   "FDE": 256.98326808957415,
+   "MSE": 11116.588766226932
+  }
+ },
+ {
+  "file": "main_trajair_H30_tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 34724,
+  "sha256": "a7ad4e908e31cb955aaa4587b6f2f81028d0fc6a12d3d16f337de504c696cdd1",
+  "reported": {
+   "ADE": 122.36236649066441,
+   "FDE": 259.1186027153453,
+   "MSE": 11099.700002083151
+  }
+ },
+ {
+  "file": "main_trajair_H60_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "c89951387f1b8c12cdd98b45c2598c9a280a4cb60f0393f915a1f45299795385",
+  "reported": {
+   "ADE": 251.26357701856887,
+   "FDE": 545.7432231961837,
+   "MSE": 52771.94757393729
+  }
+ },
+ {
+  "file": "main_trajair_H60_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "0c067288a6522c909492966a52072854c479fbdd55105ab5d0bafbe14fa45935",
+  "reported": {
+   "ADE": 253.96066924992647,
+   "FDE": 546.4148609173322,
+   "MSE": 53166.19424604729
+  }
+ },
+ {
+  "file": "main_trajair_H60_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "847ba0c9c18c235e39ce427a8e59aa8c260d73ffe159b8a3948a88aeedfc99d5",
+  "reported": {
+   "ADE": 249.68547494099772,
+   "FDE": 546.6638361450574,
+   "MSE": 52401.793727227196
+  }
+ },
+ {
+  "file": "main_trajair_H60_tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 36554,
+  "sha256": "13a7b175030c31f9bd6b78d64996f0eb02ee6558b02910c0374465a0985010f1",
+  "reported": {
+   "ADE": 267.90139803903514,
+   "FDE": 569.3592317055444,
+   "MSE": 57186.62629107242
+  }
+ },
+ {
+  "file": "main_trajair_H60_tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 36554,
+  "sha256": "22854f2092004280d7a1b8ff1db92275f301532ebc8736bc0034920e762b1415",
+  "reported": {
+   "ADE": 269.3940384628281,
+   "FDE": 573.0393482037397,
+   "MSE": 57538.006474297275
+  }
+ },
+ {
+  "file": "main_trajair_H60_tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer",
+  "architecture": "TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 36554,
+  "sha256": "4f1911b5409876048190e43f40134cceef558bb82f60cdc6e5fdddf740bf5532",
+  "reported": {
+   "ADE": 266.8315198595236,
+   "FDE": 563.2202971899206,
+   "MSE": 56775.70790288773
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-equal-weights_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 123,
+  "parameters": 44672,
+  "sha256": "8cba46c8a1349848e51ff010de4f7d5acdcdd76bf7c298dba5b6506fd9722aa2",
+  "reported": {
+   "ADE": 104.57989866856765,
+   "FDE": 217.86142062733077,
+   "MSE": 10680.999122387764
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-equal-weights_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 42,
+  "parameters": 44672,
+  "sha256": "8b950704d4fca15babdf3c5bbc72609059a8f2a66f490efc1157f98cb3982f5c",
+  "reported": {
+   "ADE": 112.42749842233393,
+   "FDE": 232.78040994602105,
+   "MSE": 12100.248773214242
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-equal-weights_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 456,
+  "parameters": 44672,
+  "sha256": "713cb94ac07b13c4db041c4824e193521472ad914e00c0e70f59c34f7ddaca5c",
+  "reported": {
+   "ADE": 108.55255296095118,
+   "FDE": 225.88714839494727,
+   "MSE": 11214.116529048506
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-tsmixer-ref_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 44672,
+  "sha256": "9470096af783a1d92643ddc85589ad75140dc7fd9976692f1ef5da52b1af848a",
+  "reported": {
+   "ADE": 105.46621667336734,
+   "FDE": 219.31030288900058,
+   "MSE": 10748.762719094528
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-tsmixer-ref_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 44672,
+  "sha256": "44948178df0c146d615de1bab0e0a391b57667e5c941a4ebba67b2443d49a975",
+  "reported": {
+   "ADE": 113.37149329556546,
+   "FDE": 233.99447928523193,
+   "MSE": 12225.579127168014
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-tsmixer-ref_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 44672,
+  "sha256": "8adf9d7ae0c0ff812bba7e3cec73ed6c917ad8f7f39f93d07e50a950b85c1922",
+  "reported": {
+   "ADE": 109.53610804331704,
+   "FDE": 227.27415996831326,
+   "MSE": 11349.533192231707
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-uniform-widths_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 123,
+  "parameters": 44800,
+  "sha256": "d063998e75043e8cbe4c948086d4626f3b9b59729fff598153020f64d8834e63",
+  "reported": {
+   "ADE": 108.01186179695952,
+   "FDE": 225.0355430411923,
+   "MSE": 11255.537031240543
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-uniform-widths_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 42,
+  "parameters": 44800,
+  "sha256": "715d46b4dac4680667d1fa3878ef42b5d61d147443d41d3165a1d2d73e3090cf",
+  "reported": {
+   "ADE": 108.82051068905822,
+   "FDE": 224.8468706164035,
+   "MSE": 11214.712333178531
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-uniform-widths_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 456,
+  "parameters": 44800,
+  "sha256": "5d9fde801031d72c915f79e31d6297a036f51cef4ee30ef741b9a34454bb6ce4",
+  "reported": {
+   "ADE": 109.32527494493074,
+   "FDE": 227.2167757611317,
+   "MSE": 11426.6839615883
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_tsmixer-matched-size_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 123,
+  "parameters": 44708,
+  "sha256": "06b937c5e34f70acea7366a42781f561fdc0c8bb5d603696514266a17dfd1339",
+  "reported": {
+   "ADE": 124.76203676513673,
+   "FDE": 244.40030584602647,
+   "MSE": 13375.297478256127
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_tsmixer-matched-size_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 42,
+  "parameters": 44708,
+  "sha256": "d10e286cff2f3d2820db7944fd198b11628b66beb35f1abdb3b8adc80b8d8e55",
+  "reported": {
+   "ADE": 125.91880765024241,
+   "FDE": 249.58103496571303,
+   "MSE": 13503.714621499637
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_tsmixer-matched-size_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 456,
+  "parameters": 44708,
+  "sha256": "d3e67f11f4532cb0b9c288f8ef227aae772bf361345b265a0cac2ac9d761a5bb",
+  "reported": {
+   "ADE": 127.74289880516815,
+   "FDE": 260.36838698982206,
+   "MSE": 14095.746948730508
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-equal-weights_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "69189d72143e8bab99792f33a64bc447575170351c38dfdaa0baee228a294672",
+  "reported": {
+   "ADE": 254.6423412723259,
+   "FDE": 552.3042617483272,
+   "MSE": 63368.38053489058
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-equal-weights_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "9f460ae2ade9059abbee7923273f05ebd059ec7cfa3b2bc28040405db6b4f6b1",
+  "reported": {
+   "ADE": 260.0794361079649,
+   "FDE": 563.0241218225981,
+   "MSE": 66508.24449266771
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-equal-weights_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "cf047695e7e89a08dd72e475a2ccda54aafe4d48e4a5c10eef1157e80b1de7f3",
+  "reported": {
+   "ADE": 256.6287744725938,
+   "FDE": 555.4307137516106,
+   "MSE": 65267.25519726408
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-tsmixer-ref_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "377edceb11ac5e2988b6d9077c59dec0d6e39614c7509d245eff1beabbe6e219",
+  "reported": {
+   "ADE": 253.92230549591346,
+   "FDE": 550.1611123806005,
+   "MSE": 63264.49043771075
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-tsmixer-ref_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "e7975a4f809df74cd6f502b7709c636f8e278d5c7d34e460c2331adc733c88b4",
+  "reported": {
+   "ADE": 260.17345333526873,
+   "FDE": 562.6715806977995,
+   "MSE": 66338.43548063978
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-tsmixer-ref_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "9c997791d6713b982dcf40e458bc7064e42707e234891824fad3c5bb91e7a88c",
+  "reported": {
+   "ADE": 256.360709253094,
+   "FDE": 556.8691159970348,
+   "MSE": 64728.418162874856
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-uniform-widths_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 123,
+  "parameters": 46630,
+  "sha256": "7c8cd39a197e26b2661a0153b8e60c198de2ca20d0740873311e6f80d4eba5ec",
+  "reported": {
+   "ADE": 251.17623523591516,
+   "FDE": 547.7418143961293,
+   "MSE": 62058.78177338861
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-uniform-widths_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 42,
+  "parameters": 46630,
+  "sha256": "68a1c6f213159d2597138bb54324e3755fdc1787bea731081fcbc7574cb7ec02",
+  "reported": {
+   "ADE": 260.0523713046352,
+   "FDE": 560.505208931381,
+   "MSE": 66018.72576104738
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-uniform-widths_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 456,
+  "parameters": 46630,
+  "sha256": "7df68d80faca6049485c9aef7d2f6b319538cbc6a169e5515ba79931ef53292c",
+  "reported": {
+   "ADE": 254.43085345891103,
+   "FDE": 552.09939870512,
+   "MSE": 63710.70500965096
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_tsmixer-matched-size_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 123,
+  "parameters": 46538,
+  "sha256": "d63d2219355a09de395cddd151026371ea7a54523ddfef43be150d76acd7d9da",
+  "reported": {
+   "ADE": 279.717167603332,
+   "FDE": 588.9656686451547,
+   "MSE": 72279.87670765044
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_tsmixer-matched-size_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 42,
+  "parameters": 46538,
+  "sha256": "58a847e9ccf7157e68727d6a813563fedd1cc2af61271dc8f3ae5efc72f4d491",
+  "reported": {
+   "ADE": 285.589390086465,
+   "FDE": 593.7353520797409,
+   "MSE": 73369.85046996476
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_tsmixer-matched-size_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 456,
+  "parameters": 46538,
+  "sha256": "940312e432269a3d719db5e584416a46c80349f6d35b89d5cc0f6d242c4a9d16",
+  "reported": {
+   "ADE": 295.9544571007121,
+   "FDE": 611.3463446284514,
+   "MSE": 78187.20832267946
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-equal-weights_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 123,
+  "parameters": 44672,
+  "sha256": "ce9092d494b6c46648802129e1aeaa0049b1f6feeef381f4a0bcfe25ad49d1a7",
+  "reported": {
+   "ADE": 108.68335230301192,
+   "FDE": 231.13301444069666,
+   "MSE": 9344.013052471337
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-equal-weights_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 42,
+  "parameters": 44672,
+  "sha256": "d606779c3dd345dd422337ae98f1ddac5fe09000195f2aa8b51fc780dd8697db",
+  "reported": {
+   "ADE": 109.14172486468232,
+   "FDE": 231.20248050962772,
+   "MSE": 9547.794801727141
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-equal-weights_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 456,
+  "parameters": 44672,
+  "sha256": "03d099acb25d1e9a15757ada60ce59213963da9b10afcfb1c9013f2d8930a8f5",
+  "reported": {
+   "ADE": 107.69527109301934,
+   "FDE": 229.19358657729336,
+   "MSE": 9246.539606710749
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-tsmixer-ref_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 44672,
+  "sha256": "5b7ba23067d9c79893747a79b57f50d6809eb924ad47bf245e51b3a27de4b6ca",
+  "reported": {
+   "ADE": 108.8888919743319,
+   "FDE": 231.07694297119076,
+   "MSE": 9415.03255125172
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-tsmixer-ref_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 44672,
+  "sha256": "5499963651a93a6f5b0c70de5fdab76bb47b35120abe68ff300d8cf5d15be67f",
+  "reported": {
+   "ADE": 110.27281027357914,
+   "FDE": 233.19739728915434,
+   "MSE": 9656.777647552748
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-tsmixer-ref_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 44672,
+  "sha256": "0fac5b8bfae93bdff32d621db850f4ba4cced946ce5ca27e108fb4d91f2552b1",
+  "reported": {
+   "ADE": 106.97202907297154,
+   "FDE": 227.90440971287308,
+   "MSE": 9147.76520795922
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-uniform-widths_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 123,
+  "parameters": 44800,
+  "sha256": "dee9c21b57b5ad308f7d547458d5df40e5cdc13ce3df7b69ea12d1aa966516ec",
+  "reported": {
+   "ADE": 110.9798952551298,
+   "FDE": 236.88665154340381,
+   "MSE": 9663.989552469955
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-uniform-widths_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 42,
+  "parameters": 44800,
+  "sha256": "83859f607be265487ac754cb537c5098e947003cfd67791dcced1cbeeea7b290",
+  "reported": {
+   "ADE": 108.51763264359535,
+   "FDE": 231.0058342120241,
+   "MSE": 9449.65337267476
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-uniform-widths_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 456,
+  "parameters": 44800,
+  "sha256": "0fdd5f42e0faba79ccc92aa8c574f714502b87ed3cc4b20d91d12bfecb3e1882",
+  "reported": {
+   "ADE": 104.52747342603337,
+   "FDE": 223.52637356527973,
+   "MSE": 8894.997886704768
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_tsmixer-matched-size_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 123,
+  "parameters": 44708,
+  "sha256": "a1f225fbda0851a07e999ce8cfe459a9d65c46060d2942f6db018b71fd0b70d6",
+  "reported": {
+   "ADE": 119.28551165227792,
+   "FDE": 250.24778205731707,
+   "MSE": 10598.946705913946
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_tsmixer-matched-size_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 42,
+  "parameters": 44708,
+  "sha256": "03755e29d615fe32c332c45a7efb29a0550b7dd9b8c31335326a654a67a3e17e",
+  "reported": {
+   "ADE": 118.99180192060925,
+   "FDE": 242.67917249564104,
+   "MSE": 10337.5972513359
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_tsmixer-matched-size_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 456,
+  "parameters": 44708,
+  "sha256": "be1dc55efe3ab40fdfcaa066903b2a186469a2852e41c69dd5618db543eb1452",
+  "reported": {
+   "ADE": 116.55982610969112,
+   "FDE": 243.98193320606117,
+   "MSE": 10400.574493530139
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-equal-weights_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "182438b06ad957e03a8dcc20eccce4c4e9e117c5070a4122c4545d1657600dc3",
+  "reported": {
+   "ADE": 251.29493314868625,
+   "FDE": 547.5139663818785,
+   "MSE": 52825.10943391286
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-equal-weights_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "6089264b0a748812492f4156ecfcdb0c9e73fba9b09488deedb693cc642b96d3",
+  "reported": {
+   "ADE": 253.38740781469394,
+   "FDE": 548.1724638515175,
+   "MSE": 53157.609837214135
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-equal-weights_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "b76b0a97732eb925b24b38f5bcd7f3788fcc03f32b9eb6df1d74815da1edf4c0",
+  "reported": {
+   "ADE": 247.90038869130896,
+   "FDE": 543.0606158604023,
+   "MSE": 52047.80784232586
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-tsmixer-ref_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "319cd84cab10f2af4564e9f7c9a97df382057f6ea0ddfdbb9c8da6d449eab9f6",
+  "reported": {
+   "ADE": 251.3176204556872,
+   "FDE": 547.5628442059598,
+   "MSE": 52770.53536342737
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-tsmixer-ref_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "24c150eedfaee997e0ac5e28e8ffeb2e2d20236075a1baf6e2b72dff8bbb8ebd",
+  "reported": {
+   "ADE": 252.96282439405462,
+   "FDE": 546.6093290481194,
+   "MSE": 52974.40558707351
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-tsmixer-ref_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer (ref.)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "0c16a1485e493da1ebd56a48b51926f26679abda9744a957a74b69ebc2da1a8f",
+  "reported": {
+   "ADE": 248.88615331464726,
+   "FDE": 545.4180155687123,
+   "MSE": 52380.33138463904
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-uniform-widths_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 123,
+  "parameters": 46630,
+  "sha256": "6691864a2a161e7c414f685859af7b8c2e2b9110c288ec7d4db3e2f1ad7ac1bf",
+  "reported": {
+   "ADE": 249.1960742147064,
+   "FDE": 542.8647306622556,
+   "MSE": 52473.16328943035
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-uniform-widths_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 42,
+  "parameters": 46630,
+  "sha256": "2aa9f476a7783b2ea6adb854059a24f58d79a20608d5be3ff866f65cb906898c",
+  "reported": {
+   "ADE": 251.88501727296475,
+   "FDE": 547.7903365408539,
+   "MSE": 52772.45817198591
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-uniform-widths_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 456,
+  "parameters": 46630,
+  "sha256": "cdc1e0ea315f6e6078f7bff506fd5c79d3ef09ef06fd45fcd3bf8a7f79f4b0f1",
+  "reported": {
+   "ADE": 246.5187627535494,
+   "FDE": 539.7530284014381,
+   "MSE": 51553.88610624109
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_tsmixer-matched-size_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 123,
+  "parameters": 46538,
+  "sha256": "53a82f6e725904b7b647f0e9b670c45eb18a903eb13ccb71ded0d576d1e55b29",
+  "reported": {
+   "ADE": 266.23931929261033,
+   "FDE": 563.7892095819967,
+   "MSE": 56302.77418041944
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_tsmixer-matched-size_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 42,
+  "parameters": 46538,
+  "sha256": "f69c7b0298032c8e43d3b91e83cab047b11b2fac43816da6c4bcef142e3a7020",
+  "reported": {
+   "ADE": 265.45805005951456,
+   "FDE": 557.3914803694275,
+   "MSE": 55941.11388996124
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_tsmixer-matched-size_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 456,
+  "parameters": 46538,
+  "sha256": "b3538d69c006f0ef858ef5681a2b04d6368182f205495a17e3c2682fddf8ac56",
+  "reported": {
+   "ADE": 263.8536141933969,
+   "FDE": 559.1826830584045,
+   "MSE": 55799.29683977485
+  }
+ }
+]

@@ -1,0 +1,42 @@
+{
+ "trajair": {
+  "artifact_sha256": {
+   "origins.npy": "6a3042339350a47cb70a0eeaa805251ce7671f5749b4f8cb1105ecb53200d5c3",
+   "positions.npy": "3b5ae7a2721bfc5c6d70ca0dcdc197e17a919a185053fdb38cad34837ed7ddcf",
+   "scaler.json": "6e1809e513798302baf30dd71d049bfb03d5cfcbae5b15006a9f34cc19e53437",
+   "segments.npy": "597d32807b16d99599cc506be55f10f3bcefe63696dcd49c9f7b1fd108296328"
+  },
+  "retained_points": 2619316,
+  "retained_segments": 6615,
+  "windows": {
+   "train": 95079,
+   "val": 8826,
+   "test": 21346
+  },
+  "aircraft": {
+   "train": 310,
+   "val": 67,
+   "test": 61
+  }
+ },
+ "tartanaviation": {
+  "artifact_sha256": {
+   "origins.npy": "e5d1733b6c0398fa7b1f7a38d31b4ce70591cfe7ce5f763f73911679b0cccd04",
+   "positions.npy": "6b893f1a4a4c32cbc965d33cb69157d0c9c3989bed6a69e48462e252bc2c8d82",
+   "scaler.json": "d517857871fae7a2c594b0775667c9bb4c71bbfff67b8ad81291938fdb9c4b79",
+   "segments.npy": "babfec994cc95f09cb68848a9d138f1d7c38d94fe26fe1c906bb31c33fdfb106"
+  },
+  "retained_points": 13350775,
+  "retained_segments": 30635,
+  "windows": {
+   "train": 506328,
+   "val": 98484,
+   "test": 57009
+  },
+  "aircraft": {
+   "train": 945,
+   "val": 235,
+   "test": 198
+  }
+ }
+}

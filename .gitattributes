@@ -1,0 +1,3 @@
+*.pt binary
+*.npy binary
+* text=auto eol=lf

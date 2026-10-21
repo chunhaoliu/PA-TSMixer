@@ -43,6 +43,20 @@ class Protocol(unittest.TestCase):
         shares = np.bincount(codes, minlength=3) / len(codes)
         self.assertTrue(np.allclose(shares, [.70, .15, .15], atol=.02))
 
+    def test_motion_groups_on_synthetic_histories(self):
+        from pa_tsmixer.motion import groups
+        t = np.arange(60, dtype=np.float64)
+        straight_climb = np.column_stack((30 * t, 0 * t, 3 * t))
+        theta = np.radians(2.) * t                                  # 2 deg/s turn at 30 m/s
+        turn = np.column_stack((np.cumsum(30 * np.cos(theta)), np.cumsum(30 * np.sin(theta)), 0 * t))
+        slow = np.column_stack((t, 0 * t, -2 * t))
+        g = groups(np.stack([straight_climb, turn, slow]))
+        self.assertEqual(g["climb"].tolist(), [True, False, False])
+        self.assertEqual(g["descent"].tolist(), [False, False, True])
+        self.assertEqual(g["turning"].tolist(), [False, True, False])
+        self.assertEqual(g["nonturning"].tolist(), [True, False, False])
+        self.assertEqual(g["low_speed"].tolist(), [False, False, True])
+
     def test_kinematic_baselines_are_exact_on_their_own_models(self):
         t = np.arange(-59, 61, dtype=np.float64)[:, None]
         line = (np.array([[3., -2., .5]]) * t)[None]

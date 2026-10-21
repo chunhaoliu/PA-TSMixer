@@ -23,6 +23,9 @@ baselines are not included; they are available from the corresponding authors on
 | `scripts/evaluate.py` | evaluates the released checkpoints on the test split and compares with the reported ADE, FDE and MSE |
 | `scripts/kinematic_baselines.py` | CV and CA baselines with the validation-selected fitting windows |
 | `scripts/reproduce_tables.py` | recomputes every printed cell of Tables II, III and V from `results/runs.json` |
+| `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section VI-C) |
+| `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 8) |
+| `results/branch_analysis.json` | output of `branch_analysis.py`: weights per block and ADE with each branch removed, overall and per motion group |
 | `checkpoints/` | 96 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the four capacity/component controls at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
 | `results/runs.json` | per-run test metrics of all methods: ADE, FDE, MSE, horizontal ADE, altitude MAE and ADE per motion group |
 | `results/paper_tables.json` | the cells of Tables II, III and V as printed in the paper |
@@ -38,12 +41,15 @@ python scripts/reproduce_tables.py
 python scripts/prepare_data.py --trajair <TrajAir 111_days folder> --tartan-zip <TartanAviation kbtp/processed.zip> --output data
 python scripts/evaluate.py --data data
 python scripts/kinematic_baselines.py --data data
+python scripts/branch_analysis.py --data data
 ```
 
 `reproduce_tables.py` needs no data and exits with status 0 when all 421 printed cells are reproduced.
 `prepare_data.py` reports for each processed array whether it is identical to the paper build (it takes about
 a minute). `evaluate.py` and `kinematic_baselines.py` then recompute the test metrics of the released models and
 baselines; on our machine the largest relative difference from the reported values is below 1e-7.
+`branch_analysis.py` first checks that the motion groups match the window counts of the paper and then
+recomputes the scale analysis of Fig. 8 (a few minutes on a GPU).
 
 The source data are not redistributed here: TrajAir (111-day processed trajectories) is available from
 <https://theairlab.org/trajair/> and TartanAviation (KBTP processed ADS-B trajectories) from

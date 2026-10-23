@@ -247,35 +247,35 @@
   "seed": 123,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 38.08728299185764,
-  "FDE": 63.82134701074111,
-  "MSE": 1278.1961216702982,
-  "horizontal_ADE": 36.423049583209554,
-  "altitude_MAE": 6.58438754912,
+  "ADE": 36.21114128859201,
+  "FDE": 61.36373102100634,
+  "MSE": 1204.8931626287176,
+  "horizontal_ADE": 34.58788682261434,
+  "altitude_MAE": 6.18190910114214,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 48.6196889360538
+    "ADE": 47.549848640306635
    },
    "descent": {
     "count": 13398,
-    "ADE": 43.20023937596912
+    "ADE": 41.51457024830819
    },
    "level": {
     "count": 31966,
-    "ADE": 32.10739007893477
+    "ADE": 29.857684856351646
    },
    "turning": {
     "count": 12172,
-    "ADE": 56.52622555544091
+    "ADE": 54.58798098078519
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 40.73323899252309
+    "ADE": 39.03825128556802
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 14.622002362203048
+    "ADE": 12.366356646113712
    }
   }
  },
@@ -287,35 +287,35 @@
   "seed": 42,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 39.644479415238436,
-  "FDE": 67.2727775229748,
-  "MSE": 1354.7348057714992,
-  "horizontal_ADE": 38.04377258536005,
-  "altitude_MAE": 6.543854371063884,
+  "ADE": 36.84545038580876,
+  "FDE": 62.46257305020962,
+  "MSE": 1229.031227171112,
+  "horizontal_ADE": 35.261795862361836,
+  "altitude_MAE": 6.177256717348636,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 50.61448214930538
+    "ADE": 48.566350104508736
    },
    "descent": {
     "count": 13398,
-    "ADE": 45.20183826438733
+    "ADE": 42.02658465550939
    },
    "level": {
     "count": 31966,
-    "ADE": 33.318909256347595
+    "ADE": 30.40402154986716
    },
    "turning": {
     "count": 12172,
-    "ADE": 58.7033755345583
+    "ADE": 55.34120502135743
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 42.226766871225635
+    "ADE": 39.77177611509869
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 15.758473528622861
+    "ADE": 12.651143483386246
    }
   }
  },
@@ -327,35 +327,35 @@
   "seed": 456,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 38.939763751216326,
-  "FDE": 66.05930940812972,
-  "MSE": 1310.088964418043,
-  "horizontal_ADE": 37.332007346536656,
-  "altitude_MAE": 6.5063968637018625,
+  "ADE": 33.8980586198624,
+  "FDE": 56.56420270658861,
+  "MSE": 1080.4868366635521,
+  "horizontal_ADE": 32.22206591966233,
+  "altitude_MAE": 6.122629491886272,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 49.65918134243062
+    "ADE": 44.46631804736253
    },
    "descent": {
     "count": 13398,
-    "ADE": 44.46170164763372
+    "ADE": 38.47036272539157
    },
    "level": {
     "count": 31966,
-    "ADE": 32.72032616797501
+    "ADE": 28.131709641600615
    },
    "turning": {
     "count": 12172,
-    "ADE": 57.76475502459687
+    "ADE": 49.13940860054211
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 41.43096425606056
+    "ADE": 37.43404406980543
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 15.490196251243573
+    "ADE": 11.247828103299106
    }
   }
  },
@@ -967,35 +967,35 @@
   "seed": 123,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 68.74333418112407,
-  "FDE": 134.20690873569376,
-  "MSE": 4456.593914714922,
-  "horizontal_ADE": 66.89062712542976,
-  "altitude_MAE": 9.215842558800938,
+  "ADE": 64.86964566905276,
+  "FDE": 128.76444112434046,
+  "MSE": 4279.916302854339,
+  "horizontal_ADE": 63.05490461503962,
+  "altitude_MAE": 8.70636015237445,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 91.84678119243509
+    "ADE": 90.24453397948815
    },
    "descent": {
     "count": 13398,
-    "ADE": 73.01401486208255
+    "ADE": 69.82330609216137
    },
    "level": {
     "count": 31966,
-    "ADE": 58.536920485003215
+    "ADE": 53.54950186864514
    },
    "turning": {
     "count": 12172,
-    "ADE": 95.86329883411517
+    "ADE": 94.80076952079808
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 74.8455445236344
+    "ADE": 71.0118598556654
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 28.89767825654071
+    "ADE": 22.32321558984637
    }
   }
  },
@@ -1007,35 +1007,35 @@
   "seed": 42,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 73.35325165881434,
-  "FDE": 143.7979493677773,
-  "MSE": 4890.75003250069,
-  "horizontal_ADE": 71.600049213357,
-  "altitude_MAE": 9.267508238906105,
+  "ADE": 64.70521614455173,
+  "FDE": 128.5706782015275,
+  "MSE": 4324.100455332566,
+  "horizontal_ADE": 62.90054298250061,
+  "altitude_MAE": 8.576716812262736,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 97.34155596229472
+    "ADE": 90.23558618247732
    },
    "descent": {
     "count": 13398,
-    "ADE": 77.43586704844684
+    "ADE": 68.70918666682358
    },
    "level": {
     "count": 31966,
-    "ADE": 62.90331470691787
+    "ADE": 53.726477605196166
    },
    "turning": {
     "count": 12172,
-    "ADE": 101.98010539175095
+    "ADE": 94.30131800312222
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 79.00749823471537
+    "ADE": 70.8142427450879
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 33.19232833129984
+    "ADE": 22.54921667683624
    }
   }
  },
@@ -1047,35 +1047,35 @@
   "seed": 456,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 72.26000509867937,
-  "FDE": 142.39039096401788,
-  "MSE": 4775.781139704382,
-  "horizontal_ADE": 70.52003809860466,
-  "altitude_MAE": 9.16517890787943,
+  "ADE": 62.69409073029094,
+  "FDE": 124.58110089199015,
+  "MSE": 4004.782722847493,
+  "horizontal_ADE": 60.826804615347214,
+  "altitude_MAE": 8.687604775158002,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 97.2837636599086
+    "ADE": 87.22352528753099
    },
    "descent": {
     "count": 13398,
-    "ADE": 77.4035347340461
+    "ADE": 66.29868415367294
    },
    "level": {
     "count": 31966,
-    "ADE": 60.98819509742302
+    "ADE": 52.247378345083796
    },
    "turning": {
     "count": 12172,
-    "ADE": 102.53793028885332
+    "ADE": 88.907475045271
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 78.34322011364728
+    "ADE": 68.99184909681948
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 29.534633688431036
+    "ADE": 23.216530901981496
    }
   }
  },
@@ -1687,35 +1687,35 @@
   "seed": 123,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 104.65054017532162,
-  "FDE": 218.06493458197738,
-  "MSE": 10721.854328973639,
-  "horizontal_ADE": 102.7342981042678,
-  "altitude_MAE": 11.554323127209814,
+  "ADE": 102.57503684019125,
+  "FDE": 219.09283993297922,
+  "MSE": 11059.734186510515,
+  "horizontal_ADE": 100.66315413980836,
+  "altitude_MAE": 11.174482980794226,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 145.73460366234428
+    "ADE": 147.62491567405763
    },
    "descent": {
     "count": 13398,
-    "ADE": 106.22005557804687
+    "ADE": 105.27901944089479
    },
    "level": {
     "count": 31966,
-    "ADE": 89.02605520153418
+    "ADE": 85.03033941465777
    },
    "turning": {
     "count": 12172,
-    "ADE": 139.7890070068312
+    "ADE": 143.30746360901068
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 115.66663925670811
+    "ADE": 113.79650293661862
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 45.52170792363416
+    "ADE": 37.76849669599244
    }
   }
  },
@@ -1727,35 +1727,35 @@
   "seed": 42,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 112.36535110085116,
-  "FDE": 233.046056494712,
-  "MSE": 12125.2066645022,
-  "horizontal_ADE": 110.56154545611884,
-  "altitude_MAE": 11.506345009499098,
+  "ADE": 100.64350323867278,
+  "FDE": 215.28210920917522,
+  "MSE": 10784.342803518617,
+  "horizontal_ADE": 98.73459073430563,
+  "altitude_MAE": 10.988473649783106,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 156.58920374500985
+    "ADE": 146.47171819792706
    },
    "descent": {
     "count": 13398,
-    "ADE": 114.05908430143882
+    "ADE": 102.43427505492592
    },
    "level": {
     "count": 31966,
-    "ADE": 95.54499818016338
+    "ADE": 83.19801978767254
    },
    "turning": {
     "count": 12172,
-    "ADE": 154.79156716334026
+    "ADE": 138.05800126352966
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 122.67519323685103
+    "ADE": 112.93923811154652
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 48.18898471531608
+    "ADE": 36.319013250172326
    }
   }
  },
@@ -1767,35 +1767,35 @@
   "seed": 456,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 108.91567103407334,
-  "FDE": 226.90947360756581,
-  "MSE": 11236.04535858261,
-  "horizontal_ADE": 107.05275738040822,
-  "altitude_MAE": 11.637928037615705,
+  "ADE": 98.40545108161182,
+  "FDE": 210.17847082762933,
+  "MSE": 10216.465000595445,
+  "horizontal_ADE": 96.4367843649678,
+  "altitude_MAE": 11.028587601313543,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 152.8404406313012
+    "ADE": 143.27826118017583
    },
    "descent": {
     "count": 13398,
-    "ADE": 110.42242524589585
+    "ADE": 99.14863512601556
    },
    "level": {
     "count": 31966,
-    "ADE": 92.282641099464
+    "ADE": 81.74709365732673
    },
    "turning": {
     "count": 12172,
-    "ADE": 146.7509315324545
+    "ADE": 134.71242825235817
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 119.88323135667873
+    "ADE": 109.90331756101837
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 47.405623245638346
+    "ADE": 37.031838341939675
    }
   }
  },
@@ -2407,35 +2407,35 @@
   "seed": 123,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 254.23799514726386,
-  "FDE": 551.8647558940771,
-  "MSE": 62994.46463095405,
-  "horizontal_ADE": 252.14623333875244,
-  "altitude_MAE": 19.07746042980903,
+  "ADE": 239.37615508356876,
+  "FDE": 539.4844285172564,
+  "MSE": 61352.561281392285,
+  "horizontal_ADE": 237.14724644945213,
+  "altitude_MAE": 18.524527476482053,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 382.5813660037702
+    "ADE": 372.33461452175146
    },
    "descent": {
     "count": 13398,
-    "ADE": 232.85067068566534
+    "ADE": 227.25536411287263
    },
    "level": {
     "count": 31966,
-    "ADE": 216.4474933488682
+    "ADE": 196.02049898858448
    },
    "turning": {
     "count": 12172,
-    "ADE": 301.5282816325127
+    "ADE": 291.98261787014104
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 291.76481891622427
+    "ADE": 280.864988467667
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 119.89423786535862
+    "ADE": 90.54908257825477
    }
   }
  },
@@ -2447,35 +2447,35 @@
   "seed": 42,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 259.73786134102573,
-  "FDE": 563.0584315918229,
-  "MSE": 66235.05987324033,
-  "horizontal_ADE": 257.6815912336387,
-  "altitude_MAE": 19.06734239771603,
+  "ADE": 238.26156974154057,
+  "FDE": 537.2818348320744,
+  "MSE": 61623.12625844177,
+  "horizontal_ADE": 236.046256162334,
+  "altitude_MAE": 18.38197747305462,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 390.4953204684797
+    "ADE": 373.4221701195748
    },
    "descent": {
     "count": 13398,
-    "ADE": 239.47762950305454
+    "ADE": 223.4096557546982
    },
    "level": {
     "count": 31966,
-    "ADE": 220.59552181233678
+    "ADE": 195.2483917459676
    },
    "turning": {
     "count": 12172,
-    "ADE": 315.34035999058773
+    "ADE": 293.06023373012175
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 296.75430483452357
+    "ADE": 279.31479808715153
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 118.92495020476204
+    "ADE": 88.45453951335152
    }
   }
  },
@@ -2487,35 +2487,35 @@
   "seed": 456,
   "parameters": 44672,
   "test_windows": 57009,
-  "ADE": 257.27341439080607,
-  "FDE": 557.2805557533229,
-  "MSE": 65313.15739993529,
-  "horizontal_ADE": 255.22745246209962,
-  "altitude_MAE": 19.094026230064053,
+  "ADE": 236.63585702423183,
+  "FDE": 532.0587634536703,
+  "MSE": 60773.85730099712,
+  "horizontal_ADE": 234.392419042895,
+  "altitude_MAE": 18.496957651364806,
   "motion_groups": {
    "climb": {
     "count": 11645,
-    "ADE": 388.2199454601908
+    "ADE": 372.5352623188185
    },
    "descent": {
     "count": 13398,
-    "ADE": 239.90060520232385
+    "ADE": 219.68144254273315
    },
    "level": {
     "count": 31966,
-    "ADE": 216.85198359572024
+    "ADE": 194.23476431847163
    },
    "turning": {
     "count": 12172,
-    "ADE": 314.92075808369765
+    "ADE": 288.8323025968263
    },
    "nonturning": {
     "count": 31698,
-    "ADE": 295.5986533722599
+    "ADE": 277.49320580537045
    },
    "low_speed": {
     "count": 13139,
-    "ADE": 111.4086687736348
+    "ADE": 89.71208982930526
    }
   }
  },
@@ -3127,35 +3127,35 @@
   "seed": 123,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 35.61521820486496,
-  "FDE": 62.132389016376514,
-  "MSE": 799.5628853698107,
-  "horizontal_ADE": 33.5627078088784,
-  "altitude_MAE": 7.726502922805242,
+  "ADE": 34.033138652328574,
+  "FDE": 60.879793902753974,
+  "MSE": 779.3155550120455,
+  "horizontal_ADE": 31.982797256252145,
+  "altitude_MAE": 7.411619915948119,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 43.45148597163585
+    "ADE": 42.5420833862851
    },
    "descent": {
     "count": 5325,
-    "ADE": 39.696449164922356
+    "ADE": 38.62989530650185
    },
    "level": {
     "count": 10710,
-    "ADE": 29.700094678102502
+    "ADE": 27.528121409983463
    },
    "turning": {
     "count": 5893,
-    "ADE": 48.64930614890872
+    "ADE": 47.55969544962378
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 35.24269791871754
+    "ADE": 33.97402633711369
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 15.238946715898324
+    "ADE": 11.78975364582836
    }
   }
  },
@@ -3167,35 +3167,35 @@
   "seed": 42,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 35.72900561919351,
-  "FDE": 62.39826346678629,
-  "MSE": 816.2834167834653,
-  "horizontal_ADE": 33.69669332119488,
-  "altitude_MAE": 7.645895495668555,
+  "ADE": 33.30363332260099,
+  "FDE": 59.19988240862105,
+  "MSE": 741.2377090336889,
+  "horizontal_ADE": 31.2474226348987,
+  "altitude_MAE": 7.314501571303861,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 43.78671037954403
+    "ADE": 41.60329500326106
    },
    "descent": {
     "count": 5325,
-    "ADE": 39.81593708864815
+    "ADE": 37.23735979587777
    },
    "level": {
     "count": 10710,
-    "ADE": 29.701239040569053
+    "ADE": 27.232055670296162
    },
    "turning": {
     "count": 5893,
-    "ADE": 49.171435760816316
+    "ADE": 45.93686026242008
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 35.34974988870676
+    "ADE": 33.32346049959639
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 14.697834905212417
+    "ADE": 12.277853595749537
    }
   }
  },
@@ -3207,35 +3207,35 @@
   "seed": 456,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 34.53633614320303,
-  "FDE": 60.202028012847144,
-  "MSE": 768.674337242044,
-  "horizontal_ADE": 32.47780765135956,
-  "altitude_MAE": 7.612860746807337,
+  "ADE": 33.70456672913057,
+  "FDE": 60.14957889535958,
+  "MSE": 754.400354396615,
+  "horizontal_ADE": 31.648385547343647,
+  "altitude_MAE": 7.354578952145133,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 42.55664132142305
+    "ADE": 41.888860332245414
    },
    "descent": {
     "count": 5325,
-    "ADE": 38.75789381431493
+    "ADE": 37.64043743265324
    },
    "level": {
     "count": 10710,
-    "ADE": 28.460179709944644
+    "ADE": 27.68913303889702
    },
    "turning": {
     "count": 5893,
-    "ADE": 47.52633148385146
+    "ADE": 46.48331177094406
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 34.36259836448315
+    "ADE": 33.4803106555072
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 13.56719502893057
+    "ADE": 13.255165546919038
    }
   }
  },
@@ -3847,35 +3847,35 @@
   "seed": 123,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 69.83282455345073,
-  "FDE": 142.205580209823,
-  "MSE": 3566.8876779466405,
-  "horizontal_ADE": 67.7399640093106,
-  "altitude_MAE": 10.45619865803117,
+  "ADE": 65.07073380360971,
+  "FDE": 134.6806213305277,
+  "MSE": 3316.400723241442,
+  "horizontal_ADE": 62.88449237356521,
+  "altitude_MAE": 10.104131585074752,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 89.20855389596953
+    "ADE": 85.30131924908261
    },
    "descent": {
     "count": 5325,
-    "ADE": 72.55895126483524
+    "ADE": 67.53125429075887
    },
    "level": {
     "count": 10710,
-    "ADE": 58.869134238208964
+    "ADE": 53.815186567850965
    },
    "turning": {
     "count": 5893,
-    "ADE": 89.42027767263446
+    "ADE": 86.55493798872813
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 70.51501501673874
+    "ADE": 65.33586151618991
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 35.050276711406866
+    "ADE": 28.538723620524127
    }
   }
  },
@@ -3887,35 +3887,35 @@
   "seed": 42,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 69.02900341844354,
-  "FDE": 138.71775755521995,
-  "MSE": 3549.4118088185173,
-  "horizontal_ADE": 66.91961433098749,
-  "altitude_MAE": 10.429438613984749,
+  "ADE": 63.71777071538782,
+  "FDE": 133.31543033010828,
+  "MSE": 3211.4999411587983,
+  "horizontal_ADE": 61.558914539666794,
+  "altitude_MAE": 9.884226471192783,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 91.04431341887148
+    "ADE": 83.74875284328256
    },
    "descent": {
     "count": 5325,
-    "ADE": 69.542816486042
+    "ADE": 64.69089448477294
    },
    "level": {
     "count": 10710,
-    "ADE": 57.85632685474281
+    "ADE": 53.30073708763577
    },
    "turning": {
     "count": 5893,
-    "ADE": 89.07207900843885
+    "ADE": 83.47387282643255
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 69.9363839930913
+    "ADE": 64.10400285107471
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 32.736047148532066
+    "ADE": 29.647033556830362
    }
   }
  },
@@ -3927,35 +3927,35 @@
   "seed": 456,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 67.55258012831389,
-  "FDE": 138.08884134907188,
-  "MSE": 3438.014824411312,
-  "horizontal_ADE": 65.39016822492246,
-  "altitude_MAE": 10.42995714673319,
+  "ADE": 64.21817552344784,
+  "FDE": 132.61820479136617,
+  "MSE": 3231.4350801454266,
+  "horizontal_ADE": 62.04419825490026,
+  "altitude_MAE": 9.984739638061615,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 87.2423131648036
+    "ADE": 85.182928098279
    },
    "descent": {
     "count": 5325,
-    "ADE": 69.82945347247137
+    "ADE": 64.82232130833366
    },
    "level": {
     "count": 10710,
-    "ADE": 56.6565462614198
+    "ADE": 53.52154833115606
    },
    "turning": {
     "count": 5893,
-    "ADE": 87.2732949790367
+    "ADE": 84.60976818820812
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 68.45175004075843
+    "ADE": 64.56311478816616
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 31.82195125913816
+    "ADE": 29.231470072196444
    }
   }
  },
@@ -4567,35 +4567,35 @@
   "seed": 123,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 109.12949768154124,
-  "FDE": 231.38923112348158,
-  "MSE": 9428.89046344318,
-  "horizontal_ADE": 106.99369536618832,
-  "altitude_MAE": 12.999226153627905,
+  "ADE": 100.72318441966476,
+  "FDE": 221.35146337468146,
+  "MSE": 8682.526702095629,
+  "horizontal_ADE": 98.41093874573889,
+  "altitude_MAE": 12.515372163162061,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 147.86381799141895
+    "ADE": 138.2117121078816
    },
    "descent": {
     "count": 5325,
-    "ADE": 105.37858085622605
+    "ADE": 95.91445057967839
    },
    "level": {
     "count": 10710,
-    "ADE": 91.78642176455182
+    "ADE": 84.5238321456972
    },
    "turning": {
     "count": 5893,
-    "ADE": 132.29569353266166
+    "ADE": 123.97617652428627
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 114.13314459156645
+    "ADE": 104.58077248329279
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 53.93051287668139
+    "ADE": 49.22007686961631
    }
   }
  },
@@ -4607,35 +4607,35 @@
   "seed": 42,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 110.86310430549526,
-  "FDE": 234.43058821082977,
-  "MSE": 9716.1374982606,
-  "horizontal_ADE": 108.72071190138827,
-  "altitude_MAE": 13.134663110684356,
+  "ADE": 100.16230718937696,
+  "FDE": 220.47563277078856,
+  "MSE": 8633.347599155364,
+  "horizontal_ADE": 97.91063038337256,
+  "altitude_MAE": 12.31838896652016,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 150.63141526554227
+    "ADE": 135.98470258011923
    },
    "descent": {
     "count": 5325,
-    "ADE": 105.65504288033662
+    "ADE": 96.09060086776682
    },
    "level": {
     "count": 10710,
-    "ADE": 93.7317716799267
+    "ADE": 84.42272681984767
    },
    "turning": {
     "count": 5893,
-    "ADE": 134.16952250398876
+    "ADE": 122.89087973635938
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 115.61659594152698
+    "ADE": 104.43116205153535
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 56.2696284034301
+    "ADE": 48.151293750774826
    }
   }
  },
@@ -4647,35 +4647,35 @@
   "seed": 456,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 107.401758252536,
-  "FDE": 228.85849108357976,
-  "MSE": 9247.857223244799,
-  "horizontal_ADE": 105.20425325359746,
-  "altitude_MAE": 13.100050082988874,
+  "ADE": 99.79816322937205,
+  "FDE": 219.53321555794398,
+  "MSE": 8599.377419649521,
+  "horizontal_ADE": 97.52132043056454,
+  "altitude_MAE": 12.486954199919554,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 146.7520306788987
+    "ADE": 137.61296399176626
    },
    "descent": {
     "count": 5325,
-    "ADE": 102.931005417938
+    "ADE": 94.2958531563015
    },
    "level": {
     "count": 10710,
-    "ADE": 90.11113845681439
+    "ADE": 83.78186017521932
    },
    "turning": {
     "count": 5893,
-    "ADE": 128.83612000157845
+    "ADE": 123.16754928668973
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 113.15660401180742
+    "ADE": 103.9872151512887
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 52.559102518246355
+    "ADE": 46.991378612676215
    }
   }
  },
@@ -5287,35 +5287,35 @@
   "seed": 123,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 251.26357701856887,
-  "FDE": 545.7432231961837,
-  "MSE": 52771.94757393729,
-  "horizontal_ADE": 248.96516871451774,
-  "altitude_MAE": 20.676757352687137,
+  "ADE": 238.69636265877173,
+  "FDE": 535.669631857066,
+  "MSE": 50713.09123939913,
+  "horizontal_ADE": 236.19816497276838,
+  "altitude_MAE": 20.413199947545763,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 372.844962394406
+    "ADE": 358.00522163283586
    },
    "descent": {
     "count": 5325,
-    "ADE": 210.44770107431842
+    "ADE": 202.44198950882384
    },
    "level": {
     "count": 10710,
-    "ADE": 211.26598613827576
+    "ADE": 197.55772465804503
    },
    "turning": {
     "count": 5893,
-    "ADE": 254.7783376576511
+    "ADE": 246.2811097408394
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 281.84921203581047
+    "ADE": 267.8338649048851
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 142.9549827656676
+    "ADE": 128.48737369885578
    }
   }
  },
@@ -5327,35 +5327,35 @@
   "seed": 42,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 253.96066924992647,
-  "FDE": 546.4148609173322,
-  "MSE": 53166.19424604729,
-  "horizontal_ADE": 251.69850198862002,
-  "altitude_MAE": 20.785859522609528,
+  "ADE": 240.15899930746727,
+  "FDE": 537.73266121436,
+  "MSE": 51104.95107683169,
+  "horizontal_ADE": 237.76369633654653,
+  "altitude_MAE": 20.059021027262634,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 374.13907209152853
+    "ADE": 361.0387664884564
    },
    "descent": {
     "count": 5325,
-    "ADE": 212.29039013711048
+    "ADE": 206.7685639812079
    },
    "level": {
     "count": 10710,
-    "ADE": 215.08361404768513
+    "ADE": 196.81741430411515
    },
    "turning": {
     "count": 5893,
-    "ADE": 259.15453533680807
+    "ADE": 253.559497299514
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 283.35388975623516
+    "ADE": 269.37556044498615
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 146.86152226355964
+    "ADE": 120.03641238045618
    }
   }
  },
@@ -5367,35 +5367,35 @@
   "seed": 456,
   "parameters": 44672,
   "test_windows": 21346,
-  "ADE": 249.68547494099772,
-  "FDE": 546.6638361450574,
-  "MSE": 52401.793727227196,
-  "horizontal_ADE": 247.28838684068134,
-  "altitude_MAE": 21.136536857060047,
+  "ADE": 235.88826608481614,
+  "FDE": 532.8763250268935,
+  "MSE": 50050.85344706567,
+  "horizontal_ADE": 233.4196980169055,
+  "altitude_MAE": 20.201766731555878,
   "motion_groups": {
    "climb": {
     "count": 5311,
-    "ADE": 373.99470662066915
+    "ADE": 354.4220152407841
    },
    "descent": {
     "count": 5325,
-    "ADE": 208.22062446774206
+    "ADE": 201.95059929575936
    },
    "level": {
     "count": 10710,
-    "ADE": 208.65783715568995
+    "ADE": 193.98213479484244
    },
    "turning": {
     "count": 5893,
-    "ADE": 255.0745355568304
+    "ADE": 243.10443668169006
    },
    "nonturning": {
     "count": 11901,
-    "ADE": 280.5881925413487
+    "ADE": 266.44656161564785
    },
    "low_speed": {
     "count": 3552,
-    "ADE": 137.20490726901664
+    "ADE": 121.53039208712296
    }
   }
  },
@@ -6419,7 +6419,403 @@
   "study": "ablation",
   "dataset": "trajair",
   "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
+  "method": "TSMixer, matched size",
+  "seed": 42,
+  "parameters": 44708,
+  "ADE": 102.1659835398564,
+  "FDE": 223.54154698712458,
+  "MSE": 8858.289551407073
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "seed": 123,
+  "parameters": 44708,
+  "ADE": 101.80129772333133,
+  "FDE": 223.04660798082344,
+  "MSE": 8821.29562899105
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "seed": 456,
+  "parameters": 44708,
+  "ADE": 100.73350138284663,
+  "FDE": 221.7530311380723,
+  "MSE": 8681.345336122222
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "seed": 42,
+  "parameters": 44708,
+  "ADE": 245.46548299902048,
+  "FDE": 545.6804513629061,
+  "MSE": 52572.186244787226
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "seed": 123,
+  "parameters": 44708,
+  "ADE": 243.79774389359025,
+  "FDE": 540.3088225464867,
+  "MSE": 52306.28576820885
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "seed": 456,
+  "parameters": 44708,
+  "ADE": 242.83137986346273,
+  "FDE": 544.6478762717462,
+  "MSE": 52190.01411877656
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "seed": 42,
+  "parameters": 44708,
+  "ADE": 104.32071100790911,
+  "FDE": 221.7264316959465,
+  "MSE": 11233.133619072463
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "seed": 123,
+  "parameters": 44708,
+  "ADE": 104.60053968432251,
+  "FDE": 224.1216717506204,
+  "MSE": 11240.375527470218
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "seed": 456,
+  "parameters": 44708,
+  "ADE": 99.77158807924535,
+  "FDE": 214.2877683473322,
+  "MSE": 10519.448218300999
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "seed": 42,
+  "parameters": 44708,
+  "ADE": 245.62825543072162,
+  "FDE": 550.590974065401,
+  "MSE": 64648.45987708667
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "seed": 123,
+  "parameters": 44708,
+  "ADE": 244.84888536714678,
+  "FDE": 551.4579993789101,
+  "MSE": 64446.47845891391
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "seed": 456,
+  "parameters": 44708,
+  "ADE": 243.40244324146428,
+  "FDE": 547.8105831212542,
+  "MSE": 63287.08104916882
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "seed": 42,
+  "parameters": 44666,
+  "ADE": 101.3768663487132,
+  "FDE": 222.55973520481572,
+  "MSE": 8797.995291791009
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "seed": 123,
+  "parameters": 44666,
+  "ADE": 100.94799571897113,
+  "FDE": 220.72663070784722,
+  "MSE": 8682.923478416149
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "seed": 456,
+  "parameters": 44666,
+  "ADE": 99.99228840202008,
+  "FDE": 220.1856582510364,
+  "MSE": 8653.07837243702
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "seed": 42,
+  "parameters": 44666,
+  "ADE": 240.94966122758274,
+  "FDE": 538.4637008060533,
+  "MSE": 51337.313738364115
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "seed": 123,
+  "parameters": 44666,
+  "ADE": 239.48047079229,
+  "FDE": 538.0662111132323,
+  "MSE": 50955.99565574356
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "seed": 456,
+  "parameters": 44666,
+  "ADE": 236.2331415665188,
+  "FDE": 532.9927269511578,
+  "MSE": 50224.99693236466
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "seed": 42,
+  "parameters": 44666,
+  "ADE": 101.20119675015047,
+  "FDE": 216.40016634935782,
+  "MSE": 10858.858946487957
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "seed": 123,
+  "parameters": 44666,
+  "ADE": 102.19943498618618,
+  "FDE": 217.70326352129777,
+  "MSE": 10870.021560883282
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "seed": 456,
+  "parameters": 44666,
+  "ADE": 98.49537708308328,
+  "FDE": 210.75941614589917,
+  "MSE": 10212.289382838891
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "seed": 42,
+  "parameters": 44666,
+  "ADE": 239.37326570415692,
+  "FDE": 539.4485848282784,
+  "MSE": 61872.48977099679
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "seed": 123,
+  "parameters": 44666,
+  "ADE": 239.16775997744685,
+  "FDE": 540.3353203565331,
+  "MSE": 61392.355311672676
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "seed": 456,
+  "parameters": 44666,
+  "ADE": 236.43062454246748,
+  "FDE": 534.2947720769251,
+  "MSE": 60864.61780556754
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "seed": 42,
+  "parameters": 44800,
+  "ADE": 99.35910536149814,
+  "FDE": 218.42618546593437,
+  "MSE": 8535.542797379785
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "seed": 123,
+  "parameters": 44800,
+  "ADE": 102.14813459735095,
+  "FDE": 223.96715028648958,
+  "MSE": 8869.942462685116
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "seed": 456,
+  "parameters": 44800,
+  "ADE": 99.27564498421286,
+  "FDE": 217.02674558550095,
+  "MSE": 8478.80263425953
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "seed": 42,
+  "parameters": 44800,
+  "ADE": 238.53039257260636,
+  "FDE": 536.4637047956459,
+  "MSE": 50596.977061517086
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "seed": 123,
+  "parameters": 44800,
+  "ADE": 241.14270573346204,
+  "FDE": 537.5018656762634,
+  "MSE": 51019.643211699615
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "seed": 456,
+  "parameters": 44800,
+  "ADE": 235.78185021752998,
+  "FDE": 532.9975132734706,
+  "MSE": 50139.44349041263
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "seed": 42,
+  "parameters": 44800,
+  "ADE": 99.67869742808595,
+  "FDE": 212.52604217966746,
+  "MSE": 10619.311916624622
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "seed": 123,
+  "parameters": 44800,
+  "ADE": 99.78167087265851,
+  "FDE": 213.0348057973111,
+  "MSE": 10369.868078677817
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "seed": 456,
+  "parameters": 44800,
+  "ADE": 98.95593653856403,
+  "FDE": 211.13886921425885,
+  "MSE": 10331.11017251549
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "seed": 42,
+  "parameters": 44800,
+  "ADE": 238.4290100280773,
+  "FDE": 537.1632699030906,
+  "MSE": 61664.80301287202
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "seed": 123,
+  "parameters": 44800,
+  "ADE": 241.09151325685394,
+  "FDE": 544.4724036434553,
+  "MSE": 62147.35943733134
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "seed": 456,
+  "parameters": 44800,
+  "ADE": 235.44747567343353,
+  "FDE": 531.5349804465752,
+  "MSE": 60415.62349656885
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, direct output",
   "seed": 42,
   "parameters": 44672,
   "ADE": 110.27281027357914,
@@ -6430,7 +6826,7 @@
   "study": "ablation",
   "dataset": "trajair",
   "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 123,
   "parameters": 44672,
   "ADE": 108.8888919743319,
@@ -6441,7 +6837,7 @@
   "study": "ablation",
   "dataset": "trajair",
   "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 456,
   "parameters": 44672,
   "ADE": 106.97202907297154,
@@ -6451,107 +6847,8 @@
  {
   "study": "ablation",
   "dataset": "trajair",
-  "horizon": 30,
-  "method": "TSMixer, matched size",
-  "seed": 42,
-  "parameters": 44708,
-  "ADE": 118.99180192060925,
-  "FDE": 242.67917249564104,
-  "MSE": 10337.5972513359
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "TSMixer, matched size",
-  "seed": 123,
-  "parameters": 44708,
-  "ADE": 119.28551165227792,
-  "FDE": 250.24778205731707,
-  "MSE": 10598.946705913946
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "TSMixer, matched size",
-  "seed": 456,
-  "parameters": 44708,
-  "ADE": 116.55982610969112,
-  "FDE": 243.98193320606117,
-  "MSE": 10400.574493530139
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "seed": 42,
-  "parameters": 44666,
-  "ADE": 109.14172486468232,
-  "FDE": 231.20248050962772,
-  "MSE": 9547.794801727141
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "seed": 123,
-  "parameters": 44666,
-  "ADE": 108.68335230301192,
-  "FDE": 231.13301444069666,
-  "MSE": 9344.013052471337
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "seed": 456,
-  "parameters": 44666,
-  "ADE": 107.69527109301934,
-  "FDE": 229.19358657729336,
-  "MSE": 9246.539606710749
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "seed": 42,
-  "parameters": 44800,
-  "ADE": 108.51763264359535,
-  "FDE": 231.0058342120241,
-  "MSE": 9449.65337267476
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "seed": 123,
-  "parameters": 44800,
-  "ADE": 110.9798952551298,
-  "FDE": 236.88665154340381,
-  "MSE": 9663.989552469955
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "seed": 456,
-  "parameters": 44800,
-  "ADE": 104.52747342603337,
-  "FDE": 223.52637356527973,
-  "MSE": 8894.997886704768
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
   "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 42,
   "parameters": 46502,
   "ADE": 252.96282439405462,
@@ -6562,7 +6859,7 @@
   "study": "ablation",
   "dataset": "trajair",
   "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 123,
   "parameters": 46502,
   "ADE": 251.3176204556872,
@@ -6573,7 +6870,7 @@
   "study": "ablation",
   "dataset": "trajair",
   "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 456,
   "parameters": 46502,
   "ADE": 248.88615331464726,
@@ -6582,108 +6879,9 @@
  },
  {
   "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "TSMixer, matched size",
-  "seed": 42,
-  "parameters": 46538,
-  "ADE": 265.45805005951456,
-  "FDE": 557.3914803694275,
-  "MSE": 55941.11388996124
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "TSMixer, matched size",
-  "seed": 123,
-  "parameters": 46538,
-  "ADE": 266.23931929261033,
-  "FDE": 563.7892095819967,
-  "MSE": 56302.77418041944
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "TSMixer, matched size",
-  "seed": 456,
-  "parameters": 46538,
-  "ADE": 263.8536141933969,
-  "FDE": 559.1826830584045,
-  "MSE": 55799.29683977485
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "seed": 42,
-  "parameters": 46496,
-  "ADE": 253.38740781469394,
-  "FDE": 548.1724638515175,
-  "MSE": 53157.609837214135
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "seed": 123,
-  "parameters": 46496,
-  "ADE": 251.29493314868625,
-  "FDE": 547.5139663818785,
-  "MSE": 52825.10943391286
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "seed": 456,
-  "parameters": 46496,
-  "ADE": 247.90038869130896,
-  "FDE": 543.0606158604023,
-  "MSE": 52047.80784232586
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA, uniform widths",
-  "seed": 42,
-  "parameters": 46630,
-  "ADE": 251.88501727296475,
-  "FDE": 547.7903365408539,
-  "MSE": 52772.45817198591
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA, uniform widths",
-  "seed": 123,
-  "parameters": 46630,
-  "ADE": 249.1960742147064,
-  "FDE": 542.8647306622556,
-  "MSE": 52473.16328943035
- },
- {
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA, uniform widths",
-  "seed": 456,
-  "parameters": 46630,
-  "ADE": 246.5187627535494,
-  "FDE": 539.7530284014381,
-  "MSE": 51553.88610624109
- },
- {
-  "study": "ablation",
   "dataset": "tartanaviation",
   "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 42,
   "parameters": 44672,
   "ADE": 113.37149329556546,
@@ -6694,7 +6892,7 @@
   "study": "ablation",
   "dataset": "tartanaviation",
   "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 123,
   "parameters": 44672,
   "ADE": 105.46621667336734,
@@ -6705,7 +6903,7 @@
   "study": "ablation",
   "dataset": "tartanaviation",
   "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 456,
   "parameters": 44672,
   "ADE": 109.53610804331704,
@@ -6715,107 +6913,8 @@
  {
   "study": "ablation",
   "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "TSMixer, matched size",
-  "seed": 42,
-  "parameters": 44708,
-  "ADE": 125.91880765024241,
-  "FDE": 249.58103496571303,
-  "MSE": 13503.714621499637
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "TSMixer, matched size",
-  "seed": 123,
-  "parameters": 44708,
-  "ADE": 124.76203676513673,
-  "FDE": 244.40030584602647,
-  "MSE": 13375.297478256127
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "TSMixer, matched size",
-  "seed": 456,
-  "parameters": 44708,
-  "ADE": 127.74289880516815,
-  "FDE": 260.36838698982206,
-  "MSE": 14095.746948730508
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "seed": 42,
-  "parameters": 44666,
-  "ADE": 112.42749842233393,
-  "FDE": 232.78040994602105,
-  "MSE": 12100.248773214242
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "seed": 123,
-  "parameters": 44666,
-  "ADE": 104.57989866856765,
-  "FDE": 217.86142062733077,
-  "MSE": 10680.999122387764
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "seed": 456,
-  "parameters": 44666,
-  "ADE": 108.55255296095118,
-  "FDE": 225.88714839494727,
-  "MSE": 11214.116529048506
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "seed": 42,
-  "parameters": 44800,
-  "ADE": 108.82051068905822,
-  "FDE": 224.8468706164035,
-  "MSE": 11214.712333178531
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "seed": 123,
-  "parameters": 44800,
-  "ADE": 108.01186179695952,
-  "FDE": 225.0355430411923,
-  "MSE": 11255.537031240543
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "seed": 456,
-  "parameters": 44800,
-  "ADE": 109.32527494493074,
-  "FDE": 227.2167757611317,
-  "MSE": 11426.6839615883
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
   "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 42,
   "parameters": 46502,
   "ADE": 260.17345333526873,
@@ -6826,7 +6925,7 @@
   "study": "ablation",
   "dataset": "tartanaviation",
   "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 123,
   "parameters": 46502,
   "ADE": 253.92230549591346,
@@ -6837,7 +6936,7 @@
   "study": "ablation",
   "dataset": "tartanaviation",
   "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, direct output",
   "seed": 456,
   "parameters": 46502,
   "ADE": 256.360709253094,
@@ -6846,9 +6945,108 @@
  },
  {
   "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "seed": 42,
+  "parameters": 44708,
+  "ADE": 118.99180192060925,
+  "FDE": 242.67917249564104,
+  "MSE": 10337.5972513359
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "seed": 123,
+  "parameters": 44708,
+  "ADE": 119.28551165227792,
+  "FDE": 250.24778205731707,
+  "MSE": 10598.946705913946
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "seed": 456,
+  "parameters": 44708,
+  "ADE": 116.55982610969112,
+  "FDE": 243.98193320606117,
+  "MSE": 10400.574493530139
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched, direct",
+  "seed": 42,
+  "parameters": 46538,
+  "ADE": 265.45805005951456,
+  "FDE": 557.3914803694275,
+  "MSE": 55941.11388996124
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched, direct",
+  "seed": 123,
+  "parameters": 46538,
+  "ADE": 266.23931929261033,
+  "FDE": 563.7892095819967,
+  "MSE": 56302.77418041944
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched, direct",
+  "seed": 456,
+  "parameters": 46538,
+  "ADE": 263.8536141933969,
+  "FDE": 559.1826830584045,
+  "MSE": 55799.29683977485
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "seed": 42,
+  "parameters": 44708,
+  "ADE": 125.91880765024241,
+  "FDE": 249.58103496571303,
+  "MSE": 13503.714621499637
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "seed": 123,
+  "parameters": 44708,
+  "ADE": 124.76203676513673,
+  "FDE": 244.40030584602647,
+  "MSE": 13375.297478256127
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "seed": 456,
+  "parameters": 44708,
+  "ADE": 127.74289880516815,
+  "FDE": 260.36838698982206,
+  "MSE": 14095.746948730508
+ },
+ {
+  "study": "ablation",
   "dataset": "tartanaviation",
   "horizon": 60,
-  "method": "TSMixer, matched size",
+  "method": "TSMixer, matched, direct",
   "seed": 42,
   "parameters": 46538,
   "ADE": 285.589390086465,
@@ -6859,7 +7057,7 @@
   "study": "ablation",
   "dataset": "tartanaviation",
   "horizon": 60,
-  "method": "TSMixer, matched size",
+  "method": "TSMixer, matched, direct",
   "seed": 123,
   "parameters": 46538,
   "ADE": 279.717167603332,
@@ -6870,77 +7068,11 @@
   "study": "ablation",
   "dataset": "tartanaviation",
   "horizon": 60,
-  "method": "TSMixer, matched size",
+  "method": "TSMixer, matched, direct",
   "seed": 456,
   "parameters": 46538,
   "ADE": 295.9544571007121,
   "FDE": 611.3463446284514,
   "MSE": 78187.20832267946
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "seed": 42,
-  "parameters": 46496,
-  "ADE": 260.0794361079649,
-  "FDE": 563.0241218225981,
-  "MSE": 66508.24449266771
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "seed": 123,
-  "parameters": 46496,
-  "ADE": 254.6423412723259,
-  "FDE": 552.3042617483272,
-  "MSE": 63368.38053489058
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "seed": 456,
-  "parameters": 46496,
-  "ADE": 256.6287744725938,
-  "FDE": 555.4307137516106,
-  "MSE": 65267.25519726408
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, uniform widths",
-  "seed": 42,
-  "parameters": 46630,
-  "ADE": 260.0523713046352,
-  "FDE": 560.505208931381,
-  "MSE": 66018.72576104738
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, uniform widths",
-  "seed": 123,
-  "parameters": 46630,
-  "ADE": 251.17623523591516,
-  "FDE": 547.7418143961293,
-  "MSE": 62058.78177338861
- },
- {
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, uniform widths",
-  "seed": 456,
-  "parameters": 46630,
-  "ADE": 254.43085345891103,
-  "FDE": 552.09939870512,
-  "MSE": 63710.70500965096
  }
 ]

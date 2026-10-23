@@ -26,7 +26,7 @@ baselines are not included; they are available from the corresponding authors on
 | `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section VI-C) |
 | `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 8) |
 | `results/branch_analysis.json` | output of `branch_analysis.py`: weights per block and ADE with each branch removed, overall and per motion group |
-| `checkpoints/` | 96 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the four capacity/component controls at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
+| `checkpoints/` | 108 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the five capacity/component controls of Table V at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
 | `results/runs.json` | per-run test metrics of all methods: ADE, FDE, MSE, horizontal ADE, altitude MAE and ADE per motion group |
 | `results/paper_tables.json` | the cells of Tables II, III and V as printed in the paper |
 | `CONFIGS.md` | protocol, training settings and baseline configurations |

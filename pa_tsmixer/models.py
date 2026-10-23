@@ -1,7 +1,9 @@
 """PA-TSMixer and its single-scale parent TSMixer for direct XYZ trajectory forecasting.
 
-Both models map a standardized history x of shape [B, 60, 3] to a forecast of shape [B, H, 3].
-Parameter names match the released checkpoints.
+Both models map a standardized history x of shape [B, 60, 3] to a forecast of shape [B, H, 3]. With
+``last_residual=True`` (the default of PA-TSMixer) the linear head predicts the displacement from the last observed
+position, which is added to it; the TSMixer baseline outputs positions directly. Parameter names match the
+released checkpoints; the residual adds no parameters.
 """
 import torch
 import torch.nn as nn
@@ -52,34 +54,37 @@ class MixerBlock(nn.Module):
 
 
 class _Mixer(nn.Module):
-    def __init__(self, blocks, seq_len, pred_len):
+    def __init__(self, blocks, seq_len, pred_len, last_residual):
         super().__init__()
         self.model = nn.ModuleList(blocks)
         self.projection = nn.Linear(seq_len, pred_len)
+        self.last_residual = last_residual
 
     def forward(self, x):                       # x: [B, 60, 3] standardized
+        last = x[:, -1:]
         for block in self.model:
             x = block(x)
-        return self.projection(x.transpose(1, 2)).transpose(1, 2)
+        out = self.projection(x.transpose(1, 2)).transpose(1, 2)
+        return out + last if self.last_residual else out
 
 
 class PATSMixer(_Mixer):
     """PA-TSMixer (44,672 parameters for H=30 with the default settings)."""
 
     def __init__(self, pred_len, seq_len=60, channels=3, d_model=128, layers=2, dropout=0.1,
-                 uniform_width=None, learn_scale_weights=True):
+                 uniform_width=None, learn_scale_weights=True, last_residual=True):
         blocks = [MixerBlock(MultiScaleTemporalMixing(seq_len, channels, d_model, dropout, uniform_width,
                                                       learn_scale_weights), channels, d_model, dropout)
                   for _ in range(layers)]
-        super().__init__(blocks, seq_len, pred_len)
+        super().__init__(blocks, seq_len, pred_len, last_residual)
 
 
 class TSMixer(_Mixer):
     """Single-scale TSMixer parent (34,724 parameters for H=30; d_model=167 gives the matched-size control)."""
 
-    def __init__(self, pred_len, seq_len=60, channels=3, d_model=128, layers=2, dropout=0.1):
+    def __init__(self, pred_len, seq_len=60, channels=3, d_model=128, layers=2, dropout=0.1, last_residual=False):
         blocks = [MixerBlock(_mlp(seq_len, d_model, dropout), channels, d_model, dropout) for _ in range(layers)]
-        super().__init__(blocks, seq_len, pred_len)
+        super().__init__(blocks, seq_len, pred_len, last_residual)
 
 
 def build(name, pred_len, **kwargs):

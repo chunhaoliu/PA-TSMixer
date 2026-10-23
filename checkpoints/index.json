@@ -9,11 +9,11 @@
   "kwargs": {},
   "seed": 123,
   "parameters": 43452,
-  "sha256": "464567eed52a79eb5c634683110c624a8f7b5b35b382fab56c6763d2fcb55d57",
+  "sha256": "d0c7967d40f3788a8509b8f6cb112385a6f5c4df66bbd1478b52cf08ff665b86",
   "reported": {
-   "ADE": 38.08728299185764,
-   "FDE": 63.82134701074111,
-   "MSE": 1278.1961216702982
+   "ADE": 36.21114128859201,
+   "FDE": 61.36373102100634,
+   "MSE": 1204.8931626287176
   }
  },
  {
@@ -26,11 +26,11 @@
   "kwargs": {},
   "seed": 42,
   "parameters": 43452,
-  "sha256": "b65e3931b7bc957528863e797508fa60a3afb0c148ed617526ec118d9d19f93e",
+  "sha256": "8c174fcb2110702dc4803d98381c19214a56a04099c21e44e5980ea41b201c69",
   "reported": {
-   "ADE": 39.644479415238436,
-   "FDE": 67.2727775229748,
-   "MSE": 1354.7348057714992
+   "ADE": 36.84545038580876,
+   "FDE": 62.46257305020962,
+   "MSE": 1229.031227171112
   }
  },
  {
@@ -43,11 +43,11 @@
   "kwargs": {},
   "seed": 456,
   "parameters": 43452,
-  "sha256": "f2734c5bfb38243f4a0c50bed74144d465b793aa1f01de5fe10dfe65d6fd3544",
+  "sha256": "1894441bfa1da983734829ceb8297930887e6754d7642b5216ccba7dfd08c773",
   "reported": {
-   "ADE": 38.939763751216326,
-   "FDE": 66.05930940812972,
-   "MSE": 1310.088964418043
+   "ADE": 33.8980586198624,
+   "FDE": 56.56420270658861,
+   "MSE": 1080.4868366635521
   }
  },
  {
@@ -111,11 +111,11 @@
   "kwargs": {},
   "seed": 123,
   "parameters": 44062,
-  "sha256": "9db6b05cb5d607def8171f1797b6331e551fb83a9548b40ed9236ea9658866dd",
+  "sha256": "3f26df14738408aafbbe7e2a9a08d2180788ad883be1b2bc51fdcf2709b41816",
   "reported": {
-   "ADE": 68.74333418112407,
-   "FDE": 134.20690873569376,
-   "MSE": 4456.593914714922
+   "ADE": 64.86964566905276,
+   "FDE": 128.76444112434046,
+   "MSE": 4279.916302854339
   }
  },
  {
@@ -128,11 +128,11 @@
   "kwargs": {},
   "seed": 42,
   "parameters": 44062,
-  "sha256": "06ea2dc8a8834244bb41bde6b34c47c9efeab9b733554ac9599856e466113136",
+  "sha256": "3be9f16bb3e46cd6a9809e74d27790206fe303e8c123283824d9e6bc4afa7fd9",
   "reported": {
-   "ADE": 73.35325165881434,
-   "FDE": 143.7979493677773,
-   "MSE": 4890.75003250069
+   "ADE": 64.70521614455173,
+   "FDE": 128.5706782015275,
+   "MSE": 4324.100455332566
   }
  },
  {
@@ -145,11 +145,11 @@
   "kwargs": {},
   "seed": 456,
   "parameters": 44062,
-  "sha256": "fec034b086355407c0bfd62d2335a00ce67559603b6f3f0b13acf30b63b0e734",
+  "sha256": "827efa814ed9d25d9f65f313ef06b758a56e3e867eb29f70a8d4d2b6b73351e6",
   "reported": {
-   "ADE": 72.26000509867937,
-   "FDE": 142.39039096401788,
-   "MSE": 4775.781139704382
+   "ADE": 62.69409073029094,
+   "FDE": 124.58110089199015,
+   "MSE": 4004.782722847493
   }
  },
  {
@@ -213,11 +213,11 @@
   "kwargs": {},
   "seed": 123,
   "parameters": 44672,
-  "sha256": "dba6272124a0045cd05208a212003864c4dc832e616a8b16be0567c5d6e156d8",
+  "sha256": "8a520afad8c807499d911aec7a64c885a2d1adff6742aef270fa079edbf89fcf",
   "reported": {
-   "ADE": 104.65054017532162,
-   "FDE": 218.06493458197738,
-   "MSE": 10721.854328973639
+   "ADE": 102.57503684019125,
+   "FDE": 219.09283993297922,
+   "MSE": 11059.734186510515
   }
  },
  {
@@ -230,11 +230,11 @@
   "kwargs": {},
   "seed": 42,
   "parameters": 44672,
-  "sha256": "54c8b26aa082a337b172b5196376f1b97af574a170224d810cfbb7f97eba61be",
+  "sha256": "988deded5f14b38fac15f444a89de81b608f87ea856042a71ba2c454a5159075",
   "reported": {
-   "ADE": 112.36535110085116,
-   "FDE": 233.046056494712,
-   "MSE": 12125.2066645022
+   "ADE": 100.64350323867278,
+   "FDE": 215.28210920917522,
+   "MSE": 10784.342803518617
   }
  },
  {
@@ -247,11 +247,11 @@
   "kwargs": {},
   "seed": 456,
   "parameters": 44672,
-  "sha256": "201e1b1df417f1ec3e592e628054853724f5272c99bc0aab664cb67179963ad4",
+  "sha256": "717b922002003ecc765dc85ad686347860e010523c3a9677403b954df70c7427",
   "reported": {
-   "ADE": 108.91567103407334,
-   "FDE": 226.90947360756581,
-   "MSE": 11236.04535858261
+   "ADE": 98.40545108161182,
+   "FDE": 210.17847082762933,
+   "MSE": 10216.465000595445
   }
  },
  {
@@ -315,11 +315,11 @@
   "kwargs": {},
   "seed": 123,
   "parameters": 46502,
-  "sha256": "c6bfbe3f9e8273e9133f0cba1253c6bd025f2ab4b7d41658567ae2b0034d4651",
+  "sha256": "0b702db563ef9ac93aa7275c836d56c516a3f46063009e7cc9af80445d634bcf",
   "reported": {
-   "ADE": 254.23799514726386,
-   "FDE": 551.8647558940771,
-   "MSE": 62994.46463095405
+   "ADE": 239.37615508356876,
+   "FDE": 539.4844285172564,
+   "MSE": 61352.561281392285
   }
  },
  {
@@ -332,11 +332,11 @@
   "kwargs": {},
   "seed": 42,
   "parameters": 46502,
-  "sha256": "a9a8297df20d2c535128608f158b177a08f0c3075eb1c7f332a4151e4117ff91",
+  "sha256": "222edc34d70aa650610760bba69ee9805bba671fe9261f744c99299cb7fb1cea",
   "reported": {
-   "ADE": 259.73786134102573,
-   "FDE": 563.0584315918229,
-   "MSE": 66235.05987324033
+   "ADE": 238.26156974154057,
+   "FDE": 537.2818348320744,
+   "MSE": 61623.12625844177
   }
  },
  {
@@ -349,11 +349,11 @@
   "kwargs": {},
   "seed": 456,
   "parameters": 46502,
-  "sha256": "67e3e31927de2e0d2c9d6bc49f1d914d9cf0277282384ff5d650e67ceec25389",
+  "sha256": "2a9e7681a88e3405fef703ae6524f45c489c4f8f1b9f3b6837d7ce25a3cdc2e8",
   "reported": {
-   "ADE": 257.27341439080607,
-   "FDE": 557.2805557533229,
-   "MSE": 65313.15739993529
+   "ADE": 236.63585702423183,
+   "FDE": 532.0587634536703,
+   "MSE": 60773.85730099712
   }
  },
  {
@@ -417,11 +417,11 @@
   "kwargs": {},
   "seed": 123,
   "parameters": 43452,
-  "sha256": "731b557bdfc8df557dc090e0d2f3a37579b3c1a09d13b4423540d366e3421999",
+  "sha256": "b11d8c10bd680c9773c934ebb5d71cb8f2c73db24de53667f55015654db64b50",
   "reported": {
-   "ADE": 35.61521820486496,
-   "FDE": 62.132389016376514,
-   "MSE": 799.5628853698107
+   "ADE": 34.033138652328574,
+   "FDE": 60.879793902753974,
+   "MSE": 779.3155550120455
   }
  },
  {
@@ -434,11 +434,11 @@
   "kwargs": {},
   "seed": 42,
   "parameters": 43452,
-  "sha256": "8ffac4ef03a1ebbdd9f084657384f93992b346e1256f14f45eab1f6d8215731e",
+  "sha256": "fd93b8bfe00e7186d7e29d3cd71a775d053c9269f56fce2aa97b7f5ed09f09bc",
   "reported": {
-   "ADE": 35.72900561919351,
-   "FDE": 62.39826346678629,
-   "MSE": 816.2834167834653
+   "ADE": 33.30363332260099,
+   "FDE": 59.19988240862105,
+   "MSE": 741.2377090336889
   }
  },
  {
@@ -451,11 +451,11 @@
   "kwargs": {},
   "seed": 456,
   "parameters": 43452,
-  "sha256": "f7f694758f968532235d7c53723a4d95951830f8bf195d8eec4d72d23d299a7e",
+  "sha256": "1507ca807c99d6d97c72a02b1e5e0bdefc6178941ac684c281a9cde3b2373465",
   "reported": {
-   "ADE": 34.53633614320303,
-   "FDE": 60.202028012847144,
-   "MSE": 768.674337242044
+   "ADE": 33.70456672913057,
+   "FDE": 60.14957889535958,
+   "MSE": 754.400354396615
   }
  },
  {
@@ -519,11 +519,11 @@
   "kwargs": {},
   "seed": 123,
   "parameters": 44062,
-  "sha256": "23653589a0ba85feca1de9e3068ac0c41fc5ec4cba1f93caa4ede776b87b92f3",
+  "sha256": "9257e6e66dda5a01a98410a43a39bcab71f964738cf456f91f982d311c7c54f0",
   "reported": {
-   "ADE": 69.83282455345073,
-   "FDE": 142.205580209823,
-   "MSE": 3566.8876779466405
+   "ADE": 65.07073380360971,
+   "FDE": 134.6806213305277,
+   "MSE": 3316.400723241442
   }
  },
  {
@@ -536,11 +536,11 @@
   "kwargs": {},
   "seed": 42,
   "parameters": 44062,
-  "sha256": "501b6319d464b6dba83a8fd9e03147cebf7a1eb96794b13429d8a5c5737c4933",
+  "sha256": "addc810aae5e6a69ea691174e70420d5d582594b450cc771237c81aded71870b",
   "reported": {
-   "ADE": 69.02900341844354,
-   "FDE": 138.71775755521995,
-   "MSE": 3549.4118088185173
+   "ADE": 63.71777071538782,
+   "FDE": 133.31543033010828,
+   "MSE": 3211.4999411587983
   }
  },
  {
@@ -553,11 +553,11 @@
   "kwargs": {},
   "seed": 456,
   "parameters": 44062,
-  "sha256": "b4cbb8974364f52b823f4b67396253808a4978575793cf1336227246605e54c3",
+  "sha256": "4835ce4d7a0c79f750d05e63875535511ed58ccf9e42d57673ec80f4ff673cfb",
   "reported": {
-   "ADE": 67.55258012831389,
-   "FDE": 138.08884134907188,
-   "MSE": 3438.014824411312
+   "ADE": 64.21817552344784,
+   "FDE": 132.61820479136617,
+   "MSE": 3231.4350801454266
   }
  },
  {
@@ -621,11 +621,11 @@
   "kwargs": {},
   "seed": 123,
   "parameters": 44672,
-  "sha256": "49c0725f61f3fd1d7e11b8ce2c6969566bfceae45d14f6c3191c3e9467ae278c",
+  "sha256": "422704e58b0bb6880167e755967764039396474e71a8be68a40af846c24a829b",
   "reported": {
-   "ADE": 109.12949768154124,
-   "FDE": 231.38923112348158,
-   "MSE": 9428.89046344318
+   "ADE": 100.72318441966476,
+   "FDE": 221.35146337468146,
+   "MSE": 8682.526702095629
   }
  },
  {
@@ -638,11 +638,11 @@
   "kwargs": {},
   "seed": 42,
   "parameters": 44672,
-  "sha256": "658ebb338ef53e3f4000062b7603b13d6ccd79c0bb37aed2ebfc3305bda8ec4a",
+  "sha256": "938052cb2bfa0c10afb791547db9423348ed3a00de5302d90375c4411c1de848",
   "reported": {
-   "ADE": 110.86310430549526,
-   "FDE": 234.43058821082977,
-   "MSE": 9716.1374982606
+   "ADE": 100.16230718937696,
+   "FDE": 220.47563277078856,
+   "MSE": 8633.347599155364
   }
  },
  {
@@ -655,11 +655,11 @@
   "kwargs": {},
   "seed": 456,
   "parameters": 44672,
-  "sha256": "2dc4538558158ae6611320465b8fe5d0f66bafc341ddf5d858c95483596998ed",
+  "sha256": "d79b727fe391e347f0ae06d848f4f1c2c1c3be659c05c65bff260e6f11b2f16a",
   "reported": {
-   "ADE": 107.401758252536,
-   "FDE": 228.85849108357976,
-   "MSE": 9247.857223244799
+   "ADE": 99.79816322937205,
+   "FDE": 219.53321555794398,
+   "MSE": 8599.377419649521
   }
  },
  {
@@ -723,11 +723,11 @@
   "kwargs": {},
   "seed": 123,
   "parameters": 46502,
-  "sha256": "c89951387f1b8c12cdd98b45c2598c9a280a4cb60f0393f915a1f45299795385",
+  "sha256": "332287382ddc4e970eba83ee9f88a3de39f83b2ea300f42f0cd9f557319c1fb9",
   "reported": {
-   "ADE": 251.26357701856887,
-   "FDE": 545.7432231961837,
-   "MSE": 52771.94757393729
+   "ADE": 238.69636265877173,
+   "FDE": 535.669631857066,
+   "MSE": 50713.09123939913
   }
  },
  {
@@ -740,11 +740,11 @@
   "kwargs": {},
   "seed": 42,
   "parameters": 46502,
-  "sha256": "0c067288a6522c909492966a52072854c479fbdd55105ab5d0bafbe14fa45935",
+  "sha256": "710aa7aa97ad57a52e9a490fc2edb021c373fa2155a0bd6688571df7e73c1c06",
   "reported": {
-   "ADE": 253.96066924992647,
-   "FDE": 546.4148609173322,
-   "MSE": 53166.19424604729
+   "ADE": 240.15899930746727,
+   "FDE": 537.73266121436,
+   "MSE": 51104.95107683169
   }
  },
  {
@@ -757,11 +757,11 @@
   "kwargs": {},
   "seed": 456,
   "parameters": 46502,
-  "sha256": "847ba0c9c18c235e39ce427a8e59aa8c260d73ffe159b8a3948a88aeedfc99d5",
+  "sha256": "c9e1acb8e7aa3eab21ecac9a7db7f9ada95c2b9d87a6cc56e18dac2027526f2d",
   "reported": {
-   "ADE": 249.68547494099772,
-   "FDE": 546.6638361450574,
-   "MSE": 52401.793727227196
+   "ADE": 235.88826608481614,
+   "FDE": 532.8763250268935,
+   "MSE": 50050.85344706567
   }
  },
  {
@@ -816,187 +816,123 @@
   }
  },
  {
-  "file": "ablation_tartanaviation_H30_pa-equal-weights_s123.pt",
+  "file": "ablation_trajair_H30_tsmixer-matched-size_s42.pt",
   "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "learn_scale_weights": false
-  },
-  "seed": 123,
-  "parameters": 44672,
-  "sha256": "8cba46c8a1349848e51ff010de4f7d5acdcdd76bf7c298dba5b6506fd9722aa2",
-  "reported": {
-   "ADE": 104.57989866856765,
-   "FDE": 217.86142062733077,
-   "MSE": 10680.999122387764
-  }
- },
- {
-  "file": "ablation_tartanaviation_H30_pa-equal-weights_s42.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "learn_scale_weights": false
-  },
-  "seed": 42,
-  "parameters": 44672,
-  "sha256": "8b950704d4fca15babdf3c5bbc72609059a8f2a66f490efc1157f98cb3982f5c",
-  "reported": {
-   "ADE": 112.42749842233393,
-   "FDE": 232.78040994602105,
-   "MSE": 12100.248773214242
-  }
- },
- {
-  "file": "ablation_tartanaviation_H30_pa-equal-weights_s456.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "learn_scale_weights": false
-  },
-  "seed": 456,
-  "parameters": 44672,
-  "sha256": "713cb94ac07b13c4db041c4824e193521472ad914e00c0e70f59c34f7ddaca5c",
-  "reported": {
-   "ADE": 108.55255296095118,
-   "FDE": 225.88714839494727,
-   "MSE": 11214.116529048506
-  }
- },
- {
-  "file": "ablation_tartanaviation_H30_pa-tsmixer-ref_s123.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 123,
-  "parameters": 44672,
-  "sha256": "9470096af783a1d92643ddc85589ad75140dc7fd9976692f1ef5da52b1af848a",
-  "reported": {
-   "ADE": 105.46621667336734,
-   "FDE": 219.31030288900058,
-   "MSE": 10748.762719094528
-  }
- },
- {
-  "file": "ablation_tartanaviation_H30_pa-tsmixer-ref_s42.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 42,
-  "parameters": 44672,
-  "sha256": "44948178df0c146d615de1bab0e0a391b57667e5c941a4ebba67b2443d49a975",
-  "reported": {
-   "ADE": 113.37149329556546,
-   "FDE": 233.99447928523193,
-   "MSE": 12225.579127168014
-  }
- },
- {
-  "file": "ablation_tartanaviation_H30_pa-tsmixer-ref_s456.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 456,
-  "parameters": 44672,
-  "sha256": "8adf9d7ae0c0ff812bba7e3cec73ed6c917ad8f7f39f93d07e50a950b85c1922",
-  "reported": {
-   "ADE": 109.53610804331704,
-   "FDE": 227.27415996831326,
-   "MSE": 11349.533192231707
-  }
- },
- {
-  "file": "ablation_tartanaviation_H30_pa-uniform-widths_s123.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "uniform_width": 96
-  },
-  "seed": 123,
-  "parameters": 44800,
-  "sha256": "d063998e75043e8cbe4c948086d4626f3b9b59729fff598153020f64d8834e63",
-  "reported": {
-   "ADE": 108.01186179695952,
-   "FDE": 225.0355430411923,
-   "MSE": 11255.537031240543
-  }
- },
- {
-  "file": "ablation_tartanaviation_H30_pa-uniform-widths_s42.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "uniform_width": 96
-  },
-  "seed": 42,
-  "parameters": 44800,
-  "sha256": "715d46b4dac4680667d1fa3878ef42b5d61d147443d41d3165a1d2d73e3090cf",
-  "reported": {
-   "ADE": 108.82051068905822,
-   "FDE": 224.8468706164035,
-   "MSE": 11214.712333178531
-  }
- },
- {
-  "file": "ablation_tartanaviation_H30_pa-uniform-widths_s456.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "uniform_width": 96
-  },
-  "seed": 456,
-  "parameters": 44800,
-  "sha256": "5d9fde801031d72c915f79e31d6297a036f51cef4ee30ef741b9a34454bb6ce4",
-  "reported": {
-   "ADE": 109.32527494493074,
-   "FDE": 227.2167757611317,
-   "MSE": 11426.6839615883
-  }
- },
- {
-  "file": "ablation_tartanaviation_H30_tsmixer-matched-size_s123.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
+  "dataset": "trajair",
   "horizon": 30,
   "method": "TSMixer, matched size",
   "architecture": "TSMixer",
   "kwargs": {
-   "d_model": 167
+   "d_model": 167,
+   "last_residual": true
+  },
+  "seed": 42,
+  "parameters": 44708,
+  "sha256": "ac16f5219a97a82a7914e09a882e2d9b1be3634e7bf9b04d830ddf8298948baa",
+  "reported": {
+   "ADE": 102.1659835398564,
+   "FDE": 223.54154698712458,
+   "MSE": 8858.289551407073
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_tsmixer-matched-size_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167,
+   "last_residual": true
   },
   "seed": 123,
   "parameters": 44708,
-  "sha256": "06b937c5e34f70acea7366a42781f561fdc0c8bb5d603696514266a17dfd1339",
+  "sha256": "e0f33b73881ff500b76a9b5ebd5fdb7d79a444e0c0d01e444e6dddeca241ef77",
   "reported": {
-   "ADE": 124.76203676513673,
-   "FDE": 244.40030584602647,
-   "MSE": 13375.297478256127
+   "ADE": 101.80129772333133,
+   "FDE": 223.04660798082344,
+   "MSE": 8821.29562899105
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_tsmixer-matched-size_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167,
+   "last_residual": true
+  },
+  "seed": 456,
+  "parameters": 44708,
+  "sha256": "a75443f55bc611ff1f7dc73ea9f0a824cc0088e4bb2085b0e82868c9097336c1",
+  "reported": {
+   "ADE": 100.73350138284663,
+   "FDE": 221.7530311380723,
+   "MSE": 8681.345336122222
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_tsmixer-matched-size_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167,
+   "last_residual": true
+  },
+  "seed": 42,
+  "parameters": 46538,
+  "sha256": "80719a8ac84ee03d06051b7ae9bf2709d24fbedd62ddb583ca3c77736fde61d6",
+  "reported": {
+   "ADE": 245.46548299902048,
+   "FDE": 545.6804513629061,
+   "MSE": 52572.186244787226
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_tsmixer-matched-size_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167,
+   "last_residual": true
+  },
+  "seed": 123,
+  "parameters": 46538,
+  "sha256": "0a5a556a6be278ca87cb75ea4c5634c34103aa917b6fb1e61a9f96abda608db7",
+  "reported": {
+   "ADE": 243.79774389359025,
+   "FDE": 540.3088225464867,
+   "MSE": 52306.28576820885
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_tsmixer-matched-size_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167,
+   "last_residual": true
+  },
+  "seed": 456,
+  "parameters": 46538,
+  "sha256": "337c3a58c4033b581cd19d3d5ae1692bff1e7b8414e5701a7a3688bab89f4f0a",
+  "reported": {
+   "ADE": 242.83137986346273,
+   "FDE": 544.6478762717462,
+   "MSE": 52190.01411877656
   }
  },
  {
@@ -1007,15 +943,36 @@
   "method": "TSMixer, matched size",
   "architecture": "TSMixer",
   "kwargs": {
-   "d_model": 167
+   "d_model": 167,
+   "last_residual": true
   },
   "seed": 42,
   "parameters": 44708,
-  "sha256": "d10e286cff2f3d2820db7944fd198b11628b66beb35f1abdb3b8adc80b8d8e55",
+  "sha256": "9b65db2564c2d4f0c239e5eb78d8ad72d218984d3933d4e33df8d8303188b1f2",
   "reported": {
-   "ADE": 125.91880765024241,
-   "FDE": 249.58103496571303,
-   "MSE": 13503.714621499637
+   "ADE": 104.32071100790911,
+   "FDE": 221.7264316959465,
+   "MSE": 11233.133619072463
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_tsmixer-matched-size_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167,
+   "last_residual": true
+  },
+  "seed": 123,
+  "parameters": 44708,
+  "sha256": "d7a1bc630b891032b27dfb9bed7b51f9dc05310fa03ff599bb47a47a131da8c4",
+  "reported": {
+   "ADE": 104.60053968432251,
+   "FDE": 224.1216717506204,
+   "MSE": 11240.375527470218
   }
  },
  {
@@ -1026,199 +983,16 @@
   "method": "TSMixer, matched size",
   "architecture": "TSMixer",
   "kwargs": {
-   "d_model": 167
+   "d_model": 167,
+   "last_residual": true
   },
   "seed": 456,
   "parameters": 44708,
-  "sha256": "d3e67f11f4532cb0b9c288f8ef227aae772bf361345b265a0cac2ac9d761a5bb",
+  "sha256": "edb0b34b99cce0b4caea8116f95d1bede6a678c723d0712d48c2cd8459543ad9",
   "reported": {
-   "ADE": 127.74289880516815,
-   "FDE": 260.36838698982206,
-   "MSE": 14095.746948730508
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_pa-equal-weights_s123.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "learn_scale_weights": false
-  },
-  "seed": 123,
-  "parameters": 46502,
-  "sha256": "69189d72143e8bab99792f33a64bc447575170351c38dfdaa0baee228a294672",
-  "reported": {
-   "ADE": 254.6423412723259,
-   "FDE": 552.3042617483272,
-   "MSE": 63368.38053489058
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_pa-equal-weights_s42.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "learn_scale_weights": false
-  },
-  "seed": 42,
-  "parameters": 46502,
-  "sha256": "9f460ae2ade9059abbee7923273f05ebd059ec7cfa3b2bc28040405db6b4f6b1",
-  "reported": {
-   "ADE": 260.0794361079649,
-   "FDE": 563.0241218225981,
-   "MSE": 66508.24449266771
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_pa-equal-weights_s456.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "learn_scale_weights": false
-  },
-  "seed": 456,
-  "parameters": 46502,
-  "sha256": "cf047695e7e89a08dd72e475a2ccda54aafe4d48e4a5c10eef1157e80b1de7f3",
-  "reported": {
-   "ADE": 256.6287744725938,
-   "FDE": 555.4307137516106,
-   "MSE": 65267.25519726408
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_pa-tsmixer-ref_s123.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 123,
-  "parameters": 46502,
-  "sha256": "377edceb11ac5e2988b6d9077c59dec0d6e39614c7509d245eff1beabbe6e219",
-  "reported": {
-   "ADE": 253.92230549591346,
-   "FDE": 550.1611123806005,
-   "MSE": 63264.49043771075
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_pa-tsmixer-ref_s42.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 42,
-  "parameters": 46502,
-  "sha256": "e7975a4f809df74cd6f502b7709c636f8e278d5c7d34e460c2331adc733c88b4",
-  "reported": {
-   "ADE": 260.17345333526873,
-   "FDE": 562.6715806977995,
-   "MSE": 66338.43548063978
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_pa-tsmixer-ref_s456.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 456,
-  "parameters": 46502,
-  "sha256": "9c997791d6713b982dcf40e458bc7064e42707e234891824fad3c5bb91e7a88c",
-  "reported": {
-   "ADE": 256.360709253094,
-   "FDE": 556.8691159970348,
-   "MSE": 64728.418162874856
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_pa-uniform-widths_s123.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, uniform widths",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "uniform_width": 96
-  },
-  "seed": 123,
-  "parameters": 46630,
-  "sha256": "7c8cd39a197e26b2661a0153b8e60c198de2ca20d0740873311e6f80d4eba5ec",
-  "reported": {
-   "ADE": 251.17623523591516,
-   "FDE": 547.7418143961293,
-   "MSE": 62058.78177338861
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_pa-uniform-widths_s42.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, uniform widths",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "uniform_width": 96
-  },
-  "seed": 42,
-  "parameters": 46630,
-  "sha256": "68a1c6f213159d2597138bb54324e3755fdc1787bea731081fcbc7574cb7ec02",
-  "reported": {
-   "ADE": 260.0523713046352,
-   "FDE": 560.505208931381,
-   "MSE": 66018.72576104738
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_pa-uniform-widths_s456.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA, uniform widths",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "uniform_width": 96
-  },
-  "seed": 456,
-  "parameters": 46630,
-  "sha256": "7df68d80faca6049485c9aef7d2f6b319538cbc6a169e5515ba79931ef53292c",
-  "reported": {
-   "ADE": 254.43085345891103,
-   "FDE": 552.09939870512,
-   "MSE": 63710.70500965096
-  }
- },
- {
-  "file": "ablation_tartanaviation_H60_tsmixer-matched-size_s123.pt",
-  "study": "ablation",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "TSMixer, matched size",
-  "architecture": "TSMixer",
-  "kwargs": {
-   "d_model": 167
-  },
-  "seed": 123,
-  "parameters": 46538,
-  "sha256": "d63d2219355a09de395cddd151026371ea7a54523ddfef43be150d76acd7d9da",
-  "reported": {
-   "ADE": 279.717167603332,
-   "FDE": 588.9656686451547,
-   "MSE": 72279.87670765044
+   "ADE": 99.77158807924535,
+   "FDE": 214.2877683473322,
+   "MSE": 10519.448218300999
   }
  },
  {
@@ -1229,15 +1003,36 @@
   "method": "TSMixer, matched size",
   "architecture": "TSMixer",
   "kwargs": {
-   "d_model": 167
+   "d_model": 167,
+   "last_residual": true
   },
   "seed": 42,
   "parameters": 46538,
-  "sha256": "58a847e9ccf7157e68727d6a813563fedd1cc2af61271dc8f3ae5efc72f4d491",
+  "sha256": "f2019740e0a743c065165567ea08e7905851eff965d234c325e14b9d5064f6a6",
   "reported": {
-   "ADE": 285.589390086465,
-   "FDE": 593.7353520797409,
-   "MSE": 73369.85046996476
+   "ADE": 245.62825543072162,
+   "FDE": 550.590974065401,
+   "MSE": 64648.45987708667
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_tsmixer-matched-size_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched size",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167,
+   "last_residual": true
+  },
+  "seed": 123,
+  "parameters": 46538,
+  "sha256": "45f0c80fcfaf44a9afbb4bb9f1d426fe68763d3749637a190a7962a6132addfe",
+  "reported": {
+   "ADE": 244.84888536714678,
+   "FDE": 551.4579993789101,
+   "MSE": 64446.47845891391
   }
  },
  {
@@ -1248,34 +1043,16 @@
   "method": "TSMixer, matched size",
   "architecture": "TSMixer",
   "kwargs": {
-   "d_model": 167
+   "d_model": 167,
+   "last_residual": true
   },
   "seed": 456,
   "parameters": 46538,
-  "sha256": "940312e432269a3d719db5e584416a46c80349f6d35b89d5cc0f6d242c4a9d16",
+  "sha256": "267e7fedb31c03b5ea70537e02d3ad1f78d12fa306d1a7fe303b0320a0aaaa52",
   "reported": {
-   "ADE": 295.9544571007121,
-   "FDE": 611.3463446284514,
-   "MSE": 78187.20832267946
-  }
- },
- {
-  "file": "ablation_trajair_H30_pa-equal-weights_s123.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, equal weights",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "learn_scale_weights": false
-  },
-  "seed": 123,
-  "parameters": 44672,
-  "sha256": "ce9092d494b6c46648802129e1aeaa0049b1f6feeef381f4a0bcfe25ad49d1a7",
-  "reported": {
-   "ADE": 108.68335230301192,
-   "FDE": 231.13301444069666,
-   "MSE": 9344.013052471337
+   "ADE": 243.40244324146428,
+   "FDE": 547.8105831212542,
+   "MSE": 63287.08104916882
   }
  },
  {
@@ -1290,11 +1067,30 @@
   },
   "seed": 42,
   "parameters": 44672,
-  "sha256": "d606779c3dd345dd422337ae98f1ddac5fe09000195f2aa8b51fc780dd8697db",
+  "sha256": "329578c4553e3ac3914f846a1cfb25f9fcf17fcdf78a9683f02967a834231676",
   "reported": {
-   "ADE": 109.14172486468232,
-   "FDE": 231.20248050962772,
-   "MSE": 9547.794801727141
+   "ADE": 101.3768663487132,
+   "FDE": 222.55973520481572,
+   "MSE": 8797.995291791009
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-equal-weights_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 123,
+  "parameters": 44672,
+  "sha256": "9f9c74f7dbcd8a8bed0caaeeaf47ca002599cc8c7f784c0e9797438214d5f896",
+  "reported": {
+   "ADE": 100.94799571897113,
+   "FDE": 220.72663070784722,
+   "MSE": 8682.923478416149
   }
  },
  {
@@ -1309,195 +1105,11 @@
   },
   "seed": 456,
   "parameters": 44672,
-  "sha256": "03d099acb25d1e9a15757ada60ce59213963da9b10afcfb1c9013f2d8930a8f5",
+  "sha256": "03189a20bbc87b483de4faeead3e697232fc0bc941c71acd03092b4e636630c0",
   "reported": {
-   "ADE": 107.69527109301934,
-   "FDE": 229.19358657729336,
-   "MSE": 9246.539606710749
-  }
- },
- {
-  "file": "ablation_trajair_H30_pa-tsmixer-ref_s123.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 123,
-  "parameters": 44672,
-  "sha256": "5b7ba23067d9c79893747a79b57f50d6809eb924ad47bf245e51b3a27de4b6ca",
-  "reported": {
-   "ADE": 108.8888919743319,
-   "FDE": 231.07694297119076,
-   "MSE": 9415.03255125172
-  }
- },
- {
-  "file": "ablation_trajair_H30_pa-tsmixer-ref_s42.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 42,
-  "parameters": 44672,
-  "sha256": "5499963651a93a6f5b0c70de5fdab76bb47b35120abe68ff300d8cf5d15be67f",
-  "reported": {
-   "ADE": 110.27281027357914,
-   "FDE": 233.19739728915434,
-   "MSE": 9656.777647552748
-  }
- },
- {
-  "file": "ablation_trajair_H30_pa-tsmixer-ref_s456.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA-TSMixer (ref.)",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 456,
-  "parameters": 44672,
-  "sha256": "0fac5b8bfae93bdff32d621db850f4ba4cced946ce5ca27e108fb4d91f2552b1",
-  "reported": {
-   "ADE": 106.97202907297154,
-   "FDE": 227.90440971287308,
-   "MSE": 9147.76520795922
-  }
- },
- {
-  "file": "ablation_trajair_H30_pa-uniform-widths_s123.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "uniform_width": 96
-  },
-  "seed": 123,
-  "parameters": 44800,
-  "sha256": "dee9c21b57b5ad308f7d547458d5df40e5cdc13ce3df7b69ea12d1aa966516ec",
-  "reported": {
-   "ADE": 110.9798952551298,
-   "FDE": 236.88665154340381,
-   "MSE": 9663.989552469955
-  }
- },
- {
-  "file": "ablation_trajair_H30_pa-uniform-widths_s42.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "uniform_width": 96
-  },
-  "seed": 42,
-  "parameters": 44800,
-  "sha256": "83859f607be265487ac754cb537c5098e947003cfd67791dcced1cbeeea7b290",
-  "reported": {
-   "ADE": 108.51763264359535,
-   "FDE": 231.0058342120241,
-   "MSE": 9449.65337267476
-  }
- },
- {
-  "file": "ablation_trajair_H30_pa-uniform-widths_s456.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "PA, uniform widths",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "uniform_width": 96
-  },
-  "seed": 456,
-  "parameters": 44800,
-  "sha256": "0fdd5f42e0faba79ccc92aa8c574f714502b87ed3cc4b20d91d12bfecb3e1882",
-  "reported": {
-   "ADE": 104.52747342603337,
-   "FDE": 223.52637356527973,
-   "MSE": 8894.997886704768
-  }
- },
- {
-  "file": "ablation_trajair_H30_tsmixer-matched-size_s123.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "TSMixer, matched size",
-  "architecture": "TSMixer",
-  "kwargs": {
-   "d_model": 167
-  },
-  "seed": 123,
-  "parameters": 44708,
-  "sha256": "a1f225fbda0851a07e999ce8cfe459a9d65c46060d2942f6db018b71fd0b70d6",
-  "reported": {
-   "ADE": 119.28551165227792,
-   "FDE": 250.24778205731707,
-   "MSE": 10598.946705913946
-  }
- },
- {
-  "file": "ablation_trajair_H30_tsmixer-matched-size_s42.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "TSMixer, matched size",
-  "architecture": "TSMixer",
-  "kwargs": {
-   "d_model": 167
-  },
-  "seed": 42,
-  "parameters": 44708,
-  "sha256": "03755e29d615fe32c332c45a7efb29a0550b7dd9b8c31335326a654a67a3e17e",
-  "reported": {
-   "ADE": 118.99180192060925,
-   "FDE": 242.67917249564104,
-   "MSE": 10337.5972513359
-  }
- },
- {
-  "file": "ablation_trajair_H30_tsmixer-matched-size_s456.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 30,
-  "method": "TSMixer, matched size",
-  "architecture": "TSMixer",
-  "kwargs": {
-   "d_model": 167
-  },
-  "seed": 456,
-  "parameters": 44708,
-  "sha256": "be1dc55efe3ab40fdfcaa066903b2a186469a2852e41c69dd5618db543eb1452",
-  "reported": {
-   "ADE": 116.55982610969112,
-   "FDE": 243.98193320606117,
-   "MSE": 10400.574493530139
-  }
- },
- {
-  "file": "ablation_trajair_H60_pa-equal-weights_s123.pt",
-  "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA, equal weights",
-  "architecture": "PA-TSMixer",
-  "kwargs": {
-   "learn_scale_weights": false
-  },
-  "seed": 123,
-  "parameters": 46502,
-  "sha256": "182438b06ad957e03a8dcc20eccce4c4e9e117c5070a4122c4545d1657600dc3",
-  "reported": {
-   "ADE": 251.29493314868625,
-   "FDE": 547.5139663818785,
-   "MSE": 52825.10943391286
+   "ADE": 99.99228840202008,
+   "FDE": 220.1856582510364,
+   "MSE": 8653.07837243702
   }
  },
  {
@@ -1512,11 +1124,30 @@
   },
   "seed": 42,
   "parameters": 46502,
-  "sha256": "6089264b0a748812492f4156ecfcdb0c9e73fba9b09488deedb693cc642b96d3",
+  "sha256": "363870c4d9de0c6696898cda9c904aa41389594d5c359019110a9852013a820e",
   "reported": {
-   "ADE": 253.38740781469394,
-   "FDE": 548.1724638515175,
-   "MSE": 53157.609837214135
+   "ADE": 240.94966122758274,
+   "FDE": 538.4637008060533,
+   "MSE": 51337.313738364115
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-equal-weights_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "baa3d6db0c8a2e8c64b2bb03262615a6498fe5ca3ca28ab5288ff75710b4139b",
+  "reported": {
+   "ADE": 239.48047079229,
+   "FDE": 538.0662111132323,
+   "MSE": 50955.99565574356
   }
  },
  {
@@ -1531,81 +1162,182 @@
   },
   "seed": 456,
   "parameters": 46502,
-  "sha256": "b76b0a97732eb925b24b38f5bcd7f3788fcc03f32b9eb6df1d74815da1edf4c0",
+  "sha256": "5a1d20d916c4d27cc58c563a83e1dfdfdf4298dcabe37d6c00c5136046bcbb70",
   "reported": {
-   "ADE": 247.90038869130896,
-   "FDE": 543.0606158604023,
-   "MSE": 52047.80784232586
+   "ADE": 236.2331415665188,
+   "FDE": 532.9927269511578,
+   "MSE": 50224.99693236466
   }
  },
  {
-  "file": "ablation_trajair_H60_pa-tsmixer-ref_s123.pt",
+  "file": "ablation_tartanaviation_H30_pa-equal-weights_s42.pt",
   "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, equal weights",
   "architecture": "PA-TSMixer",
-  "kwargs": {},
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 42,
+  "parameters": 44672,
+  "sha256": "6e83292e66ed1f40dd72deebfbe88fc4a63f0ba270d64c88a21b6f075cc134a2",
+  "reported": {
+   "ADE": 101.20119675015047,
+   "FDE": 216.40016634935782,
+   "MSE": 10858.858946487957
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-equal-weights_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
   "seed": 123,
-  "parameters": 46502,
-  "sha256": "319cd84cab10f2af4564e9f7c9a97df382057f6ea0ddfdbb9c8da6d449eab9f6",
+  "parameters": 44672,
+  "sha256": "d89a22feadda3de8ee47a87be88b78595fb63c5ff7571022facbee36d8f09fd6",
   "reported": {
-   "ADE": 251.3176204556872,
-   "FDE": 547.5628442059598,
-   "MSE": 52770.53536342737
+   "ADE": 102.19943498618618,
+   "FDE": 217.70326352129777,
+   "MSE": 10870.021560883282
   }
  },
  {
-  "file": "ablation_trajair_H60_pa-tsmixer-ref_s42.pt",
+  "file": "ablation_tartanaviation_H30_pa-equal-weights_s456.pt",
   "study": "ablation",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, equal weights",
   "architecture": "PA-TSMixer",
-  "kwargs": {},
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 456,
+  "parameters": 44672,
+  "sha256": "6dcbf9ec1fec6c8274ddd1b60344191e866ff01a3e109ab1e257e029cf150781",
+  "reported": {
+   "ADE": 98.49537708308328,
+   "FDE": 210.75941614589917,
+   "MSE": 10212.289382838891
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-equal-weights_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
   "seed": 42,
   "parameters": 46502,
-  "sha256": "24c150eedfaee997e0ac5e28e8ffeb2e2d20236075a1baf6e2b72dff8bbb8ebd",
+  "sha256": "171ac6cae36e2e403ec0bcac1f784b2d418197d3a13d678becdb6d7a65ab99aa",
   "reported": {
-   "ADE": 252.96282439405462,
-   "FDE": 546.6093290481194,
-   "MSE": 52974.40558707351
+   "ADE": 239.37326570415692,
+   "FDE": 539.4485848282784,
+   "MSE": 61872.48977099679
   }
  },
  {
-  "file": "ablation_trajair_H60_pa-tsmixer-ref_s456.pt",
+  "file": "ablation_tartanaviation_H60_pa-equal-weights_s123.pt",
   "study": "ablation",
-  "dataset": "trajair",
+  "dataset": "tartanaviation",
   "horizon": 60,
-  "method": "PA-TSMixer (ref.)",
+  "method": "PA, equal weights",
   "architecture": "PA-TSMixer",
-  "kwargs": {},
+  "kwargs": {
+   "learn_scale_weights": false
+  },
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "9558c11d8cefb804201448e45e0f0a437b4c0c29763dca4c7c285d09e06294bc",
+  "reported": {
+   "ADE": 239.16775997744685,
+   "FDE": 540.3353203565331,
+   "MSE": 61392.355311672676
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-equal-weights_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, equal weights",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "learn_scale_weights": false
+  },
   "seed": 456,
   "parameters": 46502,
-  "sha256": "0c16a1485e493da1ebd56a48b51926f26679abda9744a957a74b69ebc2da1a8f",
+  "sha256": "12f4d562326ebf057352aba6750045a9034aeca690a63102a460f6825f670171",
   "reported": {
-   "ADE": 248.88615331464726,
-   "FDE": 545.4180155687123,
-   "MSE": 52380.33138463904
+   "ADE": 236.43062454246748,
+   "FDE": 534.2947720769251,
+   "MSE": 60864.61780556754
   }
  },
  {
-  "file": "ablation_trajair_H60_pa-uniform-widths_s123.pt",
+  "file": "ablation_trajair_H30_pa-uniform-widths_s42.pt",
   "study": "ablation",
   "dataset": "trajair",
-  "horizon": 60,
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 42,
+  "parameters": 44800,
+  "sha256": "238ac9e2175870d53a775afaa7a6456a2a06590f93ddb434b3af957607621a93",
+  "reported": {
+   "ADE": 99.35910536149814,
+   "FDE": 218.42618546593437,
+   "MSE": 8535.542797379785
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-uniform-widths_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
   "method": "PA, uniform widths",
   "architecture": "PA-TSMixer",
   "kwargs": {
    "uniform_width": 96
   },
   "seed": 123,
-  "parameters": 46630,
-  "sha256": "6691864a2a161e7c414f685859af7b8c2e2b9110c288ec7d4db3e2f1ad7ac1bf",
+  "parameters": 44800,
+  "sha256": "828bff3efc622d80b92358fae0e5d402fdc56d999268a1dbe720f2faa582ca79",
   "reported": {
-   "ADE": 249.1960742147064,
-   "FDE": 542.8647306622556,
-   "MSE": 52473.16328943035
+   "ADE": 102.14813459735095,
+   "FDE": 223.96715028648958,
+   "MSE": 8869.942462685116
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-uniform-widths_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 456,
+  "parameters": 44800,
+  "sha256": "ca4580083e6125b79424ce8fce75a7224c3e461567cc3c7e7146d82de2d65385",
+  "reported": {
+   "ADE": 99.27564498421286,
+   "FDE": 217.02674558550095,
+   "MSE": 8478.80263425953
   }
  },
  {
@@ -1620,11 +1352,30 @@
   },
   "seed": 42,
   "parameters": 46630,
-  "sha256": "2aa9f476a7783b2ea6adb854059a24f58d79a20608d5be3ff866f65cb906898c",
+  "sha256": "5f0d35645afb27091073fc5ce76bbfc2f8a5675625c1112d0f578f5680b5637f",
   "reported": {
-   "ADE": 251.88501727296475,
-   "FDE": 547.7903365408539,
-   "MSE": 52772.45817198591
+   "ADE": 238.53039257260636,
+   "FDE": 536.4637047956459,
+   "MSE": 50596.977061517086
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-uniform-widths_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 123,
+  "parameters": 46630,
+  "sha256": "b654c9b7e981f34b2ea0d8370ac2bca91e54772d8ec94027e7aacf5f8c951205",
+  "reported": {
+   "ADE": 241.14270573346204,
+   "FDE": 537.5018656762634,
+   "MSE": 51019.643211699615
   }
  },
  {
@@ -1639,45 +1390,425 @@
   },
   "seed": 456,
   "parameters": 46630,
-  "sha256": "cdc1e0ea315f6e6078f7bff506fd5c79d3ef09ef06fd45fcd3bf8a7f79f4b0f1",
+  "sha256": "28f7753b0faedc8b036b4c3d32b8cf08fb91e0b40e8796c72279ff1389987f72",
   "reported": {
-   "ADE": 246.5187627535494,
-   "FDE": 539.7530284014381,
-   "MSE": 51553.88610624109
+   "ADE": 235.78185021752998,
+   "FDE": 532.9975132734706,
+   "MSE": 50139.44349041263
   }
  },
  {
-  "file": "ablation_trajair_H60_tsmixer-matched-size_s123.pt",
+  "file": "ablation_tartanaviation_H30_pa-uniform-widths_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 42,
+  "parameters": 44800,
+  "sha256": "667eb6c4dce86eda6c9870aec64948f85323de336d8472106b3a0a20954e67e3",
+  "reported": {
+   "ADE": 99.67869742808595,
+   "FDE": 212.52604217966746,
+   "MSE": 10619.311916624622
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-uniform-widths_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 123,
+  "parameters": 44800,
+  "sha256": "0f01b95bd02f3ff639672b6374140b210deb923827e6e5ab931dddfab1f32edd",
+  "reported": {
+   "ADE": 99.78167087265851,
+   "FDE": 213.0348057973111,
+   "MSE": 10369.868078677817
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-uniform-widths_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 456,
+  "parameters": 44800,
+  "sha256": "fa9e60fb6f350c47bd83cbf0d4948a01a633af2349a34540a414bf726f38e928",
+  "reported": {
+   "ADE": 98.95593653856403,
+   "FDE": 211.13886921425885,
+   "MSE": 10331.11017251549
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-uniform-widths_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 42,
+  "parameters": 46630,
+  "sha256": "fbcf861ab75011f05276cb66a772a49ea95d5d4d0d92d309762dcc9195ad0a9c",
+  "reported": {
+   "ADE": 238.4290100280773,
+   "FDE": 537.1632699030906,
+   "MSE": 61664.80301287202
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-uniform-widths_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 123,
+  "parameters": 46630,
+  "sha256": "23569dfdfd4e6e1a63ca16c38848fe0c3dc6ecafd8a6f33cd8ce3d9a4c23e329",
+  "reported": {
+   "ADE": 241.09151325685394,
+   "FDE": 544.4724036434553,
+   "MSE": 62147.35943733134
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-uniform-widths_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, uniform widths",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "uniform_width": 96
+  },
+  "seed": 456,
+  "parameters": 46630,
+  "sha256": "5632cb27b16d246163db9dcaeec918110c0ed5e2f09a129c7311642663ba6f76",
+  "reported": {
+   "ADE": 235.44747567343353,
+   "FDE": 531.5349804465752,
+   "MSE": 60415.62349656885
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-direct-output_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 42,
+  "parameters": 44672,
+  "sha256": "498ae2c5c4acd0550c11db5a425cfb61b8bacd1ac074a3377aa2bbaa2aafebe1",
+  "reported": {
+   "ADE": 110.27281027357914,
+   "FDE": 233.19739728915434,
+   "MSE": 9656.777647552748
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-direct-output_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 123,
+  "parameters": 44672,
+  "sha256": "ab13fef0ae0547daa1e7a7a4966824a650df6e4497d54f23667d6a5378e5ea12",
+  "reported": {
+   "ADE": 108.8888919743319,
+   "FDE": 231.07694297119076,
+   "MSE": 9415.03255125172
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_pa-direct-output_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 456,
+  "parameters": 44672,
+  "sha256": "851b6fa9b8ea493dd0cc62ed7dc396a92ae9bead2223eff801d67500b519a369",
+  "reported": {
+   "ADE": 106.97202907297154,
+   "FDE": 227.90440971287308,
+   "MSE": 9147.76520795922
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-direct-output_s42.pt",
   "study": "ablation",
   "dataset": "trajair",
   "horizon": 60,
-  "method": "TSMixer, matched size",
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "21bb94ba8141d600f23f05f10ecfef1f1f37f4a1c16522cb2460e92903a3e647",
+  "reported": {
+   "ADE": 252.96282439405462,
+   "FDE": 546.6093290481194,
+   "MSE": 52974.40558707351
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-direct-output_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "8850f925d0bffd27703363b255bc4d152da1ea0e176da806dff6dbda99ade941",
+  "reported": {
+   "ADE": 251.3176204556872,
+   "FDE": 547.5628442059598,
+   "MSE": 52770.53536342737
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-direct-output_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "65025f6b8ce1b174383e61e7507baf911a712bc7ba1cd46f7ffd40a2621dbd3c",
+  "reported": {
+   "ADE": 248.88615331464726,
+   "FDE": 545.4180155687123,
+   "MSE": 52380.33138463904
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-direct-output_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 42,
+  "parameters": 44672,
+  "sha256": "90008ed27b404c0d3d96fea1cf355cdf0380bb9c18230519a39988934b524376",
+  "reported": {
+   "ADE": 113.37149329556546,
+   "FDE": 233.99447928523193,
+   "MSE": 12225.579127168014
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-direct-output_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 123,
+  "parameters": 44672,
+  "sha256": "573b391138f1dc1759469b26863a9b1cfce32d7a44ef7180bddbe5d505cae869",
+  "reported": {
+   "ADE": 105.46621667336734,
+   "FDE": 219.31030288900058,
+   "MSE": 10748.762719094528
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_pa-direct-output_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 456,
+  "parameters": 44672,
+  "sha256": "30f6bfcc073459c4b0d1d97c16c8eea5533a5ae844fd104523ab28e3c0f5aed2",
+  "reported": {
+   "ADE": 109.53610804331704,
+   "FDE": 227.27415996831326,
+   "MSE": 11349.533192231707
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-direct-output_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "4271de3d084557ecd92cc55f60161edd15cda085591b5b7ab250952a398e97a6",
+  "reported": {
+   "ADE": 260.17345333526873,
+   "FDE": 562.6715806977995,
+   "MSE": 66338.43548063978
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-direct-output_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "8a0bce5257bc6c779683de7194fccf9458b919b613df4ea5b93c1703935da9cd",
+  "reported": {
+   "ADE": 253.92230549591346,
+   "FDE": 550.1611123806005,
+   "MSE": 63264.49043771075
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-direct-output_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA, direct output",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "last_residual": false
+  },
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "6003a8d22f6b9e2d7a18a9aa8c9d078d55503d86dc59a7e09a2c5daa39f3e3e7",
+  "reported": {
+   "ADE": 256.360709253094,
+   "FDE": 556.8691159970348,
+   "MSE": 64728.418162874856
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_tsmixer-matched-direct_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 42,
+  "parameters": 44708,
+  "sha256": "6e9690942777f8de8ccf1fb986f5f058f615cf1a43604cbb4119e0cad4148874",
+  "reported": {
+   "ADE": 118.99180192060925,
+   "FDE": 242.67917249564104,
+   "MSE": 10337.5972513359
+  }
+ },
+ {
+  "file": "ablation_trajair_H30_tsmixer-matched-direct_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
   "architecture": "TSMixer",
   "kwargs": {
    "d_model": 167
   },
   "seed": 123,
-  "parameters": 46538,
-  "sha256": "53a82f6e725904b7b647f0e9b670c45eb18a903eb13ccb71ded0d576d1e55b29",
+  "parameters": 44708,
+  "sha256": "f8cce416c2c1aabdfc47a589d44c5ae45d74b333325a46e8081f787233d35873",
   "reported": {
-   "ADE": 266.23931929261033,
-   "FDE": 563.7892095819967,
-   "MSE": 56302.77418041944
+   "ADE": 119.28551165227792,
+   "FDE": 250.24778205731707,
+   "MSE": 10598.946705913946
   }
  },
  {
-  "file": "ablation_trajair_H60_tsmixer-matched-size_s42.pt",
+  "file": "ablation_trajair_H30_tsmixer-matched-direct_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 456,
+  "parameters": 44708,
+  "sha256": "c800ec992455a456e2efdf5d8caf7c2db9796ad900afe981662802cef0a9b3c1",
+  "reported": {
+   "ADE": 116.55982610969112,
+   "FDE": 243.98193320606117,
+   "MSE": 10400.574493530139
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_tsmixer-matched-direct_s42.pt",
   "study": "ablation",
   "dataset": "trajair",
   "horizon": 60,
-  "method": "TSMixer, matched size",
+  "method": "TSMixer, matched, direct",
   "architecture": "TSMixer",
   "kwargs": {
    "d_model": 167
   },
   "seed": 42,
   "parameters": 46538,
-  "sha256": "f69c7b0298032c8e43d3b91e83cab047b11b2fac43816da6c4bcef142e3a7020",
+  "sha256": "dd76357fd122cdbb9c79de29a40de5c16366403a8e0aececf1a61daba7ff661f",
   "reported": {
    "ADE": 265.45805005951456,
    "FDE": 557.3914803694275,
@@ -1685,22 +1816,155 @@
   }
  },
  {
-  "file": "ablation_trajair_H60_tsmixer-matched-size_s456.pt",
+  "file": "ablation_trajair_H60_tsmixer-matched-direct_s123.pt",
   "study": "ablation",
   "dataset": "trajair",
   "horizon": 60,
-  "method": "TSMixer, matched size",
+  "method": "TSMixer, matched, direct",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 123,
+  "parameters": 46538,
+  "sha256": "8edd0690110c7dd1c9ae9310e43e11277dd1deb722035219ba70eb3471d1f139",
+  "reported": {
+   "ADE": 266.23931929261033,
+   "FDE": 563.7892095819967,
+   "MSE": 56302.77418041944
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_tsmixer-matched-direct_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "TSMixer, matched, direct",
   "architecture": "TSMixer",
   "kwargs": {
    "d_model": 167
   },
   "seed": 456,
   "parameters": 46538,
-  "sha256": "b3538d69c006f0ef858ef5681a2b04d6368182f205495a17e3c2682fddf8ac56",
+  "sha256": "f6d7d0adbcb4a899d386aadb0ddf2d04eee5334c2b55ac110d4e7b4382da60cb",
   "reported": {
    "ADE": 263.8536141933969,
    "FDE": 559.1826830584045,
    "MSE": 55799.29683977485
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_tsmixer-matched-direct_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 42,
+  "parameters": 44708,
+  "sha256": "e3d254bf6d5c9c3b503f79d94650852883ef6ace177315f556ba16886a946a5e",
+  "reported": {
+   "ADE": 125.91880765024241,
+   "FDE": 249.58103496571303,
+   "MSE": 13503.714621499637
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_tsmixer-matched-direct_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 123,
+  "parameters": 44708,
+  "sha256": "cb9a1027bcc6f5330642ab4d7d1f0fb5d2f6e29dce76cf2946ae87dcfed655ca",
+  "reported": {
+   "ADE": 124.76203676513673,
+   "FDE": 244.40030584602647,
+   "MSE": 13375.297478256127
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H30_tsmixer-matched-direct_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 30,
+  "method": "TSMixer, matched, direct",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 456,
+  "parameters": 44708,
+  "sha256": "64bafc2a93726c8688007579374f555c6a315fc9074ccbc82ae92b724834e4df",
+  "reported": {
+   "ADE": 127.74289880516815,
+   "FDE": 260.36838698982206,
+   "MSE": 14095.746948730508
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_tsmixer-matched-direct_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched, direct",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 42,
+  "parameters": 46538,
+  "sha256": "2dece128a7f60266d51573e10500f649f58d3afe2ce431b54c1e5fcd543d00eb",
+  "reported": {
+   "ADE": 285.589390086465,
+   "FDE": 593.7353520797409,
+   "MSE": 73369.85046996476
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_tsmixer-matched-direct_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched, direct",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 123,
+  "parameters": 46538,
+  "sha256": "b7fbeb90003c8e535a7281f68ee16170f976a62424f345731e13195ccd2d21d7",
+  "reported": {
+   "ADE": 279.717167603332,
+   "FDE": 588.9656686451547,
+   "MSE": 72279.87670765044
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_tsmixer-matched-direct_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "TSMixer, matched, direct",
+  "architecture": "TSMixer",
+  "kwargs": {
+   "d_model": 167
+  },
+  "seed": 456,
+  "parameters": 46538,
+  "sha256": "7a23478f4ee87295ffe8810a30027fdc1fecacdb0ee6ea6e351735d77e0b3373",
+  "reported": {
+   "ADE": 295.9544571007121,
+   "FDE": 611.3463446284514,
+   "MSE": 78187.20832267946
   }
  }
 ]

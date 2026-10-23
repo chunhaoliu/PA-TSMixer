@@ -29,8 +29,13 @@ disabled, seeds 42, 123 and 456.
 
 ## Capacity and component controls (Table V)
 
+PA-TSMixer adds its forecast to the last observed position (`last_residual=True`); the TSMixer baseline of Table II
+outputs positions directly. The controls separate the two elements at matched size.
+
 | Control | Change from PA-TSMixer |
 |---|---|
-| TSMixer, matched size | single-scale TSMixer with d = 167 (44,708 parameters) |
+| TSMixer, matched size | single-scale TSMixer with d = 167 (44,708 parameters), same residual output |
 | PA, equal weights | scale logits fixed at zero (weights 1/3); the 1x1 fusion convolution is kept |
 | PA, uniform widths | width 96 in all three temporal branches (44,800 parameters) |
+| PA, direct output | the same model without the residual output (`last_residual=False`) |
+| TSMixer, matched, direct | matched-size TSMixer without the residual output |

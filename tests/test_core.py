@@ -31,7 +31,7 @@ class Models(unittest.TestCase):
 
     def test_released_checkpoints(self):
         index = json.loads((ROOT / "checkpoints/index.json").read_text(encoding="utf-8"))
-        self.assertEqual(len(index), 96)
+        self.assertEqual(len(index), 108)
         for e in index:
             self.assertEqual(hashlib.sha256((ROOT / "checkpoints" / e["file"]).read_bytes()).hexdigest(), e["sha256"])
 

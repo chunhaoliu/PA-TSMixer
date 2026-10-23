@@ -2,9 +2,8 @@
 
     python scripts/reproduce_tables.py          # exit status 0 when all cells agree
 
-Means and sample standard deviations are taken over the three seeds (CV and CA are deterministic). As in the
-paper, values are first rounded to two decimals (the precision of the supplement) and then printed with one
-decimal; MSE is printed in 10^3 m^2. Rounding is half-up.
+Means and sample standard deviations are taken over the three seeds (CV and CA are deterministic) and rounded
+half-up once from full precision to the printed decimal; MSE is printed in 10^3 m^2. Rankings use full precision.
 """
 import json, statistics, sys
 from decimal import Decimal, ROUND_HALF_UP
@@ -22,9 +21,9 @@ def q(x, places):
 
 
 def summary(values):
-    """(mean, sd) rounded to two decimals; sd is None for a single deterministic run."""
-    mean = q(statistics.fmean(values), "0.01")
-    return mean, (q(statistics.stdev(values), "0.01") if len(values) > 1 else None)
+    """(mean, sd) at full precision; sd is None for a single deterministic run."""
+    exact = lambda x: Decimal(repr(x))
+    return exact(statistics.fmean(values)), (exact(statistics.stdev(values)) if len(values) > 1 else None)
 
 
 def cell(mean, sd, places="0.1"):
@@ -68,16 +67,21 @@ def table_decomp():
 
 
 def table_ablation():
-    labels = ["PA-TSMixer (ref.)", "TSMixer, matched size", "PA, equal weights", "PA, uniform widths"]
+    """Table V: PA-TSMixer (main-study runs) and the controls; all but the last two use the residual output."""
+    labels = ["PA-TSMixer (ours)", "TSMixer, matched size", "PA, equal weights", "PA, uniform widths",
+              "PA, direct output", "TSMixer, matched, direct"]
     cols = [(d, h) for d in ("trajair", "tartanaviation") for h in (30, 60)]
+    runs = lambda c, m, key: (values("main", *c, "PA-TSMixer", key) if m == labels[0] else values("ablation", *c, m, key))
     out = {}
     for key in ("ADE", "FDE"):
-        stats = {(c, m): summary(values("ablation", *c, m, key)) for c in cols for m in labels}
+        stats = {(c, m): summary(runs(c, m, key)) for c in cols for m in labels}
         rows = {}
         for m in labels:
-            params = next(r["parameters"] for r in RUNS if r["study"] == "ablation" and r["method"] == m)
+            params = next(r["parameters"] for r in RUNS if r["horizon"] == 30 and
+                          (r["method"] == m or (m == labels[0] and r["method"] == "PA-TSMixer")))
             rows[m] = [f"{params:,}"] + [cell(*stats[(c, m)]) for c in cols]
-        rows["Improvement (%)"] = [""] + [improvement(stats[(c, labels[1])][0], stats[(c, labels[0])][0]) for c in cols]
+        rows["Multi-scale gain (%)"] = [""] + [improvement(stats[(c, labels[1])][0], stats[(c, labels[0])][0]) for c in cols]
+        rows["Residual-output gain (%)"] = [""] + [improvement(stats[(c, labels[4])][0], stats[(c, labels[0])][0]) for c in cols]
         out[f"{key} (m)"] = rows
     return out
 

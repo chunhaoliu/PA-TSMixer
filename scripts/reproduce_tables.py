@@ -12,7 +12,7 @@ from pathlib import Path
 ROOT = Path(__file__).resolve().parents[1]
 RUNS = json.loads((ROOT / "results/runs.json").read_text(encoding="utf-8"))
 PAPER = json.loads((ROOT / "results/paper_tables.json").read_text(encoding="utf-8"))
-METHODS = ["CV", "CA", "DLinear", "Transformer", "PatchTST", "TimeMixer", "TSMixer", "PA-TSMixer"]
+METHODS = ["CV", "CA", "CNN-GRU", "FlightBERT++", "DLinear", "Transformer", "PatchTST", "TimeMixer", "TSMixer", "PA-TSMixer"]
 COLS = [(d, h) for d in ("trajair", "tartanaviation") for h in (10, 20, 30, 60)]
 
 

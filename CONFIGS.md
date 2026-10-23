@@ -25,7 +25,12 @@ disabled, seeds 42, 123 and 456.
 | PA-TSMixer | 2 blocks, d = 128; temporal branch widths 128 / 64 / 32 on 60 / 30 / 15 steps; branch dropout 0.1 / 0.15 / 0.2; channel MLP width 128 |
 | TSMixer | 2 blocks, d = 128 |
 | DLinear, Transformer, PatchTST, TimeMixer | d_model 128, 2 encoder layers, d_ff 256, 4 heads, dropout 0.1, label length 30, PatchTST patch length 16 |
+| CNN-GRU | ported from the official implementation (Shafienya and Regan, 2022): spatial input = 60 standardized XYZ positions, temporal input = 60 per-second displacements of the history, direct H x 3 output, MSE loss, learning rate 1e-3; PCA compression and the image branch omitted |
+| FlightBERT++ | ported from the official implementation (Guo et al., AAAI 2024): binary attributes of absolute positions (1 m) and per-second displacements, 4 encoder and 4 decoder layers, embedding 128, 4 heads, dropout 0.1, bitwise cross-entropy, learning rate 1e-4; decoded displacements accumulated from the last observation |
 | CV / CA | least-squares fit to the last w observed points, w chosen on the validation split (stored as `fit_window` in `results/runs.json`) |
+
+The aviation-specific baselines are reported through their per-run results (`results/runs.json`); their training
+code is part of the full pipeline, available on request.
 
 ## Capacity and component controls (Table V)
 

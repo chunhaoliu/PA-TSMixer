@@ -25,6 +25,15 @@ class Models(unittest.TestCase):
         for h in (10, 20, 30, 60):
             self.assertEqual(PATSMixer(h)(torch.zeros(2, 60, 3)).shape, (2, h, 3))
 
+    def test_residual_output_adds_the_last_observation(self):
+        torch.manual_seed(0)
+        residual, direct = PATSMixer(30), PATSMixer(30, last_residual=False)
+        direct.load_state_dict(residual.state_dict())
+        x = torch.randn(2, 60, 3)
+        with torch.no_grad():
+            self.assertTrue(torch.allclose(residual.eval()(x), direct.eval()(x) + x[:, -1:]))
+        self.assertFalse(TSMixer(30).last_residual)
+
     def test_equal_weight_control_freezes_the_scale_logits(self):
         m = PATSMixer(30, learn_scale_weights=False)
         self.assertTrue(all(not b.temporal.scale_w.requires_grad for b in m.model))

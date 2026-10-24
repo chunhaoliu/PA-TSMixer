@@ -5,12 +5,12 @@ Code, checkpoints and evaluation outputs for
 > C. Liu, P. Wu, S. He, G. Pan, and J. H. Park, *PA-TSMixer: Multi-Scale Temporal Mixing for Aircraft
 > Trajectory Prediction*, submitted to IEEE Transactions on Vehicular Technology.
 
-This core release contains the PA-TSMixer model and its single-scale parent, the construction of the processed
-XYZ benchmark from the public TrajAir and TartanAviation (KBTP) files, the trained PA-TSMixer and TSMixer
+This release contains the PA-TSMixer model and its single-scale parent, the construction of the processed
+XYZ benchmark from the public TrajAir and TartanAviation (KBTP) files, a training script that retrains
+PA-TSMixer and the TSMixer controls with the settings of the paper, the trained PA-TSMixer and TSMixer
 checkpoints of the main and capacity-control studies, the constant-velocity and constant-acceleration
 baselines, and the per-run test results of every compared method together with a script that recomputes
-the result tables. The full training and experiment pipeline and the checkpoints of the other learned
-baselines are not included; they are available from the corresponding authors on reasonable request.
+the result tables. The configurations of all baselines are listed in `CONFIGS.md`.
 
 ## Contents
 
@@ -20,6 +20,7 @@ baselines are not included; they are available from the corresponding authors on
 | `pa_tsmixer/data.py` | processed-benchmark construction (segmentation, aircraft-level split, windows, normalization; Section V-A) and test-window access |
 | `pa_tsmixer/data_manifest.json` | SHA-256 of the processed arrays used in the paper |
 | `scripts/prepare_data.py` | builds the processed data from the public source files and checks it byte for byte against the paper build |
+| `scripts/train.py` | trains PA-TSMixer or a TSMixer control with the paper settings (AdamW, cosine schedule, early stopping on validation ADE) and evaluates it on the test split |
 | `scripts/evaluate.py` | evaluates the released checkpoints on the test split and compares with the reported ADE, FDE and MSE |
 | `scripts/kinematic_baselines.py` | CV and CA baselines with the validation-selected fitting windows |
 | `scripts/reproduce_tables.py` | recomputes every printed cell of Tables II, III and V from `results/runs.json` |
@@ -42,14 +43,20 @@ python scripts/prepare_data.py --trajair <TrajAir 111_days folder> --tartan-zip 
 python scripts/evaluate.py --data data
 python scripts/kinematic_baselines.py --data data
 python scripts/branch_analysis.py --data data
+python scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
 ```
 
-`reproduce_tables.py` needs no data and exits with status 0 when all 421 printed cells are reproduced.
+`reproduce_tables.py` needs no data and exits with status 0 when all 537 printed cells are reproduced.
 `prepare_data.py` reports for each processed array whether it is identical to the paper build (it takes about
 a minute). `evaluate.py` and `kinematic_baselines.py` then recompute the test metrics of the released models and
 baselines; on our machine the largest relative difference from the reported values is below 1e-7.
 `branch_analysis.py` first checks that the motion groups match the window counts of the paper and then
 recomputes the scale analysis of Fig. 8 (a few minutes on a GPU).
+`train.py` writes the selected checkpoint and the training history to `runs/`; options select TSMixer
+(`--model TSMixer`), the width (`--d-model 167` for the matched-size control) and the output
+(`--last-residual` / `--no-last-residual`). GPU training is not bitwise deterministic: retraining PA-TSMixer on
+TrajAir at H = 10 with seeds 42, 123 and 456 gave a mean test ADE of 33.57 m, against 33.68 +/- 0.37 m reported
+(about 2-3 minutes per run on an RTX 5090).
 
 The source data are not redistributed here: TrajAir (111-day processed trajectories) is available from
 <https://theairlab.org/trajair/> and TartanAviation (KBTP processed ADS-B trajectories) from

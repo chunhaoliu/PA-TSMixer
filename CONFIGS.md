@@ -16,7 +16,8 @@
 
 AdamW, learning rate 1e-3, weight decay 1e-4, batch 128, cosine schedule, at most 30 epochs with early-stopping
 patience 8, loss: MSE on standardized coordinates, checkpoint: lowest validation 3D ADE in metres, FP32 with TF32
-disabled, seeds 42, 123 and 456.
+disabled, seeds 42, 123 and 456. `scripts/train.py` implements these settings for PA-TSMixer and the TSMixer
+controls.
 
 ## Model settings
 

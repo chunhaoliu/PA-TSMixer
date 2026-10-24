@@ -1,4 +1,4 @@
-"""History-only motion groups of the test windows (Section VI-C), used by the motion and scale analyses.
+"""History-only motion groups of the test windows (Section V-A), used by the motion and scale analyses.
 
 Vertical: least-squares altitude slope over the last 11 observed points; > 1 m/s climb, < -1 m/s descent, else level.
 Horizontal: displacements over the last two 10-s intervals; if both speeds exceed 5 m/s, a heading change above

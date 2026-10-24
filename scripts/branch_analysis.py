@@ -1,4 +1,4 @@
-"""Learned scale weights and test-time branch removal for the 24 main PA-TSMixer checkpoints (Fig. 8).
+"""Learned scale weights and test-time branch removal for the 24 main PA-TSMixer checkpoints (Fig. 7).
 
 For each checkpoint: the softmax scale weights of each mixing block, and the test ADE with one temporal branch
 silenced (its output set to zero in both the weighted sum and the fusion input, in every block), overall and per

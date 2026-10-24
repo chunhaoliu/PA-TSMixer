@@ -23,13 +23,13 @@ the result tables. The configurations of all baselines are listed in `CONFIGS.md
 | `scripts/train.py` | trains PA-TSMixer or a TSMixer control with the paper settings (AdamW, cosine schedule, early stopping on validation ADE) and evaluates it on the test split |
 | `scripts/evaluate.py` | evaluates the released checkpoints on the test split and compares with the reported ADE, FDE and MSE |
 | `scripts/kinematic_baselines.py` | CV and CA baselines with the validation-selected fitting windows |
-| `scripts/reproduce_tables.py` | recomputes every printed cell of Tables II, III and V from `results/runs.json` |
-| `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section VI-C) |
-| `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 8) |
+| `scripts/reproduce_tables.py` | recomputes every printed cell of Tables II, III and IV from `results/runs.json` |
+| `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section V-A) |
+| `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 7) |
 | `results/branch_analysis.json` | output of `branch_analysis.py`: weights per block and ADE with each branch removed, overall and per motion group |
-| `checkpoints/` | 108 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the five capacity/component controls of Table V at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
+| `checkpoints/` | 108 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the five capacity/component controls of Table IV at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
 | `results/runs.json` | per-run test metrics of all methods: ADE, FDE, MSE, horizontal ADE, altitude MAE and ADE per motion group |
-| `results/paper_tables.json` | the cells of Tables II, III and V as printed in the paper |
+| `results/paper_tables.json` | the cells of Tables II, III and IV as printed in the paper |
 | `CONFIGS.md` | protocol, training settings and baseline configurations |
 
 ## Usage
@@ -51,7 +51,7 @@ python scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
 a minute). `evaluate.py` and `kinematic_baselines.py` then recompute the test metrics of the released models and
 baselines; on our machine the largest relative difference from the reported values is below 1e-7.
 `branch_analysis.py` first checks that the motion groups match the window counts of the paper and then
-recomputes the scale analysis of Fig. 8 (a few minutes on a GPU).
+recomputes the scale analysis of Fig. 7 (a few minutes on a GPU).
 `train.py` writes the selected checkpoint and the training history to `runs/`; options select TSMixer
 (`--model TSMixer`), the width (`--d-model 167` for the matched-size control) and the output
 (`--last-residual` / `--no-last-residual`). GPU training is not bitwise deterministic: retraining PA-TSMixer on

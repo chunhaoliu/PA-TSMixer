@@ -33,7 +33,7 @@ controls.
 The aviation-specific baselines are reported through their per-run results (`results/runs.json`); their training
 code is part of the full pipeline, available on request.
 
-## Capacity and component controls (Table V)
+## Capacity and component controls (Table IV)
 
 PA-TSMixer adds its forecast to the last observed position (`last_residual=True`); the TSMixer baseline of Table II
 outputs positions directly. The controls separate the two elements at matched size.

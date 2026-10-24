@@ -1,4 +1,4 @@
-"""Recompute Tables II, III and V of the paper from the per-run results and compare every printed cell.
+"""Recompute Tables II, III and IV of the paper from the per-run results and compare every printed cell.
 
     python scripts/reproduce_tables.py          # exit status 0 when all cells agree
 
@@ -67,7 +67,7 @@ def table_decomp():
 
 
 def table_ablation():
-    """Table V: PA-TSMixer (main-study runs) and the controls; all but the last two use the residual output."""
+    """Table IV: PA-TSMixer (main-study runs) and the controls; all but the last two use the residual output."""
     labels = ["PA-TSMixer (ours)", "TSMixer, matched size", "PA, equal weights", "PA, uniform widths",
               "PA, direct output", "TSMixer, matched, direct"]
     cols = [(d, h) for d in ("trajair", "tartanaviation") for h in (30, 60)]

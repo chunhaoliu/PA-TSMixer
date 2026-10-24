@@ -1,9 +1,9 @@
-# PA-TSMixer: multi-scale temporal mixing for aircraft trajectory prediction (core release)
+# PA-TSMixer: lightweight multi-scale temporal mixing for aircraft trajectory prediction
 
 Code, checkpoints and evaluation outputs for
 
-> C. Liu, P. Wu, S. He, G. Pan, and J. H. Park, *PA-TSMixer: Multi-Scale Temporal Mixing for Aircraft
-> Trajectory Prediction*, submitted to IEEE Transactions on Vehicular Technology.
+> C. Liu, P. Wu, S. He, G. Pan, and J. H. Park, *Lightweight Multi-Scale Temporal Mixing for Short-Term
+> Aircraft Trajectory Prediction in Terminal Airspace*, submitted to IEEE Transactions on Vehicular Technology.
 
 This release contains the PA-TSMixer model and its single-scale parent, the construction of the processed
 XYZ benchmark from the public TrajAir and TartanAviation (KBTP) files, a training script that retrains

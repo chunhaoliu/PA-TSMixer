@@ -1,0 +1,254 @@
+[
+ {
+  "dataset": "trajair",
+  "pi": 0,
+  "L": 1,
+  "realized_loss": 0.0,
+  "realized_mean_burst": 0.0
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.1,
+  "L": 1,
+  "realized_loss": 0.10012513756397817,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.2,
+  "L": 1,
+  "realized_loss": 0.20025186316810833,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.3,
+  "L": 1,
+  "realized_loss": 0.3001245023479174,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.4,
+  "L": 1,
+  "realized_loss": 0.40029728111645574,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.5,
+  "L": 1,
+  "realized_loss": 0.499995235879544,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0,
+  "L": 5,
+  "realized_loss": 0.0,
+  "realized_mean_burst": 0.0
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.1,
+  "L": 5,
+  "realized_loss": 0.10061981207132842,
+  "realized_mean_burst": 4.7388654126622045
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.2,
+  "L": 5,
+  "realized_loss": 0.2009950659592477,
+  "realized_mean_burst": 4.695268302635728
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.3,
+  "L": 5,
+  "realized_loss": 0.3000578046615331,
+  "realized_mean_burst": 4.682216357531378
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.4,
+  "L": 5,
+  "realized_loss": 0.4002623442331116,
+  "realized_mean_burst": 4.679253689780006
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.5,
+  "L": 5,
+  "realized_loss": 0.5012823424227458,
+  "realized_mean_burst": 4.68663098428441
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0,
+  "L": 10,
+  "realized_loss": 0.0,
+  "realized_mean_burst": 0.0
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.1,
+  "L": 10,
+  "realized_loss": 0.09901668553787714,
+  "realized_mean_burst": 8.632952578746972
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.2,
+  "L": 10,
+  "realized_loss": 0.1990068396889347,
+  "realized_mean_burst": 8.677191524719568
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.3,
+  "L": 10,
+  "realized_loss": 0.29923678790294533,
+  "realized_mean_burst": 8.639881702927623
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.4,
+  "L": 10,
+  "realized_loss": 0.398597284133732,
+  "realized_mean_burst": 8.651426109435588
+ },
+ {
+  "dataset": "trajair",
+  "pi": 0.5,
+  "L": 10,
+  "realized_loss": 0.4989844483227914,
+  "realized_mean_burst": 8.65591383038801
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0,
+  "L": 1,
+  "realized_loss": 0.0,
+  "realized_mean_burst": 0.0
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.1,
+  "L": 1,
+  "realized_loss": 0.09999818642967762,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.2,
+  "L": 1,
+  "realized_loss": 0.20022797470872128,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.3,
+  "L": 1,
+  "realized_loss": 0.3002740275026453,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.4,
+  "L": 1,
+  "realized_loss": 0.4000477474416023,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.5,
+  "L": 1,
+  "realized_loss": 0.5000515826968742,
+  "realized_mean_burst": 1.0
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0,
+  "L": 5,
+  "realized_loss": 0.0,
+  "realized_mean_burst": 0.0
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.1,
+  "L": 5,
+  "realized_loss": 0.09951030628229679,
+  "realized_mean_burst": 4.677408535733251
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.2,
+  "L": 5,
+  "realized_loss": 0.20029011179025852,
+  "realized_mean_burst": 4.6823792710389505
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.3,
+  "L": 5,
+  "realized_loss": 0.3000632371159951,
+  "realized_mean_burst": 4.680421263512292
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.4,
+  "L": 5,
+  "realized_loss": 0.399744792005782,
+  "realized_mean_burst": 4.6805842749824205
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.5,
+  "L": 5,
+  "realized_loss": 0.5008334990817686,
+  "realized_mean_burst": 4.689009878666923
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0,
+  "L": 10,
+  "realized_loss": 0.0,
+  "realized_mean_burst": 0.0
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.1,
+  "L": 10,
+  "realized_loss": 0.10025208627481061,
+  "realized_mean_burst": 8.701961290322581
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.2,
+  "L": 10,
+  "realized_loss": 0.19967855209302368,
+  "realized_mean_burst": 8.67071612078648
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.3,
+  "L": 10,
+  "realized_loss": 0.2998167699361177,
+  "realized_mean_burst": 8.672316675696361
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.4,
+  "L": 10,
+  "realized_loss": 0.3998042533278272,
+  "realized_mean_burst": 8.673146380475723
+ },
+ {
+  "dataset": "tartanaviation",
+  "pi": 0.5,
+  "L": 10,
+  "realized_loss": 0.49972484273223583,
+  "realized_mean_burst": 8.678797141558924
+ }
+]

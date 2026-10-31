@@ -1,0 +1,4682 @@
+[
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 175.44823037924345,
+  "FDE": 418.4948893941434
+ },
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 191.25480524650868,
+  "FDE": 442.9000424780463
+ },
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 221.36237501575474,
+  "FDE": 491.10782481311105
+ },
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 299.8673920950966,
+  "FDE": 620.0488807013656
+ },
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 486.37045150736014,
+  "FDE": 936.64495152329
+ },
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 175.44823037924345,
+  "FDE": 418.4948893941434
+ },
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 175.50362481423676,
+  "FDE": 418.6386248197488
+ },
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 175.5283366267945,
+  "FDE": 418.71367815098444
+ },
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 175.66810163221808,
+  "FDE": 419.0630212770977
+ },
+ {
+  "dataset": "trajair",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 175.86189096609573,
+  "FDE": 419.4912878250019
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 218.44934659058765,
+  "FDE": 565.5594456304983
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 233.2225595550281,
+  "FDE": 595.0559051390401
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 263.3146855938859,
+  "FDE": 656.2859898597602
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 345.39240121816243,
+  "FDE": 826.6531109046713
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 547.2014009153611,
+  "FDE": 1255.1744542792107
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 218.44934659058765,
+  "FDE": 565.5594456304983
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 218.38229860607018,
+  "FDE": 565.3793749636943
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 218.2108938972146,
+  "FDE": 564.8724352914905
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 217.8257859633372,
+  "FDE": 563.7729076770455
+ },
+ {
+  "dataset": "trajair",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 217.24307319665252,
+  "FDE": 562.0700454525088
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 180.0051559232752,
+  "FDE": 402.8941188846635
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 181.56833388976042,
+  "FDE": 404.4118058848451
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 185.69932722111372,
+  "FDE": 408.85843469068783
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 198.7200920998206,
+  "FDE": 423.94275048371367
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 235.78692560067668,
+  "FDE": 469.487287419767
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 180.0051559232752,
+  "FDE": 402.8941188846635
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 180.0340538609855,
+  "FDE": 402.9501592780931
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 180.0888315557558,
+  "FDE": 403.0704198309241
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 180.14484785714035,
+  "FDE": 403.18466021048613
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 180.25482292174647,
+  "FDE": 403.41139057318077
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 179.89690742037172,
+  "FDE": 401.6684882681355
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 181.52932727290798,
+  "FDE": 403.1703656447979
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 185.74635462076182,
+  "FDE": 407.5803694875322
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 198.92134083943944,
+  "FDE": 422.5698611594209
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 236.32437357717293,
+  "FDE": 468.03800125198813
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 179.89690742037172,
+  "FDE": 401.6684882681355
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 179.92859681797745,
+  "FDE": 401.7276735139081
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 179.9845657721683,
+  "FDE": 401.84843617268757
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 180.0440098556765,
+  "FDE": 401.9692837851743
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 180.1628362482238,
+  "FDE": 402.20294022514764
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 179.81221760485954,
+  "FDE": 401.93530106525805
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 181.389200615196,
+  "FDE": 403.44744531789166
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 185.5357345882199,
+  "FDE": 407.88967026813344
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 198.61109966918514,
+  "FDE": 422.98894003314547
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 235.91392770404772,
+  "FDE": 468.7885074819233
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 179.81221760485954,
+  "FDE": 401.93530106525805
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 179.84458285215888,
+  "FDE": 401.997085574681
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 179.89958631643904,
+  "FDE": 402.1165634916519
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 179.95724477911554,
+  "FDE": 402.2354880527369
+ },
+ {
+  "dataset": "trajair",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 180.0761244803184,
+  "FDE": 402.47252430890484
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 188.45886723093787,
+  "FDE": 375.95558230850617
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 193.40454609241092,
+  "FDE": 384.79348447330364
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 205.8523620362817,
+  "FDE": 406.31952223061796
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 243.5309043255813,
+  "FDE": 469.09368880022686
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 304.34337097642197,
+  "FDE": 563.6730032148032
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 188.45886723093787,
+  "FDE": 375.95558230850617
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 188.29992466646408,
+  "FDE": 375.76777084953204
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 187.91671790252494,
+  "FDE": 375.2034977815111
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 187.39437235915935,
+  "FDE": 374.4038276041783
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 186.9126011243896,
+  "FDE": 373.6095916975836
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 169.07479170278225,
+  "FDE": 345.3049494099584
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 185.92180785266854,
+  "FDE": 373.97272950027076
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 220.61686058400775,
+  "FDE": 432.8000871845125
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 255.45679853525039,
+  "FDE": 488.134518616087
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 315.2029300771815,
+  "FDE": 588.3459844975937
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 169.07479170278225,
+  "FDE": 345.3049494099584
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 168.867667958195,
+  "FDE": 345.01032786785174
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 168.3420550057725,
+  "FDE": 344.2522412159159
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 167.83303901282665,
+  "FDE": 343.442426717551
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 167.49776470366115,
+  "FDE": 343.0275812612632
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 182.288618242511,
+  "FDE": 362.52266822924736
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 189.01813194649824,
+  "FDE": 373.13015393089404
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 203.94255396401326,
+  "FDE": 396.53122807317675
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 243.9487924103462,
+  "FDE": 459.0465838548391
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 301.6563709986488,
+  "FDE": 546.7420370748811
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 182.288618242511,
+  "FDE": 362.52266822924736
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 182.13862366635647,
+  "FDE": 362.39244514993896
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 181.7761826218239,
+  "FDE": 361.9734684083182
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 181.37603604938394,
+  "FDE": 361.47125172431345
+ },
+ {
+  "dataset": "trajair",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 181.0624822451692,
+  "FDE": 361.2031107693505
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 100.72318454014069,
+  "FDE": 221.35146262989352
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 104.18688867235169,
+  "FDE": 225.84624356849827
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 112.69127567805748,
+  "FDE": 238.0506944185556
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 138.42933020265826,
+  "FDE": 277.1951564273867
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 205.9929083307196,
+  "FDE": 383.87958520738715
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 100.72318454014069,
+  "FDE": 221.35146262989352
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 100.71107517611914,
+  "FDE": 221.34380002257876
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 100.71710506260091,
+  "FDE": 221.38903258679764
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 100.73147884863819,
+  "FDE": 221.41076581907313
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 100.77036077699903,
+  "FDE": 221.53989496521532
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 100.16230661040473,
+  "FDE": 220.475631962719
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 103.06666268774057,
+  "FDE": 224.269876335462
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 110.55603925908156,
+  "FDE": 235.0513482642224
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 133.97879064878254,
+  "FDE": 270.76385728203053
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 197.95793973145675,
+  "FDE": 371.8110092265295
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 100.16230661040473,
+  "FDE": 220.475631962719
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 100.14045900316165,
+  "FDE": 220.4332493715143
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 100.14521899541737,
+  "FDE": 220.48188615655914
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 100.16014635359092,
+  "FDE": 220.5072181312406
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 100.18597821147684,
+  "FDE": 220.62008057733385
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 99.79816341206602,
+  "FDE": 219.5332154781074
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 103.1206825292759,
+  "FDE": 223.8011770923741
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 111.17526106402174,
+  "FDE": 235.0878167352193
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 135.49266372901923,
+  "FDE": 271.27042929067375
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 200.75853676664642,
+  "FDE": 373.0827526653786
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 99.79816341206602,
+  "FDE": 219.5332154781074
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 99.79115039713484,
+  "FDE": 219.52546292563585
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 99.7917631500841,
+  "FDE": 219.55144742509782
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 99.80580625067181,
+  "FDE": 219.5603050214341
+ },
+ {
+  "dataset": "trajair",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 99.84542936467159,
+  "FDE": 219.68546958451074
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 147.13072546134413,
+  "FDE": 342.13143743383677
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 150.57339589410103,
+  "FDE": 346.77026013152
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 159.86639953759166,
+  "FDE": 360.2371081252594
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 188.36533478065485,
+  "FDE": 403.08243667294545
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 268.1673501601969,
+  "FDE": 530.1134833026936
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 147.13072546134413,
+  "FDE": 342.13143743383677
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 146.9793705848199,
+  "FDE": 341.9014250878309
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 146.9054837791637,
+  "FDE": 341.8796011795218
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 146.77227815303695,
+  "FDE": 341.688817739049
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 146.6792036562205,
+  "FDE": 341.7081843826644
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 137.09356367084135,
+  "FDE": 325.71689775340485
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 148.2677961833336,
+  "FDE": 343.24829287780454
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 171.87080030492274,
+  "FDE": 381.61024326280636
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 237.9626357577117,
+  "FDE": 493.9318630844369
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 413.752166093211,
+  "FDE": 809.3681938543359
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 137.09356367084135,
+  "FDE": 325.71689775340485
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 137.0651302045429,
+  "FDE": 325.7024704881679
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 137.08088765813218,
+  "FDE": 325.7109344958874
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 137.11177621111682,
+  "FDE": 325.6820479258096
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 137.30717025820007,
+  "FDE": 326.04496247440807
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 142.243776349121,
+  "FDE": 335.438686037553
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 164.06933964209253,
+  "FDE": 372.30833314154995
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 205.85530446462846,
+  "FDE": 444.9047714328086
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 320.57124307387437,
+  "FDE": 652.911266760612
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 630.815770800476,
+  "FDE": 1241.752392808353
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 142.243776349121,
+  "FDE": 335.438686037553
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 142.13695400571723,
+  "FDE": 335.3241514268765
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 142.00490608986257,
+  "FDE": 335.1774264373056
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 141.91276843693348,
+  "FDE": 335.10734460222454
+ },
+ {
+  "dataset": "trajair",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 141.9181922667612,
+  "FDE": 335.35198980430584
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 124.67951241670059,
+  "FDE": 235.46703021357047
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 124.90920252863121,
+  "FDE": 235.74616335219505
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 125.6428528301412,
+  "FDE": 236.7032936570093
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 128.64079244065832,
+  "FDE": 240.66574342766447
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 140.3467016700688,
+  "FDE": 256.90387845118516
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 124.67951241670059,
+  "FDE": 235.46703021357047
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 124.65215050223087,
+  "FDE": 235.43603475590172
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 124.61449545009081,
+  "FDE": 235.38169522456548
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 124.59556865979928,
+  "FDE": 235.37263204282144
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 124.52022461767334,
+  "FDE": 235.25260720735892
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 125.91178196879542,
+  "FDE": 240.25973043637399
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 126.04013110247149,
+  "FDE": 240.33842895639597
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 126.52886964797358,
+  "FDE": 240.85357950949012
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 128.600100642448,
+  "FDE": 243.16878934549987
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 137.48983720588717,
+  "FDE": 253.34329021685656
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 125.91178196879542,
+  "FDE": 240.25973043637399
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 125.89677630480885,
+  "FDE": 240.25937140582943
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 125.87845678610311,
+  "FDE": 240.2434983960327
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 125.85732266336801,
+  "FDE": 240.23196879979457
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 125.78944010776587,
+  "FDE": 240.13217449214105
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 128.04769265894578,
+  "FDE": 237.25671493660357
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 128.2203148020382,
+  "FDE": 237.49356457953695
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 128.80775341007308,
+  "FDE": 238.28786173271052
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 131.18225777286202,
+  "FDE": 241.45644133543684
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 140.6531068555849,
+  "FDE": 254.54000199006984
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 128.04769265894578,
+  "FDE": 237.25671493660357
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 128.02068924984226,
+  "FDE": 237.213945055193
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 127.97864937497444,
+  "FDE": 237.16191178839819
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 127.94559537544798,
+  "FDE": 237.13003543656416
+ },
+ {
+  "dataset": "trajair",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 127.85589854546346,
+  "FDE": 236.9889934414053
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 117.0323292713042,
+  "FDE": 248.1315232231043
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 121.05592092976177,
+  "FDE": 255.40606716579677
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 130.6530766481657,
+  "FDE": 272.58552761695364
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 157.4820750423026,
+  "FDE": 319.74266905725835
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 216.12665622604155,
+  "FDE": 419.3323886982346
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 117.0323292713042,
+  "FDE": 248.1315232231043
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 117.03270302025823,
+  "FDE": 248.16545460084893
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 117.06008898461255,
+  "FDE": 248.2409585224808
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 117.08442481298509,
+  "FDE": 248.29897489440071
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 117.15934247827526,
+  "FDE": 248.5221804207126
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 121.62734180671072,
+  "FDE": 256.98326666604555
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 125.1043695861597,
+  "FDE": 262.9826461936588
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 133.84595004619308,
+  "FDE": 278.1302506245638
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 159.04060018629937,
+  "FDE": 321.86734600971334
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 217.6701006716962,
+  "FDE": 422.49787385856763
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 121.62734180671072,
+  "FDE": 256.98326666604555
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 121.61979232508035,
+  "FDE": 256.9571212782951
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 121.62353092437975,
+  "FDE": 256.9509838306324
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 121.66277321639122,
+  "FDE": 257.0168696459628
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 121.71001721491848,
+  "FDE": 257.15745348711096
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 122.36236607642665,
+  "FDE": 259.118601934145
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 126.31682644473221,
+  "FDE": 266.0846815769939
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 136.08016689423073,
+  "FDE": 283.3870646065096
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 164.54935702497625,
+  "FDE": 333.90405780799244
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 232.71549241938578,
+  "FDE": 454.0143991813954
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 122.36236607642665,
+  "FDE": 259.118601934145
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 122.3507974983772,
+  "FDE": 259.112410353378
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 122.33368677293223,
+  "FDE": 259.096956964766
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 122.32181545397943,
+  "FDE": 259.12543012724785
+ },
+ {
+  "dataset": "trajair",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 122.33718700922844,
+  "FDE": 259.2721904333683
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 105.97888272068758,
+  "FDE": 225.33877310244443
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 131.7051916047744,
+  "FDE": 275.53968884867464
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 171.5338738347378,
+  "FDE": 340.5126843865988
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 286.3275161897122,
+  "FDE": 531.7774603919705
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 457.53457481582797,
+  "FDE": 796.7434969882123
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 105.97888272068758,
+  "FDE": 225.33877310244443
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 105.09636553072532,
+  "FDE": 223.6928579188539
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 104.56231038698604,
+  "FDE": 222.48987578754728
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 104.3211166946079,
+  "FDE": 222.02639613721965
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 104.05081853489254,
+  "FDE": 221.54108366920067
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 105.06023408178648,
+  "FDE": 222.53315198899006
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 132.96273072901712,
+  "FDE": 274.7010998520813
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 174.54706845745906,
+  "FDE": 342.3180864341401
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 311.54200288120717,
+  "FDE": 563.6081315353546
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 595.0733276754239,
+  "FDE": 1001.4999400310799
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 105.06023408178648,
+  "FDE": 222.53315198899006
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 104.36445979105385,
+  "FDE": 221.40011663938935
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 103.67711767715872,
+  "FDE": 220.65682257570958
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 103.0214563153392,
+  "FDE": 219.79919403041973
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 102.85640054522642,
+  "FDE": 218.91238433117834
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 105.63903652709114,
+  "FDE": 225.07348194982146
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 132.37936959664776,
+  "FDE": 277.74413418332455
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 168.77924089728523,
+  "FDE": 336.7762252565446
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 278.9864161533506,
+  "FDE": 519.1626064383942
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 447.0962709366956,
+  "FDE": 799.0573931220658
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 105.63903652709114,
+  "FDE": 225.07348194982146
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 104.68216859571496,
+  "FDE": 223.12381755711516
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 104.0832264528886,
+  "FDE": 221.6413859396123
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 103.763820966138,
+  "FDE": 221.35462219970856
+ },
+ {
+  "dataset": "trajair",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 103.04575455557364,
+  "FDE": 219.5306533343032
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 120.44902158611268,
+  "FDE": 221.99933866189284
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 132.0978007697586,
+  "FDE": 240.3442242460873
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 157.82399641028036,
+  "FDE": 283.0045552972551
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 220.45277983284706,
+  "FDE": 388.5067544079774
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 331.83144411154564,
+  "FDE": 574.1784263159716
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 120.44902158611268,
+  "FDE": 221.99933866189284
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 120.3701140930336,
+  "FDE": 221.94408287753683
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 120.22805932012014,
+  "FDE": 221.73668043380619
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 120.15019931398052,
+  "FDE": 221.64646526705806
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 120.12857125532805,
+  "FDE": 221.7320318565781
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 124.84081889930741,
+  "FDE": 223.90750985965857
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 137.53570950118313,
+  "FDE": 245.57942254968222
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 163.8692125553869,
+  "FDE": 290.85115452187534
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 225.34104672633603,
+  "FDE": 397.53890104630085
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 332.40617952280377,
+  "FDE": 581.5091129021171
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 124.84081889930741,
+  "FDE": 223.90750985965857
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 124.75202104419195,
+  "FDE": 223.7977633221475
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 124.62401136206286,
+  "FDE": 223.57715769698217
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 124.49478161444772,
+  "FDE": 223.4480644244696
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 124.49625691540832,
+  "FDE": 223.52017834596955
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 119.09398975966452,
+  "FDE": 220.4399662364213
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 131.07926787361689,
+  "FDE": 239.87405380446847
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 156.3029027370938,
+  "FDE": 281.9430264725492
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 213.87076213121247,
+  "FDE": 378.67131186343505
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 313.5055296378297,
+  "FDE": 543.17122642442
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 119.09398975966452,
+  "FDE": 220.4399662364213
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 119.00017836518138,
+  "FDE": 220.3185206409105
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 118.87759572474215,
+  "FDE": 220.1202102948364
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 118.76340814849708,
+  "FDE": 220.0518482964545
+ },
+ {
+  "dataset": "trajair",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 118.71477245696187,
+  "FDE": 220.16010507172615
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 158.27443346504467,
+  "FDE": 365.6427414313039
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 166.3561347324841,
+  "FDE": 377.4216859575218
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 180.23526093711837,
+  "FDE": 397.7095428685552
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 216.69709910811108,
+  "FDE": 452.13850484888934
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 305.55078403885193,
+  "FDE": 588.5679307413797
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 158.27443346504467,
+  "FDE": 365.6427414313039
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 158.34169889349593,
+  "FDE": 365.7786099061128
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 158.42962804846073,
+  "FDE": 365.94711697494205
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 158.56693591943215,
+  "FDE": 366.20784581873505
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CV",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 158.80312623697554,
+  "FDE": 366.67211130183176
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 222.001853245327,
+  "FDE": 558.0455123894486
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 239.53575909270654,
+  "FDE": 594.2023053955368
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 271.0955713715144,
+  "FDE": 659.699829271254
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 354.5369518638316,
+  "FDE": 835.3016049605658
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 556.8601142489252,
+  "FDE": 1268.805615829736
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 222.001853245327,
+  "FDE": 558.0455123894486
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 221.9101532896253,
+  "FDE": 557.776070135502
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 221.80368742831314,
+  "FDE": 557.4729431268328
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 221.63576152261982,
+  "FDE": 556.9814619223206
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CA",
+  "seed": null,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 221.34941141759492,
+  "FDE": 556.1572793840121
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 190.84359043996454,
+  "FDE": 422.75385765236535
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 192.56704862054917,
+  "FDE": 424.825511096857
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 196.47335333600853,
+  "FDE": 429.4149916831741
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 208.02166948083794,
+  "FDE": 443.01518811272973
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 240.20281598522908,
+  "FDE": 482.29868080232785
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 190.84359043996454,
+  "FDE": 422.75385765236535
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 190.84501755590725,
+  "FDE": 422.75159487695095
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 190.836792082064,
+  "FDE": 422.73125328375187
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 190.84975249730005,
+  "FDE": 422.7568996109208
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 190.85816146509242,
+  "FDE": 422.7728975611517
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 189.9525969884552,
+  "FDE": 416.7779746559909
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 191.70970167600186,
+  "FDE": 418.76063108387314
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 195.6924892894284,
+  "FDE": 423.3828529803588
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 207.44425135204423,
+  "FDE": 437.313426415839
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 240.1038140913649,
+  "FDE": 477.60005333597695
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 189.9525969884552,
+  "FDE": 416.7779746559909
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 189.96187711018527,
+  "FDE": 416.7796331292917
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 189.9643580455264,
+  "FDE": 416.76085021095673
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 189.99198362142513,
+  "FDE": 416.7891953845742
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 190.02272816977728,
+  "FDE": 416.8167561897331
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 190.50787351679674,
+  "FDE": 419.7699849160231
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 192.22529932911473,
+  "FDE": 421.53255809752
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 196.03170527675826,
+  "FDE": 425.80296276818115
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 207.225148943812,
+  "FDE": 438.7346884792663
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 238.5656976177604,
+  "FDE": 476.3743249496532
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 190.50787351679674,
+  "FDE": 419.7699849160231
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 190.50773306367452,
+  "FDE": 419.76210448845796
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 190.5007787582479,
+  "FDE": 419.7378453472238
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 190.52093076900275,
+  "FDE": 419.7680127602498
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "DLinear",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 190.5426464558944,
+  "FDE": 419.79811402441123
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 246.1837710757455,
+  "FDE": 422.09706848960656
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 247.9821685066338,
+  "FDE": 425.9371684660638
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 255.87828434984155,
+  "FDE": 441.2841964064251
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 288.1134269614323,
+  "FDE": 498.2564164533718
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 339.4580398720936,
+  "FDE": 580.4045717642881
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 246.1837710757455,
+  "FDE": 422.09706848960656
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 245.96423424686145,
+  "FDE": 421.73063996598086
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 245.6122052040681,
+  "FDE": 421.159116970961
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 245.3168579407999,
+  "FDE": 420.68676326776347
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 244.87012696492582,
+  "FDE": 419.94184564520583
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 274.88999136461194,
+  "FDE": 430.22437055585425
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 278.8796600402634,
+  "FDE": 436.46396764485195
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 288.8081282818062,
+  "FDE": 452.2400829729627
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 318.29253679253867,
+  "FDE": 499.6599129028688
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 371.9287870685591,
+  "FDE": 586.2548244249703
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 274.88999136461194,
+  "FDE": 430.22437055585425
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 274.5894480611104,
+  "FDE": 429.75841116557945
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 274.1547124398236,
+  "FDE": 429.0517531970259
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 273.74005692748665,
+  "FDE": 428.4089070631399
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 273.16689225165015,
+  "FDE": 427.542549018285
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 266.16277267939597,
+  "FDE": 436.7206479673706
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 268.9619196781601,
+  "FDE": 441.69688986683957
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 277.8812356304394,
+  "FDE": 457.25610148425585
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 307.63265900179283,
+  "FDE": 506.67995684578113
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 356.866898170288,
+  "FDE": 584.4142844221162
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 266.16277267939597,
+  "FDE": 436.7206479673706
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 265.80527486151175,
+  "FDE": 436.172087980184
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 265.4319905220032,
+  "FDE": 435.5386741367776
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 265.0392042521537,
+  "FDE": 434.94688901641075
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PatchTST",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 264.50257779766457,
+  "FDE": 434.0952452890902
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 102.57503555323876,
+  "FDE": 219.09283649853
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 105.57663881254389,
+  "FDE": 222.9927278504899
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 112.72256359284624,
+  "FDE": 233.18848970688705
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 135.81833561433058,
+  "FDE": 268.44486928095677
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 203.6165211811435,
+  "FDE": 375.25129310201004
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 102.57503555323876,
+  "FDE": 219.09283649853
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 102.60351189501765,
+  "FDE": 219.13704920237478
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 102.62591549474753,
+  "FDE": 219.19460784948052
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 102.65788121097711,
+  "FDE": 219.24267469478593
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 102.75672438965462,
+  "FDE": 219.44044060484245
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 100.64350364355752,
+  "FDE": 215.28211157007047
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 103.44384946187198,
+  "FDE": 218.901301620222
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 110.29085716394133,
+  "FDE": 228.54270884467468
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 132.89908099535458,
+  "FDE": 262.80450115629543
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 199.91723503630433,
+  "FDE": 369.01498623845333
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 100.64350364355752,
+  "FDE": 215.28211157007047
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 100.65598778228046,
+  "FDE": 215.3277140775952
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 100.662070762578,
+  "FDE": 215.32033708517048
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 100.6653868318425,
+  "FDE": 215.31395775985138
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 100.752744603181,
+  "FDE": 215.48285872274624
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 98.40545060551636,
+  "FDE": 210.17846860581494
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 101.68330874205199,
+  "FDE": 214.75140420302827
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 109.24545098389203,
+  "FDE": 225.75232651281195
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 132.64983100436288,
+  "FDE": 261.3636956801578
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 197.1102685276697,
+  "FDE": 362.3937422597986
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 98.40545060551636,
+  "FDE": 210.17846860581494
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 98.41331701147428,
+  "FDE": 210.18933324725552
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 98.42264422097986,
+  "FDE": 210.19253608560942
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 98.440658257967,
+  "FDE": 210.20147063135192
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 98.51865634923841,
+  "FDE": 210.37832748181629
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 145.7925928740867,
+  "FDE": 334.3316467832922
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 148.95978130912562,
+  "FDE": 338.471838036529
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 155.93301829262933,
+  "FDE": 347.80590879147684
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 175.71508828377637,
+  "FDE": 375.0694400266297
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 225.85881940337558,
+  "FDE": 447.5790539503956
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 145.7925928740867,
+  "FDE": 334.3316467832922
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 145.7728454036969,
+  "FDE": 334.2925858071725
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 145.74696526601275,
+  "FDE": 334.24084504112574
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 145.8191300041823,
+  "FDE": 334.35331197619894
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 145.95962995587627,
+  "FDE": 334.58115786502464
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 146.2526403172997,
+  "FDE": 331.2796687374131
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 150.28197447951624,
+  "FDE": 336.7459508520601
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 158.6687100035627,
+  "FDE": 348.5432356621695
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 182.0246949836426,
+  "FDE": 382.6227922588732
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 240.42464334489915,
+  "FDE": 471.63376343956844
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 146.2526403172997,
+  "FDE": 331.2796687374131
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 146.16926338919157,
+  "FDE": 331.0966800293883
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 146.06584405363242,
+  "FDE": 330.85626664277817
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 145.95247586494247,
+  "FDE": 330.5890141909309
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 145.77982635450098,
+  "FDE": 330.1984470961374
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 175.57687966923538,
+  "FDE": 374.21860531981923
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 180.49439131708922,
+  "FDE": 381.40051537853145
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 189.28439817101227,
+  "FDE": 394.26842432049256
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 213.85284189478247,
+  "FDE": 430.99103973083504
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 279.3204466719278,
+  "FDE": 531.0561257186662
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 175.57687966923538,
+  "FDE": 374.21860531981923
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 175.48249112645777,
+  "FDE": 374.1585096154297
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 175.36261574989246,
+  "FDE": 374.0210887818019
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 175.23354779021878,
+  "FDE": 373.8930875459499
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TimeMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 175.15090840349382,
+  "FDE": 373.9076943283426
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 145.35026551956034,
+  "FDE": 243.21089668904858
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 146.70199869152273,
+  "FDE": 245.5764840828114
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 152.022603988973,
+  "FDE": 254.27427056953536
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 173.67778365589925,
+  "FDE": 290.05843663401487
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 235.43738645381592,
+  "FDE": 392.2455842137626
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 145.35026551956034,
+  "FDE": 243.21089668904858
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 145.33377832361643,
+  "FDE": 243.26061895083365
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 145.31983421884598,
+  "FDE": 243.2891620055455
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 145.28015668592806,
+  "FDE": 243.26307505641398
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 145.30114278612336,
+  "FDE": 243.38262130462675
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 160.66476386981702,
+  "FDE": 269.8049310607352
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 160.94839954122864,
+  "FDE": 270.27786218143086
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 161.88129107939304,
+  "FDE": 271.65913548250325
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 165.85298822726722,
+  "FDE": 277.7230976425014
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 182.89825802902095,
+  "FDE": 304.2068496355006
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 160.66476386981702,
+  "FDE": 269.8049310607352
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 160.64830500859586,
+  "FDE": 269.79131769454693
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 160.62635125835178,
+  "FDE": 269.7839440572248
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 160.56920564999493,
+  "FDE": 269.72150466357573
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 160.53250609379336,
+  "FDE": 269.74191589059143
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 154.1658198259321,
+  "FDE": 267.08240714716374
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 154.40163738105315,
+  "FDE": 267.32226207922105
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 155.0262849611062,
+  "FDE": 268.0392704885755
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 157.65966032160543,
+  "FDE": 271.37214717226584
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 169.68164787786827,
+  "FDE": 288.43292418142227
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 154.1658198259321,
+  "FDE": 267.08240714716374
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 154.14970949303935,
+  "FDE": 267.0459714380452
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 154.12801951608665,
+  "FDE": 267.03648169618776
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 154.09164205463404,
+  "FDE": 266.9766066546222
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "Transformer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 154.06024801544842,
+  "FDE": 266.976351327686
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 123.9673622660174,
+  "FDE": 255.78467620964258
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 128.27527029494806,
+  "FDE": 262.77305084698366
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 137.33092673208105,
+  "FDE": 277.7901092783818
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 162.01801550239205,
+  "FDE": 318.86821781585627
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 217.46445094803025,
+  "FDE": 409.7075913088507
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 123.9673622660174,
+  "FDE": 255.78467620964258
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 123.98326552121166,
+  "FDE": 255.8280514178789
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 124.01938594778554,
+  "FDE": 255.89869458261202
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 124.06669188008502,
+  "FDE": 255.99548001453545
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 124.17514848744993,
+  "FDE": 256.24524432159916
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 124.56223923435594,
+  "FDE": 251.0195990541193
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 127.86232107590138,
+  "FDE": 256.67910754413816
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 135.9925104261444,
+  "FDE": 270.53450380408606
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 160.2626898493284,
+  "FDE": 312.07615210649556
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 222.01971414903616,
+  "FDE": 416.5729170753822
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 124.56223923435594,
+  "FDE": 251.0195990541193
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 124.5969161376144,
+  "FDE": 251.08794706538296
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 124.62807527851207,
+  "FDE": 251.14619072031903
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 124.705121420773,
+  "FDE": 251.26419243423524
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 124.83976569727764,
+  "FDE": 251.53496613879895
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 138.18761922893648,
+  "FDE": 268.1864691287841
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 139.82652331022393,
+  "FDE": 270.8931144958903
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 144.64182530394388,
+  "FDE": 279.11125644095017
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 161.21048835470708,
+  "FDE": 307.4760157998881
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 208.36784726558628,
+  "FDE": 386.96758237118087
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 138.18761922893648,
+  "FDE": 268.1864691287841
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 138.20166377634942,
+  "FDE": 268.2192453958248
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 138.20674085871644,
+  "FDE": 268.2275930279726
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 138.25601915093335,
+  "FDE": 268.29433179021805
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "TSMixer",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 138.3445583828402,
+  "FDE": 268.4792987249151
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 128.8513883037691,
+  "FDE": 269.4228410058276
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 176.9100910157722,
+  "FDE": 357.30938225205614
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 212.12853011413233,
+  "FDE": 418.43792078795894
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 305.60821319511956,
+  "FDE": 571.6776675838751
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 514.9299060099074,
+  "FDE": 890.6580020134967
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 128.8513883037691,
+  "FDE": 269.4228410058276
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 127.62096638204385,
+  "FDE": 266.80437549675213
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 126.37296984227915,
+  "FDE": 264.5766655217605
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 125.515113321111,
+  "FDE": 262.73453420082114
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 125.45774022214191,
+  "FDE": 263.35934197825463
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 125.89756088738106,
+  "FDE": 260.92392921508167
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 194.10692667174115,
+  "FDE": 380.29817282161275
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 232.4822666573075,
+  "FDE": 447.872101871912
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 317.8371067217965,
+  "FDE": 595.4441313068411
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 537.822982441954,
+  "FDE": 963.119685252169
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 125.89756088738106,
+  "FDE": 260.92392921508167
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 125.07138857602004,
+  "FDE": 259.00625260545223
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 124.665404499312,
+  "FDE": 258.15870665715414
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 123.87863336486959,
+  "FDE": 257.00070877099677
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 125.11090388292824,
+  "FDE": 259.49396339552163
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 126.27463033377101,
+  "FDE": 262.2166931647078
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 168.83523099968775,
+  "FDE": 335.3397338122313
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 201.7251625879751,
+  "FDE": 390.1365517308341
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 308.2047608992621,
+  "FDE": 569.2680447397406
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 576.9957083176485,
+  "FDE": 1029.09266336848
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 126.27463033377101,
+  "FDE": 262.2166931647078
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 125.02951282201076,
+  "FDE": 259.4097323204895
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 123.94102416716221,
+  "FDE": 256.89008434657234
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 122.93976971638102,
+  "FDE": 254.91779031150287
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "FlightBERT++",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 122.59151141399803,
+  "FDE": 254.72873443192148
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 206.79643533462888,
+  "FDE": 297.24166404115255
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 211.63600581895412,
+  "FDE": 306.35991771342333
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 224.31199736576644,
+  "FDE": 329.60717257455843
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 262.75818101460203,
+  "FDE": 396.89574469027104
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 355.23138750036446,
+  "FDE": 551.566727398312
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 206.79643533462888,
+  "FDE": 297.24166404115255
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 206.76412262654833,
+  "FDE": 297.2331649343991
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 206.7495403485859,
+  "FDE": 297.24544322891364
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 206.77343400502156,
+  "FDE": 297.33332360475146
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 42,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 206.86185689671893,
+  "FDE": 297.60518104652937
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 220.1491376932123,
+  "FDE": 324.3017520943444
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 224.829022588561,
+  "FDE": 332.63764499088813
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 237.2617335923281,
+  "FDE": 354.7608128079724
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 277.3352556296342,
+  "FDE": 423.6497759901539
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 366.6839664655662,
+  "FDE": 575.4120308407489
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 220.1491376932123,
+  "FDE": 324.3017520943444
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 220.18415327424842,
+  "FDE": 324.37663985798076
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 220.2209451512498,
+  "FDE": 324.4864583566141
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 220.29720020087885,
+  "FDE": 324.66662911538805
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 123,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 220.44091070865505,
+  "FDE": 324.9697866803887
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 0,
+  "ADE": 210.2842653750891,
+  "FDE": 304.19697541235377
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 5,
+  "ADE": 216.4282897841994,
+  "FDE": 315.4131847251568
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 10,
+  "ADE": 230.04210521913006,
+  "FDE": 341.32123839445046
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 20,
+  "ADE": 268.17290814363645,
+  "FDE": 411.9230323011355
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "noise",
+  "level": 40,
+  "ADE": 359.07350740190606,
+  "FDE": 572.0599576420084
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0,
+  "ADE": 210.2842653750891,
+  "FDE": 304.19697541235377
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.1,
+  "ADE": 210.3102548258746,
+  "FDE": 304.29449905621374
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.2,
+  "ADE": 210.34579964671042,
+  "FDE": 304.4016035643183
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.3,
+  "ADE": 210.39412626931815,
+  "FDE": 304.55541076196596
+ },
+ {
+  "dataset": "tartanaviation",
+  "method": "CNN-GRU",
+  "seed": 456,
+  "kind": "missing",
+  "level": 0.4,
+  "ADE": 210.46851229702682,
+  "FDE": 304.78723038104033
+ }
+]

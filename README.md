@@ -1,9 +1,9 @@
-# PA-TSMixer: lightweight multi-scale temporal mixing for aircraft trajectory prediction
+# Lightweight Multi-Scale Trajectory Prediction for Connected Aircraft Under ADS-B Link Impairments
 
 Code, checkpoints and evaluation outputs for
 
-> C. Liu, P. Wu, S. He, G. Pan, and J. H. Park, *Lightweight Multi-Scale Temporal Mixing for Short-Term
-> Aircraft Trajectory Prediction in Terminal Airspace*, submitted to IEEE Transactions on Vehicular Technology.
+> C. Liu, P. Wu, S. He, G. Pan, and J. H. Park, *Lightweight Multi-Scale Trajectory Prediction for Connected
+> Aircraft Under ADS-B Link Impairments*, submitted to IEEE Transactions on Vehicular Technology.
 
 This release contains the PA-TSMixer model and its single-scale parent, the construction of the processed
 XYZ benchmark from the public TrajAir and TartanAviation (KBTP) files, a training script that retrains
@@ -25,8 +25,16 @@ the result tables. The configurations of all baselines are listed in `CONFIGS.md
 | `scripts/kinematic_baselines.py` | CV and CA baselines with the validation-selected fitting windows |
 | `scripts/reproduce_tables.py` | recomputes every printed cell of Tables II, III and IV from `results/runs.json` |
 | `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section V-A) |
-| `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 7) |
+| `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 5) |
 | `results/branch_analysis.json` | output of `branch_analysis.py`: weights per block and ADE with each branch removed, overall and per motion group |
+| `scripts/link_noise.py` | Gaussian position noise (Fig. 6; Section VI-D), plus independent missing reports (released, not reported in the paper) |
+| `scripts/link_impairment.py` | Gilbert–Elliott burst loss, staleness and combined conditions (Fig. 6; Table V) |
+| `scripts/link_calibration.py` | raw-log reception statistics for the KBTP region |
+| `scripts/real_trace_masks.py` | derives reception-history and report-age pools from raw logs |
+| `scripts/real_trace.py` | real reception replay using shared masks, ages and worst-decile subsets |
+| `scripts/make_link_table.py` | prints Table V from the full per-run combined-condition results |
+| `scripts/link_common.py` | shared released-checkpoint loading and strict result comparisons |
+| `results/link/` | all ten methods' link/noise/replay JSON and MD results, calibration, and two derived reception-mask NPZ pools |
 | `checkpoints/` | 108 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the five capacity/component controls of Table IV at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
 | `results/runs.json` | per-run test metrics of all methods: ADE, FDE, MSE, horizontal ADE, altitude MAE and ADE per motion group |
 | `results/paper_tables.json` | the cells of Tables II, III and IV as printed in the paper |
@@ -43,6 +51,12 @@ python scripts/prepare_data.py --trajair <TrajAir 111_days folder> --tartan-zip 
 python scripts/evaluate.py --data data
 python scripts/kinematic_baselines.py --data data
 python scripts/branch_analysis.py --data data
+python scripts/link_noise.py --data data
+python scripts/link_impairment.py --data data
+python scripts/link_calibration.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
+python scripts/real_trace_masks.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
+python scripts/real_trace.py --data data
+python scripts/make_link_table.py
 python scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
 ```
 
@@ -51,7 +65,13 @@ python scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
 a minute). `evaluate.py` and `kinematic_baselines.py` then recompute the test metrics of the released models and
 baselines; on our machine the largest relative difference from the reported values is below 1e-7.
 `branch_analysis.py` first checks that the motion groups match the window counts of the paper and then
-recomputes the scale analysis of Fig. 7 (a few minutes on a GPU).
+recomputes the scale analysis of Fig. 5 (a few minutes on a GPU).
+The link scripts recompute PA-TSMixer, TSMixer, CV and CA and check every ADE/FDE against the published rows
+(relative difference <1e-5). They default to `results/link/recomputed/`, keeping the full ten-method results intact;
+`--out` selects another output (a directory for `real_trace_masks.py`, a JSON file otherwise).
+Neural evaluation accepts `--device` and defaults to CUDA when available, otherwise CPU. Replay uses the released
+mask pools without raw logs; regenerating the pools checks all arrays exactly against the release, and calibration
+checks the full JSON with portable provenance. Creation times and runtimes vary for regenerated NPZ metadata.
 `train.py` writes the selected checkpoint and the training history to `runs/`; options select TSMixer
 (`--model TSMixer`), the width (`--d-model 167` for the matched-size control) and the output
 (`--last-residual` / `--no-last-residual`). GPU training is not bitwise deterministic: retraining PA-TSMixer on
@@ -61,6 +81,11 @@ TrajAir at H = 10 with seeds 42, 123 and 456 gave a mean test ADE of 33.57 m, ag
 The source data are not redistributed here: TrajAir (111-day processed trajectories) is available from
 <https://theairlab.org/trajair/> and TartanAviation (KBTP processed ADS-B trajectories) from
 <https://github.com/castacks/TartanAviation>.
+Raw receiver logs for calibration and mask generation are TrajAir's `111_days/111_days/raw_data`
+from the same TrajAir site and raw ADS-B logs from the TartanAviation repository (`TartanAviation_raw/*/*.csv`).
+These logs are not redistributed; the NPZ files contain derived reception patterns and provenance only.
+Paths in result metadata are portable source labels; `unreleased_checkpoints/` identifies audit sources for
+the six methods whose checkpoints are not bundled.
 
 ### Using the model
 

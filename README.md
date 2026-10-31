@@ -2,7 +2,7 @@
 
 Code, checkpoints and evaluation outputs for
 
-> C. Liu, P. Wu, S. He, G. Pan, and J. H. Park, *Lightweight Multi-Scale Trajectory Prediction for Connected
+> C. Liu, P. Wu, Y. Bo, S. He, Y. Ni, and G. Pan, *Lightweight Multi-Scale Trajectory Prediction for Connected
 > Aircraft Under ADS-B Link Impairments*, submitted to IEEE Transactions on Vehicular Technology.
 
 This release contains the PA-TSMixer model and its single-scale parent, the construction of the processed

@@ -4,7 +4,7 @@ Noise: zero-mean Gaussian position noise with standard deviation sigma (m) on ev
 Missing: a fraction p of the observed points, excluding the most recent one, is removed at random and filled by
 linear interpolation in time (the first point, if removed, takes the nearest retained value).
 Targets are always the clean future positions. One fixed perturbation per window and level (seed 2026) is shared
-by all released models (PA-TSMixer, TSMixer, CV, CA; Fig. 6, Section VI-D). Writes robustness.json with test ADE/FDE per model, seed, level.
+by all released models (PA-TSMixer, TSMixer, CV, CA; Fig. 7, Section 6.4). Writes robustness.json with test ADE/FDE per model, seed, level.
 """
 import json
 import numpy as np

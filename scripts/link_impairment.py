@@ -1,6 +1,6 @@
-"""Evaluate frozen models under ADS-B loss, report staleness and combined conditions.
+"""Evaluate frozen models under degraded ADS-B reception: ADS-B report loss, staleness and combined conditions.
 
-Fig. 6 and Table V, Section VI-D. Evaluates PA-TSMixer, TSMixer, CV and CA.
+Fig. 7 and Table 5, Section 6.4. Evaluates PA-TSMixer, TSMixer, CV and CA.
 The full ten-method results are in results/link/link_impairment.json. No retraining.
 """
 import json

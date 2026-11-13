@@ -1,9 +1,9 @@
-# Lightweight Multi-Scale Trajectory Prediction for Connected Aircraft Under ADS-B Link Impairments
+# PA-TSMixer: Lightweight multi-scale temporal mixing for short-term aircraft trajectory prediction under degraded ADS-B reception
 
 Code, checkpoints and evaluation outputs for
 
-> C. Liu, P. Wu, Y. Bo, S. He, Y. Ni, and G. Pan, *Lightweight Multi-Scale Trajectory Prediction for Connected
-> Aircraft Under ADS-B Link Impairments*, submitted to IEEE Transactions on Vehicular Technology.
+> C. Liu, P. Wu, H. Ye, S. He, and G. Pan, *Lightweight multi-scale temporal mixing for short-term aircraft trajectory
+> prediction under degraded ADS-B reception*, manuscript under review.
 
 This release contains the PA-TSMixer model and its single-scale parent, the construction of the processed
 XYZ benchmark from the public TrajAir and TartanAviation (KBTP) files, a training script that retrains
@@ -16,28 +16,28 @@ the result tables. The configurations of all baselines are listed in `CONFIGS.md
 
 | Path | What |
 |---|---|
-| `pa_tsmixer/models.py` | PA-TSMixer (full-, half- and quarter-resolution temporal branches, learned scale fusion; Section IV) and TSMixer; options for the equal-weight and uniform-width controls |
-| `pa_tsmixer/data.py` | processed-benchmark construction (segmentation, aircraft-level split, windows, normalization; Section V-A) and test-window access |
+| `pa_tsmixer/models.py` | PA-TSMixer (full-, half- and quarter-resolution temporal branches, learned scale fusion; Section 4) and TSMixer; options for the equal-weight and uniform-width controls |
+| `pa_tsmixer/data.py` | processed-benchmark construction (segmentation, aircraft-level split, windows, normalization; Section 5.1) and test-window access |
 | `pa_tsmixer/data_manifest.json` | SHA-256 of the processed arrays used in the paper |
 | `scripts/prepare_data.py` | builds the processed data from the public source files and checks it byte for byte against the paper build |
 | `scripts/train.py` | trains PA-TSMixer or a TSMixer control with the paper settings (AdamW, cosine schedule, early stopping on validation ADE) and evaluates it on the test split |
 | `scripts/evaluate.py` | evaluates the released checkpoints on the test split and compares with the reported ADE, FDE and MSE |
 | `scripts/kinematic_baselines.py` | CV and CA baselines with the validation-selected fitting windows |
-| `scripts/reproduce_tables.py` | recomputes every printed cell of Tables II, III and IV from `results/runs.json` |
-| `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section V-A) |
-| `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 5) |
+| `scripts/reproduce_tables.py` | recomputes every printed cell of Tables 2, 3 and 4 from `results/runs.json` |
+| `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section 5.1) |
+| `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 6) |
 | `results/branch_analysis.json` | output of `branch_analysis.py`: weights per block and ADE with each branch removed, overall and per motion group |
-| `scripts/link_noise.py` | Gaussian position noise (Fig. 6; Section VI-D), plus independent missing reports (released, not reported in the paper) |
-| `scripts/link_impairment.py` | Gilbert–Elliott burst loss, staleness and combined conditions (Fig. 6; Table V) |
+| `scripts/link_noise.py` | Gaussian position noise (Fig. 7; Section 6.4), plus independent missing reports (released, not reported in the paper) |
+| `scripts/link_impairment.py` | Gilbert–Elliott burst loss, staleness and combined degraded ADS-B reception conditions (Fig. 7; Table 5) |
 | `scripts/link_calibration.py` | raw-log reception statistics for the KBTP region |
 | `scripts/real_trace_masks.py` | derives reception-history and report-age pools from raw logs |
 | `scripts/real_trace.py` | real reception replay using shared masks, ages and worst-decile subsets |
-| `scripts/make_link_table.py` | prints Table V from the full per-run combined-condition results |
+| `scripts/make_link_table.py` | prints Table 5 from the full per-run combined-condition results |
 | `scripts/link_common.py` | shared released-checkpoint loading and strict result comparisons |
 | `results/link/` | all ten methods' link/noise/replay JSON and MD results, calibration, and two derived reception-mask NPZ pools |
-| `checkpoints/` | 108 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the five capacity/component controls of Table IV at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
+| `checkpoints/` | 108 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the five capacity/component controls of Table 4 at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
 | `results/runs.json` | per-run test metrics of all methods: ADE, FDE, MSE, horizontal ADE, altitude MAE and ADE per motion group |
-| `results/paper_tables.json` | the cells of Tables II, III and IV as printed in the paper |
+| `results/paper_tables.json` | the cells of Tables 2, 3 and 4 as printed in the paper |
 | `CONFIGS.md` | protocol, training settings and baseline configurations |
 
 ## Usage
@@ -65,7 +65,7 @@ python scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
 a minute). `evaluate.py` and `kinematic_baselines.py` then recompute the test metrics of the released models and
 baselines; on our machine the largest relative difference from the reported values is below 1e-7.
 `branch_analysis.py` first checks that the motion groups match the window counts of the paper and then
-recomputes the scale analysis of Fig. 5 (a few minutes on a GPU).
+recomputes the scale analysis of Fig. 6 (a few minutes on a GPU).
 The link scripts recompute PA-TSMixer, TSMixer, CV and CA and check every ADE/FDE against the published rows
 (relative difference <1e-5). They default to `results/link/recomputed/`, keeping the full ten-method results intact;
 `--out` selects another output (a directory for `real_trace_masks.py`, a JSON file otherwise).

@@ -1,4 +1,4 @@
-"""LaTeX rows of Table V, the combined-link-condition table (three-seed means) from link_impairment.json."""
+"""LaTeX rows of Table 5, the combined degraded ADS-B reception table (three-seed means) from link_impairment.json."""
 import argparse, json
 from pathlib import Path
 

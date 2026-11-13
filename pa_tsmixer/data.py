@@ -1,6 +1,6 @@
 """Processed XYZ benchmark used in the paper: construction from the public sources and window access.
 
-Protocol (Section V-A): published processed XYZ in kilometres -> metres; per-aircraft one-second segments,
+Protocol (Section 5.1): published processed XYZ in kilometres -> metres; per-aircraft one-second segments,
 cut at time gaps and at gross jumps (>300 m horizontal or >100 m vertical in one second); segments shorter
 than 120 points are discarded. Windows of 60 observed + 60 future points start every 15 points; identical
 windows of the same aircraft are removed. Aircraft are assigned to train/val/test (70/15/15) by a fixed

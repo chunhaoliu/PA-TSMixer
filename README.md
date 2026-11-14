@@ -23,21 +23,21 @@ the result tables. The configurations of all baselines are listed in `CONFIGS.md
 | `scripts/train.py` | trains PA-TSMixer or a TSMixer control with the paper settings (AdamW, cosine schedule, early stopping on validation ADE) and evaluates it on the test split |
 | `scripts/evaluate.py` | evaluates the released checkpoints on the test split and compares with the reported ADE, FDE and MSE |
 | `scripts/kinematic_baselines.py` | CV and CA baselines with the validation-selected fitting windows |
-| `scripts/reproduce_tables.py` | recomputes every printed cell of Tables 2, 3 and 4 from `results/runs.json` |
+| `scripts/reproduce_tables.py` | recomputes every printed cell of Tables 2, 3 and 5 from `results/runs.json` |
 | `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section 5.1) |
 | `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 6) |
 | `results/branch_analysis.json` | output of `branch_analysis.py`: weights per block and ADE with each branch removed, overall and per motion group |
-| `scripts/link_noise.py` | Gaussian position noise (Fig. 7; Section 6.4), plus independent missing reports (released, not reported in the paper) |
-| `scripts/link_impairment.py` | Gilbert–Elliott burst loss, staleness and combined degraded ADS-B reception conditions (Fig. 7; Table 5) |
+| `scripts/link_noise.py` | Gaussian position noise (Fig. 7; Section 6.5), plus independent missing reports (released, not reported in the paper) |
+| `scripts/link_impairment.py` | Gilbert–Elliott burst loss, staleness and combined degraded ADS-B reception conditions (Fig. 7; Table 6) |
 | `scripts/link_calibration.py` | raw-log reception statistics for the KBTP region |
 | `scripts/real_trace_masks.py` | derives reception-history and report-age pools from raw logs |
 | `scripts/real_trace.py` | real reception replay using shared masks, ages and worst-decile subsets |
-| `scripts/make_link_table.py` | prints Table 5 from the full per-run combined-condition results |
+| `scripts/make_link_table.py` | prints Table 6 from the full per-run combined-condition results |
 | `scripts/link_common.py` | shared released-checkpoint loading and strict result comparisons |
 | `results/link/` | all ten methods' link/noise/replay JSON and MD results, calibration, and two derived reception-mask NPZ pools |
-| `checkpoints/` | 108 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the five capacity/component controls of Table 4 at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
+| `checkpoints/` | 108 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the five capacity/component controls of Table 5 at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
 | `results/runs.json` | per-run test metrics of all methods: ADE, FDE, MSE, horizontal ADE, altitude MAE and ADE per motion group |
-| `results/paper_tables.json` | the cells of Tables 2, 3 and 4 as printed in the paper |
+| `results/paper_tables.json` | the cells of Tables 2, 3 and 5 as printed in the paper |
 | `CONFIGS.md` | protocol, training settings and baseline configurations |
 
 ## Usage

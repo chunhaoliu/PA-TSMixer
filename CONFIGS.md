@@ -36,7 +36,7 @@ controls.
 The aviation-specific baselines are reported through their per-run results (`results/runs.json`); their training
 code is part of the full pipeline, available on request.
 
-## Capacity and component controls (Table 4)
+## Capacity and component controls (Table 5)
 
 PA-TSMixer adds its forecast to the last observed position (`last_residual=True`); the TSMixer baseline of Table 2
 outputs positions directly. The controls separate the two elements at matched size.
@@ -49,7 +49,7 @@ outputs positions directly. The controls separate the two elements at matched si
 | PA, direct output | the same model without the residual output (`last_residual=False`) |
 | TSMixer, matched, direct | matched-size TSMixer without the residual output |
 
-## Degraded ADS-B reception (Section 6.4; Fig. 7 and Table 5)
+## Degraded ADS-B reception (Section 6.5; Fig. 7 and Table 6)
 
 `scripts/link_noise.py` uses H=30 checkpoints, Gaussian position noise sigma = 0/5/10/20/40 m on all history
 positions and axes, and independent loss p = 0/0.1/0.2/0.3/0.4 over the first 59 reports. `link_impairment.py`
@@ -75,6 +75,6 @@ These are empirical reception gaps, not independently identified RF packet losse
 The scripts evaluate the released PA-TSMixer/TSMixer checkpoints and CV/CA, with strict clean-reference and
 published ADE/FDE checks (<1e-5 relative difference). `results/link/` retains the original full-precision
 ten-method results and derived mask pools; recomputed outputs default to its ignored `recomputed/` subdirectory.
-Tables 2-4 remain in `results/paper_tables.json`; Table 5 is printed by `scripts/make_link_table.py`.
+Tables 2, 3 and 5 remain in `results/paper_tables.json`; Table 6 is printed by `scripts/make_link_table.py`.
 Branch contributions are Fig. 6, motion groups Fig. 4, stepwise errors Fig. 3, and accuracy–latency Fig. 8;
-computational cost is Table 6 and Section 6.5.
+computational cost is Table 7 and Section 6.6.

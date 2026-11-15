@@ -68,7 +68,7 @@ def table_decomp():
 
 def table_ablation():
     """Table 5: PA-TSMixer (main-study runs) and the controls; all but the last two use the residual output."""
-    labels = ["PA-TSMixer (ours)", "TSMixer, matched size", "PA, equal weights", "PA, uniform widths",
+    labels = ["PA-TSMixer (base)", "TSMixer, matched size", "PA, equal weights", "PA, uniform widths",
               "PA, direct output", "TSMixer, matched, direct"]
     cols = [(d, h) for d in ("trajair", "tartanaviation") for h in (30, 60)]
     def runs(c, m, key):

@@ -5,8 +5,6 @@ Code, checkpoints and evaluation outputs for
 > C. Liu, P. Wu, H. Ye, S. He, G. Pan, and J. H. Park, *Lightweight Multi-Scale Aircraft Trajectory Prediction Under
 > Degraded ADS-B Reception for Aerial IoT*, manuscript under review.
 
-The IoTJ manuscript numbers the tables as I (data), II (main accuracy), III (decomposition), IV (cross-source), V (combined degradation), VI (ablation), and VII (cost); its figures follow the label order in the manuscript.
-
 This release contains the PA-TSMixer model and its single-scale parent, the construction of the processed
 XYZ benchmark from the public TrajAir and TartanAviation (KBTP) files, a training script that retrains
 PA-TSMixer and the TSMixer controls with the settings of the paper, the trained PA-TSMixer and TSMixer
@@ -47,19 +45,19 @@ the result tables. The configurations of all baselines are listed in `CONFIGS.md
 Python 3.12; `pip install -r requirements.txt`.
 
 ```bash
-D:/conda/envs/dl/python.exe -m unittest discover -s tests -t .
-D:/conda/envs/dl/python.exe scripts/reproduce_tables.py
-D:/conda/envs/dl/python.exe scripts/prepare_data.py --trajair <TrajAir 111_days folder> --tartan-zip <TartanAviation kbtp/processed.zip> --output data
-D:/conda/envs/dl/python.exe scripts/evaluate.py --data data
-D:/conda/envs/dl/python.exe scripts/kinematic_baselines.py --data data
-D:/conda/envs/dl/python.exe scripts/branch_analysis.py --data data
-D:/conda/envs/dl/python.exe scripts/link_noise.py --data data
-D:/conda/envs/dl/python.exe scripts/link_impairment.py --data data
-D:/conda/envs/dl/python.exe scripts/link_calibration.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
-D:/conda/envs/dl/python.exe scripts/real_trace_masks.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
-D:/conda/envs/dl/python.exe scripts/real_trace.py --data data
-D:/conda/envs/dl/python.exe scripts/make_link_table.py
-D:/conda/envs/dl/python.exe scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
+python -m unittest discover -s tests -t .
+python scripts/reproduce_tables.py
+python scripts/prepare_data.py --trajair <TrajAir 111_days folder> --tartan-zip <TartanAviation kbtp/processed.zip> --output data
+python scripts/evaluate.py --data data
+python scripts/kinematic_baselines.py --data data
+python scripts/branch_analysis.py --data data
+python scripts/link_noise.py --data data
+python scripts/link_impairment.py --data data
+python scripts/link_calibration.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
+python scripts/real_trace_masks.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
+python scripts/real_trace.py --data data
+python scripts/make_link_table.py
+python scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
 ```
 
 `reproduce_tables.py` needs no data and exits with status 0 when all 537 printed cells are reproduced.
@@ -77,7 +75,7 @@ checks the full JSON with portable provenance. Creation times and runtimes vary 
 `train.py` writes the selected checkpoint and the training history to `runs/`; options select TSMixer
 (`--model TSMixer`), the width (`--d-model 167` for the matched-size control), mixer depth (`--layers`) and
 dropout (`--dropout`), plus the output head (`--last-residual` / `--no-last-residual`). The selected H = 60 model can
-be retrained with `D:/conda/envs/dl/python.exe scripts/train.py --data data --dataset trajair --horizon 60 --seed 42 --d-model 96 --layers 3 --dropout 0.0 --device cuda:1`.
+be retrained with `python scripts/train.py --data data --dataset trajair --horizon 60 --seed 42 --d-model 96 --layers 3 --dropout 0.0`.
 GPU training is not bitwise deterministic: retraining PA-TSMixer on
 TrajAir at H = 10 with seeds 42, 123 and 456 gave a mean test ADE of 33.57 m, against 33.68 +/- 0.37 m reported
 (about 2-3 minutes per run on an RTX 5090).

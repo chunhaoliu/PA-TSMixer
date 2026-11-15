@@ -3,8 +3,6 @@
 *Lightweight Multi-Scale Aircraft Trajectory Prediction Under Degraded ADS-B Reception for Aerial IoT*, by C. Liu,
 P. Wu, H. Ye, S. He, G. Pan, and J. H. Park; manuscript under review.
 
-The manuscript uses IEEE numbering: Tables I--VII are data, main accuracy, decomposition, cross-source, combined degradation, ablation, and cost; figure and section numbers follow label order.
-
 ## Data and evaluation
 
 | Item | Setting |

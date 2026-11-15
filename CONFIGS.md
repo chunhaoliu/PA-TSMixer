@@ -1,7 +1,9 @@
 # Protocol and configurations
 
-*PA-TSMixer: Lightweight multi-scale temporal mixing for short-term aircraft trajectory prediction under degraded ADS-B reception*,
-manuscript under review.
+*Lightweight Multi-Scale Aircraft Trajectory Prediction Under Degraded ADS-B Reception for Aerial IoT*, by C. Liu,
+P. Wu, H. Ye, S. He, G. Pan, and J. H. Park; manuscript under review.
+
+The manuscript uses IEEE numbering: Tables I--VII are data, main accuracy, decomposition, cross-source, combined degradation, ablation, and cost; figure and section numbers follow label order.
 
 ## Data and evaluation
 
@@ -15,12 +17,16 @@ manuscript under review.
 | Normalization | per-axis mean and standard deviation of the training points |
 | Metrics | ADE and FDE: 3D displacement (m); MSE: mean squared XYZ coordinate error (m^2), on the test split |
 
-## Training (all learned models; Section 5.3)
+## Training (all learned models; Section V-C)
 
 AdamW, learning rate 1e-3, weight decay 1e-4, batch 128, cosine schedule, at most 30 epochs with early-stopping
 patience 8, loss: MSE on standardized coordinates, checkpoint: lowest validation 3D ADE in metres, FP32 with TF32
 disabled, seeds 42, 123 and 456. `scripts/train.py` implements these settings for PA-TSMixer and the TSMixer
 controls.
+
+PA-TSMixer uses the base setting at H = 10, 20 and 30. At H = 60 the released main-study model uses three blocks,
+d = 96 and dropout 0.0 (55,635 parameters), selected by validation ADE from ten candidates with at most 60k parameters
+on both sources. The six base two-block H = 60 checkpoints remain under the ablation study for Table VI and Fig. 8.
 
 ## Model settings
 
@@ -36,9 +42,9 @@ controls.
 The aviation-specific baselines are reported through their per-run results (`results/runs.json`); their training
 code is part of the full pipeline, available on request.
 
-## Capacity and component controls (Table 5)
+## Capacity and component controls (Table VI)
 
-PA-TSMixer adds its forecast to the last observed position (`last_residual=True`); the TSMixer baseline of Table 2
+PA-TSMixer adds its forecast to the last observed position (`last_residual=True`); the TSMixer baseline of Table II
 outputs positions directly. The controls separate the two elements at matched size.
 
 | Control | Change from PA-TSMixer |
@@ -49,7 +55,7 @@ outputs positions directly. The controls separate the two elements at matched si
 | PA, direct output | the same model without the residual output (`last_residual=False`) |
 | TSMixer, matched, direct | matched-size TSMixer without the residual output |
 
-## Degraded ADS-B reception (Section 6.5; Fig. 7 and Table 6)
+## Degraded ADS-B reception (Section VI-D; Fig. 7 and Table V)
 
 `scripts/link_noise.py` uses H=30 checkpoints, Gaussian position noise sigma = 0/5/10/20/40 m on all history
 positions and axes, and independent loss p = 0/0.1/0.2/0.3/0.4 over the first 59 reports. `link_impairment.py`
@@ -75,6 +81,6 @@ These are empirical reception gaps, not independently identified RF packet losse
 The scripts evaluate the released PA-TSMixer/TSMixer checkpoints and CV/CA, with strict clean-reference and
 published ADE/FDE checks (<1e-5 relative difference). `results/link/` retains the original full-precision
 ten-method results and derived mask pools; recomputed outputs default to its ignored `recomputed/` subdirectory.
-Tables 2, 3 and 5 remain in `results/paper_tables.json`; Table 6 is printed by `scripts/make_link_table.py`.
-Branch contributions are Fig. 6, motion groups Fig. 4, stepwise errors Fig. 3, and accuracy–latency Fig. 8;
-computational cost is Table 7 and Section 6.6.
+Tables II, III and VI remain in `results/paper_tables.json`; Table V is printed by `scripts/make_link_table.py`.
+Branch contributions are Fig. 8, motion groups Fig. 5, stepwise errors Fig. 4, and accuracy-latency Fig. 9;
+computational cost is Table VII and Section VI-F.

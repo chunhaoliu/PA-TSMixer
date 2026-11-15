@@ -2403,126 +2403,6 @@
   "study": "main",
   "dataset": "tartanaviation",
   "horizon": 60,
-  "method": "PA-TSMixer",
-  "seed": 123,
-  "parameters": 44672,
-  "test_windows": 57009,
-  "ADE": 239.37615508356876,
-  "FDE": 539.4844285172564,
-  "MSE": 61352.561281392285,
-  "horizontal_ADE": 237.14724644945213,
-  "altitude_MAE": 18.524527476482053,
-  "motion_groups": {
-   "climb": {
-    "count": 11645,
-    "ADE": 372.33461452175146
-   },
-   "descent": {
-    "count": 13398,
-    "ADE": 227.25536411287263
-   },
-   "level": {
-    "count": 31966,
-    "ADE": 196.02049898858448
-   },
-   "turning": {
-    "count": 12172,
-    "ADE": 291.98261787014104
-   },
-   "nonturning": {
-    "count": 31698,
-    "ADE": 280.864988467667
-   },
-   "low_speed": {
-    "count": 13139,
-    "ADE": 90.54908257825477
-   }
-  }
- },
- {
-  "study": "main",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "seed": 42,
-  "parameters": 44672,
-  "test_windows": 57009,
-  "ADE": 238.26156974154057,
-  "FDE": 537.2818348320744,
-  "MSE": 61623.12625844177,
-  "horizontal_ADE": 236.046256162334,
-  "altitude_MAE": 18.38197747305462,
-  "motion_groups": {
-   "climb": {
-    "count": 11645,
-    "ADE": 373.4221701195748
-   },
-   "descent": {
-    "count": 13398,
-    "ADE": 223.4096557546982
-   },
-   "level": {
-    "count": 31966,
-    "ADE": 195.2483917459676
-   },
-   "turning": {
-    "count": 12172,
-    "ADE": 293.06023373012175
-   },
-   "nonturning": {
-    "count": 31698,
-    "ADE": 279.31479808715153
-   },
-   "low_speed": {
-    "count": 13139,
-    "ADE": 88.45453951335152
-   }
-  }
- },
- {
-  "study": "main",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "seed": 456,
-  "parameters": 44672,
-  "test_windows": 57009,
-  "ADE": 236.63585702423183,
-  "FDE": 532.0587634536703,
-  "MSE": 60773.85730099712,
-  "horizontal_ADE": 234.392419042895,
-  "altitude_MAE": 18.496957651364806,
-  "motion_groups": {
-   "climb": {
-    "count": 11645,
-    "ADE": 372.5352623188185
-   },
-   "descent": {
-    "count": 13398,
-    "ADE": 219.68144254273315
-   },
-   "level": {
-    "count": 31966,
-    "ADE": 194.23476431847163
-   },
-   "turning": {
-    "count": 12172,
-    "ADE": 288.8323025968263
-   },
-   "nonturning": {
-    "count": 31698,
-    "ADE": 277.49320580537045
-   },
-   "low_speed": {
-    "count": 13139,
-    "ADE": 89.71208982930526
-   }
-  }
- },
- {
-  "study": "main",
-  "dataset": "tartanaviation",
-  "horizon": 60,
   "method": "TimeMixer",
   "seed": 123,
   "parameters": 166641,
@@ -5276,126 +5156,6 @@
    "low_speed": {
     "count": 3552,
     "ADE": 156.9013904361755
-   }
-  }
- },
- {
-  "study": "main",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "seed": 123,
-  "parameters": 44672,
-  "test_windows": 21346,
-  "ADE": 238.69636265877173,
-  "FDE": 535.669631857066,
-  "MSE": 50713.09123939913,
-  "horizontal_ADE": 236.19816497276838,
-  "altitude_MAE": 20.413199947545763,
-  "motion_groups": {
-   "climb": {
-    "count": 5311,
-    "ADE": 358.00522163283586
-   },
-   "descent": {
-    "count": 5325,
-    "ADE": 202.44198950882384
-   },
-   "level": {
-    "count": 10710,
-    "ADE": 197.55772465804503
-   },
-   "turning": {
-    "count": 5893,
-    "ADE": 246.2811097408394
-   },
-   "nonturning": {
-    "count": 11901,
-    "ADE": 267.8338649048851
-   },
-   "low_speed": {
-    "count": 3552,
-    "ADE": 128.48737369885578
-   }
-  }
- },
- {
-  "study": "main",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "seed": 42,
-  "parameters": 44672,
-  "test_windows": 21346,
-  "ADE": 240.15899930746727,
-  "FDE": 537.73266121436,
-  "MSE": 51104.95107683169,
-  "horizontal_ADE": 237.76369633654653,
-  "altitude_MAE": 20.059021027262634,
-  "motion_groups": {
-   "climb": {
-    "count": 5311,
-    "ADE": 361.0387664884564
-   },
-   "descent": {
-    "count": 5325,
-    "ADE": 206.7685639812079
-   },
-   "level": {
-    "count": 10710,
-    "ADE": 196.81741430411515
-   },
-   "turning": {
-    "count": 5893,
-    "ADE": 253.559497299514
-   },
-   "nonturning": {
-    "count": 11901,
-    "ADE": 269.37556044498615
-   },
-   "low_speed": {
-    "count": 3552,
-    "ADE": 120.03641238045618
-   }
-  }
- },
- {
-  "study": "main",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "seed": 456,
-  "parameters": 44672,
-  "test_windows": 21346,
-  "ADE": 235.88826608481614,
-  "FDE": 532.8763250268935,
-  "MSE": 50050.85344706567,
-  "horizontal_ADE": 233.4196980169055,
-  "altitude_MAE": 20.201766731555878,
-  "motion_groups": {
-   "climb": {
-    "count": 5311,
-    "ADE": 354.4220152407841
-   },
-   "descent": {
-    "count": 5325,
-    "ADE": 201.95059929575936
-   },
-   "level": {
-    "count": 10710,
-    "ADE": 193.98213479484244
-   },
-   "turning": {
-    "count": 5893,
-    "ADE": 243.10443668169006
-   },
-   "nonturning": {
-    "count": 11901,
-    "ADE": 266.44656161564785
-   },
-   "low_speed": {
-    "count": 3552,
-    "ADE": 121.53039208712296
    }
   }
  },
@@ -8994,5 +8754,485 @@
   "ADE": 295.9544571007121,
   "FDE": 611.3463446284514,
   "MSE": 78187.20832267946
+ },
+ {
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "parameters": 55635,
+  "test_windows": 21346,
+  "ADE": 222.02646808151363,
+  "FDE": 502.30470269226316,
+  "MSE": 47698.67289949139,
+  "horizontal_ADE": 219.4653748103297,
+  "altitude_MAE": 19.378487142419367,
+  "motion_groups": {
+   "climb": {
+    "count": 5311,
+    "ADE": 337.1596928209161
+   },
+   "descent": {
+    "count": 5325,
+    "ADE": 186.90793396297786
+   },
+   "level": {
+    "count": 10710,
+    "ADE": 182.39375450450476
+   },
+   "turning": {
+    "count": 5893,
+    "ADE": 225.14048434391202
+   },
+   "nonturning": {
+    "count": 11901,
+    "ADE": 254.29407580483578
+   },
+   "low_speed": {
+    "count": 3552,
+    "ADE": 108.74727400787282
+   }
+  }
+ },
+ {
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "parameters": 55635,
+  "test_windows": 21346,
+  "ADE": 223.79847900440714,
+  "FDE": 504.98079660813306,
+  "MSE": 47808.80591158625,
+  "horizontal_ADE": 221.2796371578514,
+  "altitude_MAE": 19.43666541106267,
+  "motion_groups": {
+   "climb": {
+    "count": 5311,
+    "ADE": 341.33268419104127
+   },
+   "descent": {
+    "count": 5325,
+    "ADE": 186.2668383872897
+   },
+   "level": {
+    "count": 10710,
+    "ADE": 184.17493302307543
+   },
+   "turning": {
+    "count": 5893,
+    "ADE": 226.7368374831311
+   },
+   "nonturning": {
+    "count": 11901,
+    "ADE": 254.46916895574105
+   },
+   "low_speed": {
+    "count": 3552,
+    "ADE": 116.16119645205775
+   }
+  }
+ },
+ {
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "parameters": 55635,
+  "test_windows": 21346,
+  "ADE": 220.56699917814558,
+  "FDE": 497.94820762597215,
+  "MSE": 47196.044601776375,
+  "horizontal_ADE": 218.05285748169865,
+  "altitude_MAE": 19.14980968140825,
+  "motion_groups": {
+   "climb": {
+    "count": 5311,
+    "ADE": 337.8641815894737
+   },
+   "descent": {
+    "count": 5325,
+    "ADE": 185.6362636465283
+   },
+   "level": {
+    "count": 10710,
+    "ADE": 179.76782372709962
+   },
+   "turning": {
+    "count": 5893,
+    "ADE": 222.53351146035303
+   },
+   "nonturning": {
+    "count": 11901,
+    "ADE": 254.0215409114984
+   },
+   "low_speed": {
+    "count": 3552,
+    "ADE": 105.21475873679391
+   }
+  }
+ },
+ {
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "seed": 42,
+  "parameters": 55635,
+  "test_windows": 57009,
+  "ADE": 219.11003556116785,
+  "FDE": 494.6027322187604,
+  "MSE": 54495.703922787165,
+  "horizontal_ADE": 216.81989544924457,
+  "altitude_MAE": 17.830718139177264,
+  "motion_groups": {
+   "climb": {
+    "count": 11645,
+    "ADE": 348.6889737141837
+   },
+   "descent": {
+    "count": 13398,
+    "ADE": 206.9175713573266
+   },
+   "level": {
+    "count": 31966,
+    "ADE": 177.0155570718729
+   },
+   "turning": {
+    "count": 12172,
+    "ADE": 267.29385553838875
+   },
+   "nonturning": {
+    "count": 31698,
+    "ADE": 259.87629109877736
+   },
+   "low_speed": {
+    "count": 13139,
+    "ADE": 76.12333757853
+   }
+  }
+ },
+ {
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "seed": 123,
+  "parameters": 55635,
+  "test_windows": 57009,
+  "ADE": 224.01828024165232,
+  "FDE": 504.686875458024,
+  "MSE": 55649.490123318676,
+  "horizontal_ADE": 221.78230221035176,
+  "altitude_MAE": 18.06232281835891,
+  "motion_groups": {
+   "climb": {
+    "count": 11645,
+    "ADE": 351.70256993132415
+   },
+   "descent": {
+    "count": 13398,
+    "ADE": 208.9037770231948
+   },
+   "level": {
+    "count": 31966,
+    "ADE": 183.83873199303397
+   },
+   "turning": {
+    "count": 12172,
+    "ADE": 269.24964532043765
+   },
+   "nonturning": {
+    "count": 31698,
+    "ADE": 263.9423717279926
+   },
+   "low_speed": {
+    "count": 13139,
+    "ADE": 85.79847449745643
+   }
+  }
+ },
+ {
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "seed": 456,
+  "parameters": 55635,
+  "test_windows": 57009,
+  "ADE": 219.7376669178063,
+  "FDE": 497.95188492797934,
+  "MSE": 53620.94918029764,
+  "horizontal_ADE": 217.4815967741472,
+  "altitude_MAE": 17.814533539906332,
+  "motion_groups": {
+   "climb": {
+    "count": 11645,
+    "ADE": 345.35509056225874
+   },
+   "descent": {
+    "count": 13398,
+    "ADE": 205.71523071201057
+   },
+   "level": {
+    "count": 31966,
+    "ADE": 179.85334300945377
+   },
+   "turning": {
+    "count": 12172,
+    "ADE": 264.05231265482445
+   },
+   "nonturning": {
+    "count": 31698,
+    "ADE": 259.2544690283725
+   },
+   "low_speed": {
+    "count": 13139,
+    "ADE": 83.34970274916994
+   }
+  }
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "seed": 123,
+  "parameters": 44672,
+  "test_windows": 57009,
+  "ADE": 239.37615508356876,
+  "FDE": 539.4844285172564,
+  "MSE": 61352.561281392285,
+  "horizontal_ADE": 237.14724644945213,
+  "altitude_MAE": 18.524527476482053,
+  "motion_groups": {
+   "climb": {
+    "count": 11645,
+    "ADE": 372.33461452175146
+   },
+   "descent": {
+    "count": 13398,
+    "ADE": 227.25536411287263
+   },
+   "level": {
+    "count": 31966,
+    "ADE": 196.02049898858448
+   },
+   "turning": {
+    "count": 12172,
+    "ADE": 291.98261787014104
+   },
+   "nonturning": {
+    "count": 31698,
+    "ADE": 280.864988467667
+   },
+   "low_speed": {
+    "count": 13139,
+    "ADE": 90.54908257825477
+   }
+  }
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "seed": 42,
+  "parameters": 44672,
+  "test_windows": 57009,
+  "ADE": 238.26156974154057,
+  "FDE": 537.2818348320744,
+  "MSE": 61623.12625844177,
+  "horizontal_ADE": 236.046256162334,
+  "altitude_MAE": 18.38197747305462,
+  "motion_groups": {
+   "climb": {
+    "count": 11645,
+    "ADE": 373.4221701195748
+   },
+   "descent": {
+    "count": 13398,
+    "ADE": 223.4096557546982
+   },
+   "level": {
+    "count": 31966,
+    "ADE": 195.2483917459676
+   },
+   "turning": {
+    "count": 12172,
+    "ADE": 293.06023373012175
+   },
+   "nonturning": {
+    "count": 31698,
+    "ADE": 279.31479808715153
+   },
+   "low_speed": {
+    "count": 13139,
+    "ADE": 88.45453951335152
+   }
+  }
+ },
+ {
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "seed": 456,
+  "parameters": 44672,
+  "test_windows": 57009,
+  "ADE": 236.63585702423183,
+  "FDE": 532.0587634536703,
+  "MSE": 60773.85730099712,
+  "horizontal_ADE": 234.392419042895,
+  "altitude_MAE": 18.496957651364806,
+  "motion_groups": {
+   "climb": {
+    "count": 11645,
+    "ADE": 372.5352623188185
+   },
+   "descent": {
+    "count": 13398,
+    "ADE": 219.68144254273315
+   },
+   "level": {
+    "count": 31966,
+    "ADE": 194.23476431847163
+   },
+   "turning": {
+    "count": 12172,
+    "ADE": 288.8323025968263
+   },
+   "nonturning": {
+    "count": 31698,
+    "ADE": 277.49320580537045
+   },
+   "low_speed": {
+    "count": 13139,
+    "ADE": 89.71208982930526
+   }
+  }
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "seed": 123,
+  "parameters": 44672,
+  "test_windows": 21346,
+  "ADE": 238.69636265877173,
+  "FDE": 535.669631857066,
+  "MSE": 50713.09123939913,
+  "horizontal_ADE": 236.19816497276838,
+  "altitude_MAE": 20.413199947545763,
+  "motion_groups": {
+   "climb": {
+    "count": 5311,
+    "ADE": 358.00522163283586
+   },
+   "descent": {
+    "count": 5325,
+    "ADE": 202.44198950882384
+   },
+   "level": {
+    "count": 10710,
+    "ADE": 197.55772465804503
+   },
+   "turning": {
+    "count": 5893,
+    "ADE": 246.2811097408394
+   },
+   "nonturning": {
+    "count": 11901,
+    "ADE": 267.8338649048851
+   },
+   "low_speed": {
+    "count": 3552,
+    "ADE": 128.48737369885578
+   }
+  }
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "seed": 42,
+  "parameters": 44672,
+  "test_windows": 21346,
+  "ADE": 240.15899930746727,
+  "FDE": 537.73266121436,
+  "MSE": 51104.95107683169,
+  "horizontal_ADE": 237.76369633654653,
+  "altitude_MAE": 20.059021027262634,
+  "motion_groups": {
+   "climb": {
+    "count": 5311,
+    "ADE": 361.0387664884564
+   },
+   "descent": {
+    "count": 5325,
+    "ADE": 206.7685639812079
+   },
+   "level": {
+    "count": 10710,
+    "ADE": 196.81741430411515
+   },
+   "turning": {
+    "count": 5893,
+    "ADE": 253.559497299514
+   },
+   "nonturning": {
+    "count": 11901,
+    "ADE": 269.37556044498615
+   },
+   "low_speed": {
+    "count": 3552,
+    "ADE": 120.03641238045618
+   }
+  }
+ },
+ {
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "seed": 456,
+  "parameters": 44672,
+  "test_windows": 21346,
+  "ADE": 235.88826608481614,
+  "FDE": 532.8763250268935,
+  "MSE": 50050.85344706567,
+  "horizontal_ADE": 233.4196980169055,
+  "altitude_MAE": 20.201766731555878,
+  "motion_groups": {
+   "climb": {
+    "count": 5311,
+    "ADE": 354.4220152407841
+   },
+   "descent": {
+    "count": 5325,
+    "ADE": 201.95059929575936
+   },
+   "level": {
+    "count": 10710,
+    "ADE": 193.98213479484244
+   },
+   "turning": {
+    "count": 5893,
+    "ADE": 243.10443668169006
+   },
+   "nonturning": {
+    "count": 11901,
+    "ADE": 266.44656161564785
+   },
+   "low_speed": {
+    "count": 3552,
+    "ADE": 121.53039208712296
+   }
+  }
  }
 ]

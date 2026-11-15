@@ -1,9 +1,11 @@
-# PA-TSMixer: Lightweight multi-scale temporal mixing for short-term aircraft trajectory prediction under degraded ADS-B reception
+# PA-TSMixer: Lightweight Multi-Scale Aircraft Trajectory Prediction Under Degraded ADS-B Reception for Aerial IoT
 
 Code, checkpoints and evaluation outputs for
 
-> C. Liu, P. Wu, H. Ye, S. He, and G. Pan, *Lightweight multi-scale temporal mixing for short-term aircraft trajectory
-> prediction under degraded ADS-B reception*, manuscript under review.
+> C. Liu, P. Wu, H. Ye, S. He, G. Pan, and J. H. Park, *Lightweight Multi-Scale Aircraft Trajectory Prediction Under
+> Degraded ADS-B Reception for Aerial IoT*, manuscript under review.
+
+The IoTJ manuscript numbers the tables as I (data), II (main accuracy), III (decomposition), IV (cross-source), V (combined degradation), VI (ablation), and VII (cost); its figures follow the label order in the manuscript.
 
 This release contains the PA-TSMixer model and its single-scale parent, the construction of the processed
 XYZ benchmark from the public TrajAir and TartanAviation (KBTP) files, a training script that retrains
@@ -16,28 +18,28 @@ the result tables. The configurations of all baselines are listed in `CONFIGS.md
 
 | Path | What |
 |---|---|
-| `pa_tsmixer/models.py` | PA-TSMixer (full-, half- and quarter-resolution temporal branches, learned scale fusion; Section 4) and TSMixer; options for the equal-weight and uniform-width controls |
-| `pa_tsmixer/data.py` | processed-benchmark construction (segmentation, aircraft-level split, windows, normalization; Section 5.1) and test-window access |
+| `pa_tsmixer/models.py` | PA-TSMixer (full-, half- and quarter-resolution temporal branches, learned scale fusion; Section IV) and TSMixer; options for the equal-weight and uniform-width controls |
+| `pa_tsmixer/data.py` | processed-benchmark construction (segmentation, aircraft-level split, windows, normalization; Section V-A) and test-window access |
 | `pa_tsmixer/data_manifest.json` | SHA-256 of the processed arrays used in the paper |
 | `scripts/prepare_data.py` | builds the processed data from the public source files and checks it byte for byte against the paper build |
 | `scripts/train.py` | trains PA-TSMixer or a TSMixer control with the paper settings (AdamW, cosine schedule, early stopping on validation ADE) and evaluates it on the test split |
 | `scripts/evaluate.py` | evaluates the released checkpoints on the test split and compares with the reported ADE, FDE and MSE |
 | `scripts/kinematic_baselines.py` | CV and CA baselines with the validation-selected fitting windows |
-| `scripts/reproduce_tables.py` | recomputes every printed cell of Tables 2, 3 and 5 from `results/runs.json` |
-| `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section 5.1) |
-| `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 main PA-TSMixer models (Fig. 6) |
+| `scripts/reproduce_tables.py` | recomputes every printed cell of Tables II, III and VI from `results/runs.json` |
+| `pa_tsmixer/motion.py` | history-only motion groups (climb/descent/level, turning/non-turning/low speed; Section V-A) |
+| `scripts/branch_analysis.py` | learned scale weights and test-time removal of each temporal branch for the 24 base PA-TSMixer models (Fig. 8) |
 | `results/branch_analysis.json` | output of `branch_analysis.py`: weights per block and ADE with each branch removed, overall and per motion group |
-| `scripts/link_noise.py` | Gaussian position noise (Fig. 7; Section 6.5), plus independent missing reports (released, not reported in the paper) |
-| `scripts/link_impairment.py` | Gilbert–Elliott burst loss, staleness and combined degraded ADS-B reception conditions (Fig. 7; Table 6) |
+| `scripts/link_noise.py` | Gaussian position noise (Fig. 7; Section VI-D), plus independent missing reports (released, not reported in the paper) |
+| `scripts/link_impairment.py` | Gilbert–Elliott burst loss, staleness and combined degraded ADS-B reception conditions (Fig. 7; Table V) |
 | `scripts/link_calibration.py` | raw-log reception statistics for the KBTP region |
 | `scripts/real_trace_masks.py` | derives reception-history and report-age pools from raw logs |
 | `scripts/real_trace.py` | real reception replay using shared masks, ages and worst-decile subsets |
-| `scripts/make_link_table.py` | prints Table 6 from the full per-run combined-condition results |
+| `scripts/make_link_table.py` | prints Table V from the full per-run combined-condition results |
 | `scripts/link_common.py` | shared released-checkpoint loading and strict result comparisons |
 | `results/link/` | all ten methods' link/noise/replay JSON and MD results, calibration, and two derived reception-mask NPZ pools |
-| `checkpoints/` | 108 checkpoints: PA-TSMixer and TSMixer, 2 sources x 4 horizons x 3 seeds (main study), and the five capacity/component controls of Table 5 at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
+| `checkpoints/` | 114 checkpoints: 48 main-study models (including six selected H = 60 PA-TSMixer models), and the six old H = 60 base models retained for Table VI and Fig. 8 alongside the five capacity/component controls at H = 30 and 60 (`index.json` lists settings, SHA-256 and reported metrics) |
 | `results/runs.json` | per-run test metrics of all methods: ADE, FDE, MSE, horizontal ADE, altitude MAE and ADE per motion group |
-| `results/paper_tables.json` | the cells of Tables 2, 3 and 5 as printed in the paper |
+| `results/paper_tables.json` | the cells of Tables II, III and VI as printed in the paper |
 | `CONFIGS.md` | protocol, training settings and baseline configurations |
 
 ## Usage
@@ -45,19 +47,19 @@ the result tables. The configurations of all baselines are listed in `CONFIGS.md
 Python 3.12; `pip install -r requirements.txt`.
 
 ```bash
-python -m unittest discover -s tests -t .
-python scripts/reproduce_tables.py
-python scripts/prepare_data.py --trajair <TrajAir 111_days folder> --tartan-zip <TartanAviation kbtp/processed.zip> --output data
-python scripts/evaluate.py --data data
-python scripts/kinematic_baselines.py --data data
-python scripts/branch_analysis.py --data data
-python scripts/link_noise.py --data data
-python scripts/link_impairment.py --data data
-python scripts/link_calibration.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
-python scripts/real_trace_masks.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
-python scripts/real_trace.py --data data
-python scripts/make_link_table.py
-python scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
+D:/conda/envs/dl/python.exe -m unittest discover -s tests -t .
+D:/conda/envs/dl/python.exe scripts/reproduce_tables.py
+D:/conda/envs/dl/python.exe scripts/prepare_data.py --trajair <TrajAir 111_days folder> --tartan-zip <TartanAviation kbtp/processed.zip> --output data
+D:/conda/envs/dl/python.exe scripts/evaluate.py --data data
+D:/conda/envs/dl/python.exe scripts/kinematic_baselines.py --data data
+D:/conda/envs/dl/python.exe scripts/branch_analysis.py --data data
+D:/conda/envs/dl/python.exe scripts/link_noise.py --data data
+D:/conda/envs/dl/python.exe scripts/link_impairment.py --data data
+D:/conda/envs/dl/python.exe scripts/link_calibration.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
+D:/conda/envs/dl/python.exe scripts/real_trace_masks.py --raw-trajair <TrajAir raw_data folder> --raw-tartan <TartanAviation_raw folder>
+D:/conda/envs/dl/python.exe scripts/real_trace.py --data data
+D:/conda/envs/dl/python.exe scripts/make_link_table.py
+D:/conda/envs/dl/python.exe scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
 ```
 
 `reproduce_tables.py` needs no data and exits with status 0 when all 537 printed cells are reproduced.
@@ -65,7 +67,7 @@ python scripts/train.py --data data --dataset trajair --horizon 10 --seed 42
 a minute). `evaluate.py` and `kinematic_baselines.py` then recompute the test metrics of the released models and
 baselines; on our machine the largest relative difference from the reported values is below 1e-7.
 `branch_analysis.py` first checks that the motion groups match the window counts of the paper and then
-recomputes the scale analysis of Fig. 6 (a few minutes on a GPU).
+recomputes the scale analysis of Fig. 8 (a few minutes on a GPU).
 The link scripts recompute PA-TSMixer, TSMixer, CV and CA and check every ADE/FDE against the published rows
 (relative difference <1e-5). They default to `results/link/recomputed/`, keeping the full ten-method results intact;
 `--out` selects another output (a directory for `real_trace_masks.py`, a JSON file otherwise).
@@ -73,8 +75,10 @@ Neural evaluation accepts `--device` and defaults to CUDA when available, otherw
 mask pools without raw logs; regenerating the pools checks all arrays exactly against the release, and calibration
 checks the full JSON with portable provenance. Creation times and runtimes vary for regenerated NPZ metadata.
 `train.py` writes the selected checkpoint and the training history to `runs/`; options select TSMixer
-(`--model TSMixer`), the width (`--d-model 167` for the matched-size control) and the output
-(`--last-residual` / `--no-last-residual`). GPU training is not bitwise deterministic: retraining PA-TSMixer on
+(`--model TSMixer`), the width (`--d-model 167` for the matched-size control), mixer depth (`--layers`) and
+dropout (`--dropout`), plus the output head (`--last-residual` / `--no-last-residual`). The selected H = 60 model can
+be retrained with `D:/conda/envs/dl/python.exe scripts/train.py --data data --dataset trajair --horizon 60 --seed 42 --d-model 96 --layers 3 --dropout 0.0 --device cuda:1`.
+GPU training is not bitwise deterministic: retraining PA-TSMixer on
 TrajAir at H = 10 with seeds 42, 123 and 456 gave a mean test ADE of 33.57 m, against 33.68 +/- 0.37 m reported
 (about 2-3 minutes per run on an RTX 5090).
 

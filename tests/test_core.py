@@ -17,6 +17,7 @@ count = lambda m: sum(p.numel() for p in m.parameters())
 class Models(unittest.TestCase):
     def test_parameter_counts_match_the_paper(self):
         self.assertEqual(count(PATSMixer(30)), 44_672)
+        self.assertEqual(count(PATSMixer(60, d_model=96, layers=3, dropout=0.0)), 55_635)
         self.assertEqual(count(TSMixer(30)), 34_724)
         self.assertEqual(count(TSMixer(30, d_model=167)), 44_708)
         self.assertEqual(count(PATSMixer(30, uniform_width=96)), 44_800)
@@ -40,9 +41,16 @@ class Models(unittest.TestCase):
 
     def test_released_checkpoints(self):
         index = json.loads((ROOT / "checkpoints/index.json").read_text(encoding="utf-8"))
-        self.assertEqual(len(index), 108)
+        self.assertEqual(len(index), 114)
         for e in index:
             self.assertEqual(hashlib.sha256((ROOT / "checkpoints" / e["file"]).read_bytes()).hexdigest(), e["sha256"])
+
+    def test_h60_selected_checkpoints_record_their_architecture(self):
+        index = json.loads((ROOT / "checkpoints/index.json").read_text(encoding="utf-8"))
+        selected = [e for e in index if e["study"] == "main" and e["horizon"] == 60 and e["method"] == "PA-TSMixer"]
+        self.assertEqual(len(selected), 6)
+        self.assertTrue(all(e["kwargs"] == {"d_model": 96, "layers": 3, "dropout": 0.0} for e in selected))
+        self.assertEqual({e["parameters"] for e in selected}, {55_635})
 
 
 class Protocol(unittest.TestCase):

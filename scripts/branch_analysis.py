@@ -1,4 +1,4 @@
-"""Learned scale weights and test-time branch removal for the 24 main PA-TSMixer checkpoints (Fig. 6).
+"""Learned scale weights and test-time branch removal for the 24 base PA-TSMixer checkpoints (Fig. 8).
 
 For each checkpoint: the softmax scale weights of each mixing block, and the test ADE with one temporal branch
 silenced (its output set to zero in both the weighted sum and the fusion input, in every block), overall and per
@@ -16,7 +16,7 @@ import torch.nn.functional as F
 ROOT = Path(__file__).resolve().parents[1]
 sys.path.insert(0, str(ROOT))
 from pa_tsmixer.data import Windows
-from pa_tsmixer.models import PATSMixer
+from pa_tsmixer.models import build
 from pa_tsmixer.motion import EXPECTED, groups
 
 BRANCHES = ("fine", "medium", "coarse")
@@ -51,8 +51,12 @@ def main():
     p.add_argument("--output", type=Path, default=ROOT / "results/branch_analysis.json")
     a = p.parse_args()
     torch.backends.cuda.matmul.allow_tf32 = torch.backends.cudnn.allow_tf32 = False
+    seed_order = {123: 0, 42: 1, 456: 2}
     index = [e for e in json.loads((ROOT / "checkpoints/index.json").read_text(encoding="utf-8"))
-             if e["study"] == "main" and e["architecture"] == "PA-TSMixer"]
+             if e["architecture"] == "PA-TSMixer" and
+             ((e["study"] == "main" and e["horizon"] < 60) or
+              (e["study"] == "ablation" and e["method"] == "PA-TSMixer (base)"))]
+    index.sort(key=lambda e: (e["dataset"], e["horizon"], seed_order[e["seed"]]))
     cache, result = {}, []
     for e in index:
         d, h = e["dataset"], e["horizon"]
@@ -62,7 +66,7 @@ def main():
             assert {k: int(v.sum()) for k, v in masks.items()} == EXPECTED[d], "motion groups differ from the paper"
             cache[(d, h)] = (w, masks)
         w, masks = cache[(d, h)]
-        model = PATSMixer(h)
+        model = build(e["architecture"], h, **e["kwargs"])
         model.load_state_dict(torch.load(ROOT / "checkpoints" / e["file"], map_location="cpu", weights_only=True))
         model.eval().to(a.device)
         weights = [F.softmax(b.temporal.scale_w.detach().cpu(), 0).tolist() for b in model.model]

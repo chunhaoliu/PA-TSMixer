@@ -1,6 +1,6 @@
 """Evaluate released checkpoints on the test split and compare with the values reported in the paper.
 
-    python scripts/evaluate.py --data data                       # all 96 checkpoints
+    python scripts/evaluate.py --data data                       # all 114 checkpoints
     python scripts/evaluate.py --data data --study main --dataset trajair --horizon 30
 
 ADE and FDE are 3D displacement errors in metres; MSE is the mean squared XYZ coordinate error (m^2).

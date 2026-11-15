@@ -38,6 +38,8 @@ def main():
     p.add_argument("--seed", type=int, default=42)
     p.add_argument("--model", choices=["PA-TSMixer", "TSMixer"], default="PA-TSMixer")
     p.add_argument("--d-model", type=int, default=128)
+    p.add_argument("--layers", type=int, default=2)
+    p.add_argument("--dropout", type=float, default=0.1)
     p.add_argument("--last-residual", action=argparse.BooleanOptionalAction, default=None,
                    help="add the forecast to the last observation (default: on for PA-TSMixer, off for TSMixer)")
     p.add_argument("--epochs", type=int, default=30)
@@ -52,11 +54,11 @@ def main():
     torch.backends.cuda.matmul.allow_tf32 = torch.backends.cudnn.allow_tf32 = False
     random.seed(a.seed); np.random.seed(a.seed); torch.manual_seed(a.seed)
     device = torch.device(a.device)
-    kwargs = dict(d_model=a.d_model)
+    kwargs = dict(d_model=a.d_model, layers=a.layers, dropout=a.dropout)
     if a.last_residual is not None:
         kwargs["last_residual"] = a.last_residual
     model = build(a.model, a.horizon, **kwargs).to(device)
-    name = f"{a.dataset}_H{a.horizon}_{a.model.lower()}_d{a.d_model}_s{a.seed}"
+    name = f"{a.dataset}_H{a.horizon}_{a.model.lower()}_d{a.d_model}_l{a.layers}_drop{a.dropout:g}_s{a.seed}"
     out = a.output / name
     out.mkdir(parents=True, exist_ok=True)
 

@@ -306,57 +306,6 @@
   }
  },
  {
-  "file": "main_tartanaviation_H60_pa-tsmixer_s123.pt",
-  "study": "main",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 123,
-  "parameters": 46502,
-  "sha256": "0b702db563ef9ac93aa7275c836d56c516a3f46063009e7cc9af80445d634bcf",
-  "reported": {
-   "ADE": 239.37615508356876,
-   "FDE": 539.4844285172564,
-   "MSE": 61352.561281392285
-  }
- },
- {
-  "file": "main_tartanaviation_H60_pa-tsmixer_s42.pt",
-  "study": "main",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 42,
-  "parameters": 46502,
-  "sha256": "222edc34d70aa650610760bba69ee9805bba671fe9261f744c99299cb7fb1cea",
-  "reported": {
-   "ADE": 238.26156974154057,
-   "FDE": 537.2818348320744,
-   "MSE": 61623.12625844177
-  }
- },
- {
-  "file": "main_tartanaviation_H60_pa-tsmixer_s456.pt",
-  "study": "main",
-  "dataset": "tartanaviation",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 456,
-  "parameters": 46502,
-  "sha256": "2a9e7681a88e3405fef703ae6524f45c489c4f8f1b9f3b6837d7ce25a3cdc2e8",
-  "reported": {
-   "ADE": 236.63585702423183,
-   "FDE": 532.0587634536703,
-   "MSE": 60773.85730099712
-  }
- },
- {
   "file": "main_tartanaviation_H60_tsmixer_s123.pt",
   "study": "main",
   "dataset": "tartanaviation",
@@ -711,57 +660,6 @@
    "ADE": 122.36236649066441,
    "FDE": 259.1186027153453,
    "MSE": 11099.700002083151
-  }
- },
- {
-  "file": "main_trajair_H60_pa-tsmixer_s123.pt",
-  "study": "main",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 123,
-  "parameters": 46502,
-  "sha256": "332287382ddc4e970eba83ee9f88a3de39f83b2ea300f42f0cd9f557319c1fb9",
-  "reported": {
-   "ADE": 238.69636265877173,
-   "FDE": 535.669631857066,
-   "MSE": 50713.09123939913
-  }
- },
- {
-  "file": "main_trajair_H60_pa-tsmixer_s42.pt",
-  "study": "main",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 42,
-  "parameters": 46502,
-  "sha256": "710aa7aa97ad57a52e9a490fc2edb021c373fa2155a0bd6688571df7e73c1c06",
-  "reported": {
-   "ADE": 240.15899930746727,
-   "FDE": 537.73266121436,
-   "MSE": 51104.95107683169
-  }
- },
- {
-  "file": "main_trajair_H60_pa-tsmixer_s456.pt",
-  "study": "main",
-  "dataset": "trajair",
-  "horizon": 60,
-  "method": "PA-TSMixer",
-  "architecture": "PA-TSMixer",
-  "kwargs": {},
-  "seed": 456,
-  "parameters": 46502,
-  "sha256": "c9e1acb8e7aa3eab21ecac9a7db7f9ada95c2b9d87a6cc56e18dac2027526f2d",
-  "reported": {
-   "ADE": 235.88826608481614,
-   "FDE": 532.8763250268935,
-   "MSE": 50050.85344706567
   }
  },
  {
@@ -1965,6 +1863,234 @@
    "ADE": 295.9544571007121,
    "FDE": 611.3463446284514,
    "MSE": 78187.20832267946
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-base_s123.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "0b702db563ef9ac93aa7275c836d56c516a3f46063009e7cc9af80445d634bcf",
+  "reported": {
+   "ADE": 239.37615508356876,
+   "FDE": 539.4844285172564,
+   "MSE": 61352.561281392285
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-base_s42.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "222edc34d70aa650610760bba69ee9805bba671fe9261f744c99299cb7fb1cea",
+  "reported": {
+   "ADE": 238.26156974154057,
+   "FDE": 537.2818348320744,
+   "MSE": 61623.12625844177
+  }
+ },
+ {
+  "file": "ablation_tartanaviation_H60_pa-base_s456.pt",
+  "study": "ablation",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "2a9e7681a88e3405fef703ae6524f45c489c4f8f1b9f3b6837d7ce25a3cdc2e8",
+  "reported": {
+   "ADE": 236.63585702423183,
+   "FDE": 532.0587634536703,
+   "MSE": 60773.85730099712
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-base_s123.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 123,
+  "parameters": 46502,
+  "sha256": "332287382ddc4e970eba83ee9f88a3de39f83b2ea300f42f0cd9f557319c1fb9",
+  "reported": {
+   "ADE": 238.69636265877173,
+   "FDE": 535.669631857066,
+   "MSE": 50713.09123939913
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-base_s42.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 42,
+  "parameters": 46502,
+  "sha256": "710aa7aa97ad57a52e9a490fc2edb021c373fa2155a0bd6688571df7e73c1c06",
+  "reported": {
+   "ADE": 240.15899930746727,
+   "FDE": 537.73266121436,
+   "MSE": 51104.95107683169
+  }
+ },
+ {
+  "file": "ablation_trajair_H60_pa-base_s456.pt",
+  "study": "ablation",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer (base)",
+  "architecture": "PA-TSMixer",
+  "kwargs": {},
+  "seed": 456,
+  "parameters": 46502,
+  "sha256": "c9e1acb8e7aa3eab21ecac9a7db7f9ada95c2b9d87a6cc56e18dac2027526f2d",
+  "reported": {
+   "ADE": 235.88826608481614,
+   "FDE": 532.8763250268935,
+   "MSE": 50050.85344706567
+  }
+ },
+ {
+  "file": "main_trajair_H60_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "d_model": 96,
+   "layers": 3,
+   "dropout": 0.0
+  },
+  "seed": 42,
+  "parameters": 55635,
+  "sha256": "93174bdfa085a038cbb7f4cf7640aaba36145a8c531bd67fd898190afc30264c",
+  "reported": {
+   "ADE": 222.02646808151363,
+   "FDE": 502.30470269226316,
+   "MSE": 47698.67289949139
+  }
+ },
+ {
+  "file": "main_trajair_H60_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "d_model": 96,
+   "layers": 3,
+   "dropout": 0.0
+  },
+  "seed": 123,
+  "parameters": 55635,
+  "sha256": "8784b5e604529a9d22ae520db27451ab47ba7eb880df58d8d58f02b41bf2b7e2",
+  "reported": {
+   "ADE": 223.79847900440714,
+   "FDE": 504.98079660813306,
+   "MSE": 47808.80591158625
+  }
+ },
+ {
+  "file": "main_trajair_H60_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "trajair",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "d_model": 96,
+   "layers": 3,
+   "dropout": 0.0
+  },
+  "seed": 456,
+  "parameters": 55635,
+  "sha256": "685f429d5f286abfc57f999b1b2bac3dcbfbea0d635c4d703807ac3b58c73e13",
+  "reported": {
+   "ADE": 220.56699917814558,
+   "FDE": 497.94820762597215,
+   "MSE": 47196.044601776375
+  }
+ },
+ {
+  "file": "main_tartanaviation_H60_pa-tsmixer_s42.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "d_model": 96,
+   "layers": 3,
+   "dropout": 0.0
+  },
+  "seed": 42,
+  "parameters": 55635,
+  "sha256": "a685be26b071aff9bc8df5cbd53aeb80a210a9a5d769d08e66de84a9da7e8159",
+  "reported": {
+   "ADE": 219.11003556116785,
+   "FDE": 494.6027322187604,
+   "MSE": 54495.703922787165
+  }
+ },
+ {
+  "file": "main_tartanaviation_H60_pa-tsmixer_s123.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "d_model": 96,
+   "layers": 3,
+   "dropout": 0.0
+  },
+  "seed": 123,
+  "parameters": 55635,
+  "sha256": "d8e67f914a7a141c5417317c571514369e92e79be5079077e1ad69643b49bf8f",
+  "reported": {
+   "ADE": 224.01828024165232,
+   "FDE": 504.686875458024,
+   "MSE": 55649.490123318676
+  }
+ },
+ {
+  "file": "main_tartanaviation_H60_pa-tsmixer_s456.pt",
+  "study": "main",
+  "dataset": "tartanaviation",
+  "horizon": 60,
+  "method": "PA-TSMixer",
+  "architecture": "PA-TSMixer",
+  "kwargs": {
+   "d_model": 96,
+   "layers": 3,
+   "dropout": 0.0
+  },
+  "seed": 456,
+  "parameters": 55635,
+  "sha256": "61347dd32f995e62d0cfd2e6f101633d434def82082db75c1158ae218909f19b",
+  "reported": {
+   "ADE": 219.7376669178063,
+   "FDE": 497.95188492797934,
+   "MSE": 53620.94918029764
   }
  }
 ]

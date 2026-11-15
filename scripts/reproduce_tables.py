@@ -1,4 +1,4 @@
-"""Recompute Tables 2, 3 and 5 of the paper from the per-run results and compare every printed cell.
+"""Recompute Tables II, III and VI of the paper from the per-run results and compare every printed cell.
 
     python scripts/reproduce_tables.py          # exit status 0 when all cells agree
 
@@ -71,7 +71,12 @@ def table_ablation():
     labels = ["PA-TSMixer (ours)", "TSMixer, matched size", "PA, equal weights", "PA, uniform widths",
               "PA, direct output", "TSMixer, matched, direct"]
     cols = [(d, h) for d in ("trajair", "tartanaviation") for h in (30, 60)]
-    runs = lambda c, m, key: (values("main", *c, "PA-TSMixer", key) if m == labels[0] else values("ablation", *c, m, key))
+    def runs(c, m, key):
+        if m != labels[0]:
+            return values("ablation", *c, m, key)
+        d, h = c
+        return values("main", d, h, "PA-TSMixer", key) if h == 30 else values("ablation", d, h,
+                                                                                "PA-TSMixer (base)", key)
     out = {}
     for key in ("ADE", "FDE"):
         stats = {(c, m): summary(runs(c, m, key)) for c in cols for m in labels}

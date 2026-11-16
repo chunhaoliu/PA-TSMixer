@@ -135,8 +135,8 @@
     "seed": null,
     "horizon": 30,
     "ADE": 218.44934659058765,
-    "reference_ADE": 218.44934659058765,
-    "relative_error": 0.0
+    "reference_ADE": 218.4493465905876,
+    "relative_error": 2.602132702522684e-16
    },
    {
     "dataset": "trajair",
@@ -306,8 +306,8 @@
     "seed": 42,
     "horizon": 30,
     "ADE": 121.62734180671072,
-    "reference_ADE": 121.62734193155912,
-    "relative_error": 1.0264829955468151e-09
+    "reference_ADE": 121.62734193155907,
+    "relative_error": 1.0264826450288854e-09
    },
    {
     "dataset": "trajair",
@@ -315,8 +315,8 @@
     "seed": 123,
     "horizon": 30,
     "ADE": 117.0323292713042,
-    "reference_ADE": 117.03232992468618,
-    "relative_error": 5.58291862362407e-09
+    "reference_ADE": 117.03232992468621,
+    "relative_error": 5.582918866477555e-09
    },
    {
     "dataset": "trajair",
@@ -324,8 +324,8 @@
     "seed": 456,
     "horizon": 30,
     "ADE": 122.36236607642665,
-    "reference_ADE": 122.3623664906644,
-    "relative_error": 3.3853361797997447e-09
+    "reference_ADE": 122.36236649066441,
+    "relative_error": 3.3853362959372068e-09
    },
    {
     "dataset": "trajair",
@@ -333,8 +333,8 @@
     "seed": 42,
     "horizon": 30,
     "ADE": 100.16230661040473,
-    "reference_ADE": 100.16230718937695,
-    "relative_error": 5.780340287147795e-09
+    "reference_ADE": 100.16230718937696,
+    "relative_error": 5.780340429026063e-09
    },
    {
     "dataset": "trajair",
@@ -342,8 +342,8 @@
     "seed": 123,
     "horizon": 30,
     "ADE": 100.72318454014069,
-    "reference_ADE": 100.72318441966473,
-    "relative_error": 1.1961095210512912e-09
+    "reference_ADE": 100.72318441966476,
+    "relative_error": 1.1961092388748526e-09
    },
    {
     "dataset": "trajair",
@@ -351,8 +351,8 @@
     "seed": 456,
     "horizon": 30,
     "ADE": 99.79816341206602,
-    "reference_ADE": 99.79816322937201,
-    "relative_error": 1.8306349870818299e-09
+    "reference_ADE": 99.79816322937205,
+    "relative_error": 1.8306345598939653e-09
    },
    {
     "dataset": "trajair",
@@ -360,8 +360,8 @@
     "seed": null,
     "horizon": 60,
     "ADE": 500.95142409838064,
-    "reference_ADE": 500.95142409838064,
-    "relative_error": 0.0
+    "reference_ADE": 500.9514240983807,
+    "relative_error": 1.134709197865154e-16
    },
    {
     "dataset": "trajair",
@@ -369,8 +369,8 @@
     "seed": null,
     "horizon": 60,
     "ADE": 745.1000666058312,
-    "reference_ADE": 745.1000666058312,
-    "relative_error": 0.0
+    "reference_ADE": 745.1000666058311,
+    "relative_error": 1.525792880941427e-16
    },
    {
     "dataset": "trajair",
@@ -540,8 +540,8 @@
     "seed": 42,
     "horizon": 60,
     "ADE": 269.3940360245274,
-    "reference_ADE": 269.39403846282806,
-    "relative_error": 9.05105652241128e-09
+    "reference_ADE": 269.3940384628281,
+    "relative_error": 9.051056733416018e-09
    },
    {
     "dataset": "trajair",
@@ -549,8 +549,8 @@
     "seed": 123,
     "horizon": 60,
     "ADE": 267.901400445864,
-    "reference_ADE": 267.9013980390349,
-    "relative_error": 8.98401090968194e-09
+    "reference_ADE": 267.90139803903514,
+    "relative_error": 8.984010060960436e-09
    },
    {
     "dataset": "trajair",
@@ -558,35 +558,35 @@
     "seed": 456,
     "horizon": 60,
     "ADE": 266.8315200305451,
-    "reference_ADE": 266.83151985952355,
-    "relative_error": 6.409346030096978e-10
+    "reference_ADE": 266.8315198595236,
+    "relative_error": 6.409343899785726e-10
    },
    {
     "dataset": "trajair",
     "method": "PA-TSMixer",
     "seed": 42,
     "horizon": 60,
-    "ADE": 240.1589991744145,
-    "reference_ADE": 240.15899930746733,
-    "relative_error": 5.540197222547623e-10
+    "ADE": 222.02646526547468,
+    "reference_ADE": 222.02646808151363,
+    "relative_error": 1.268334792557824e-08
    },
    {
     "dataset": "trajair",
     "method": "PA-TSMixer",
     "seed": 123,
     "horizon": 60,
-    "ADE": 238.69636503612048,
-    "reference_ADE": 238.69636265877165,
-    "relative_error": 9.959719572785625e-09
+    "ADE": 223.79847948394962,
+    "reference_ADE": 223.79847900440714,
+    "relative_error": 2.1427423490479336e-09
    },
    {
     "dataset": "trajair",
     "method": "PA-TSMixer",
     "seed": 456,
     "horizon": 60,
-    "ADE": 235.88826564698522,
-    "reference_ADE": 235.88826608481614,
-    "relative_error": 1.8560945282726248e-09
+    "ADE": 220.5669994288611,
+    "reference_ADE": 220.56699917814558,
+    "relative_error": 1.1366864346793123e-09
    },
    {
     "dataset": "tartanaviation",
@@ -594,8 +594,8 @@
     "seed": null,
     "horizon": 30,
     "ADE": 158.27443346504467,
-    "reference_ADE": 158.27443346504467,
-    "relative_error": 0.0
+    "reference_ADE": 158.2744334650447,
+    "relative_error": 1.7957233400352693e-16
    },
    {
     "dataset": "tartanaviation",
@@ -783,8 +783,8 @@
     "seed": 123,
     "horizon": 30,
     "ADE": 123.9673622660174,
-    "reference_ADE": 123.96736181187273,
-    "relative_error": 3.6634212578241506e-09
+    "reference_ADE": 123.9673618118728,
+    "relative_error": 3.663420684654949e-09
    },
    {
     "dataset": "tartanaviation",
@@ -792,8 +792,8 @@
     "seed": 456,
     "horizon": 30,
     "ADE": 138.18761922893648,
-    "reference_ADE": 138.1876216348884,
-    "relative_error": 1.7410762809424817e-08
+    "reference_ADE": 138.18762163488836,
+    "relative_error": 1.7410762603750037e-08
    },
    {
     "dataset": "tartanaviation",
@@ -801,8 +801,8 @@
     "seed": 42,
     "horizon": 30,
     "ADE": 100.64350364355752,
-    "reference_ADE": 100.64350323867282,
-    "relative_error": 4.022959145266678e-09
+    "reference_ADE": 100.64350323867278,
+    "relative_error": 4.022959568866443e-09
    },
    {
     "dataset": "tartanaviation",
@@ -810,8 +810,8 @@
     "seed": 123,
     "horizon": 30,
     "ADE": 102.57503555323876,
-    "reference_ADE": 102.57503684019119,
-    "relative_error": 1.2546448582042504e-08
+    "reference_ADE": 102.57503684019125,
+    "relative_error": 1.2546449136206752e-08
    },
    {
     "dataset": "tartanaviation",
@@ -819,8 +819,8 @@
     "seed": 456,
     "horizon": 30,
     "ADE": 98.40545060551636,
-    "reference_ADE": 98.40545108161184,
-    "relative_error": 4.838100676860244e-09
+    "reference_ADE": 98.40545108161182,
+    "relative_error": 4.838100388037735e-09
    },
    {
     "dataset": "tartanaviation",
@@ -828,8 +828,8 @@
     "seed": null,
     "horizon": 60,
     "ADE": 432.1556107862821,
-    "reference_ADE": 432.1556107862821,
-    "relative_error": 0.0
+    "reference_ADE": 432.155610786282,
+    "relative_error": 2.6306921600478456e-16
    },
    {
     "dataset": "tartanaviation",
@@ -837,8 +837,8 @@
     "seed": null,
     "horizon": 60,
     "ADE": 722.274979888539,
-    "reference_ADE": 722.274979888539,
-    "relative_error": 0.0
+    "reference_ADE": 722.2749798885386,
+    "relative_error": 4.722031396096269e-16
    },
    {
     "dataset": "tartanaviation",
@@ -1008,8 +1008,8 @@
     "seed": 42,
     "horizon": 60,
     "ADE": 291.2156424425919,
-    "reference_ADE": 291.21564148578824,
-    "relative_error": 3.2855503757275643e-09
+    "reference_ADE": 291.2156414857883,
+    "relative_error": 3.2855501805339997e-09
    },
    {
     "dataset": "tartanaviation",
@@ -1017,8 +1017,8 @@
     "seed": 123,
     "horizon": 60,
     "ADE": 281.3884700890727,
-    "reference_ADE": 281.38846803668724,
-    "relative_error": 7.29377960300614e-09
+    "reference_ADE": 281.3884680366871,
+    "relative_error": 7.293780209037578e-09
    },
    {
     "dataset": "tartanaviation",
@@ -1026,35 +1026,35 @@
     "seed": 456,
     "horizon": 60,
     "ADE": 281.50188177270525,
-    "reference_ADE": 281.50188156417084,
-    "relative_error": 7.407922143609913e-10
+    "reference_ADE": 281.5018815641709,
+    "relative_error": 7.407920124319008e-10
    },
    {
     "dataset": "tartanaviation",
     "method": "PA-TSMixer",
     "seed": 42,
     "horizon": 60,
-    "ADE": 238.26157201505353,
-    "reference_ADE": 238.26156974154077,
-    "relative_error": 9.542087569583882e-09
+    "ADE": 219.11003462715044,
+    "reference_ADE": 219.11003556116785,
+    "relative_error": 4.2627778550840805e-09
    },
    {
     "dataset": "tartanaviation",
     "method": "PA-TSMixer",
     "seed": 123,
     "horizon": 60,
-    "ADE": 239.37615413096515,
-    "reference_ADE": 239.3761550835685,
-    "relative_error": 3.979524851339683e-09
+    "ADE": 224.0182815127108,
+    "reference_ADE": 224.01828024165232,
+    "relative_error": 5.673905112651971e-09
    },
    {
     "dataset": "tartanaviation",
     "method": "PA-TSMixer",
     "seed": 456,
     "horizon": 60,
-    "ADE": 236.63585366126574,
-    "reference_ADE": 236.63585702423205,
-    "relative_error": 1.4211566890372026e-08
+    "ADE": 219.73766595542568,
+    "reference_ADE": 219.7376669178063,
+    "relative_error": 4.379679817612745e-09
    }
   ],
   "checkpoints": [
@@ -1737,7 +1737,8 @@
    "real_trace_masks.py": "9bcd32a4b0288873201ddc0b7606c72afadee18d7f6aa29bf6e57cab64c19367",
    "link_impairment.py": "bb2f514c8f0172dead066ec111dfad8bee263873a0926c42cf3e355581234210",
    "link_calibration.py": "caa067570152b3fbb6b1f1a67433a10e0f963ec716620c05e1047005f15fdb21"
-  }
+  },
+  "h60_pa_update": "PA-TSMixer H=60 rows re-evaluated 2026-11-16 with the selected H=60 checkpoints (d_model 96, 3 layers, dropout 0)"
  },
  "pools": {
   "trajair": {
@@ -182802,8 +182803,8 @@
     "k": 0
    },
    "n_windows": 21346,
-   "ADE": 104.81341025294977,
-   "FDE": 217.42175411994336
+   "ADE": 94.81014406438837,
+   "FDE": 198.81838896657692
   },
   {
    "experiment": "RLA",
@@ -182817,8 +182818,8 @@
     "k": "per_window"
    },
    "n_windows": 21346,
-   "ADE": 107.85414988424046,
-   "FDE": 221.37059675814115
+   "ADE": 97.70212470415649,
+   "FDE": 202.7794822847851
   },
   {
    "experiment": "RLA",
@@ -182832,8 +182833,8 @@
     "k": "per_window"
    },
    "n_windows": 2135,
-   "ADE": 116.78903258690956,
-   "FDE": 234.5251688302275
+   "ADE": 105.72115053135815,
+   "FDE": 214.20523022203258
   },
   {
    "experiment": "RLA",
@@ -182847,8 +182848,8 @@
     "k": "per_window"
    },
    "n_windows": 574,
-   "ADE": 169.82847703007218,
-   "FDE": 305.44485574378166
+   "ADE": 158.01435818657984,
+   "FDE": 288.95857913535843
   },
   {
    "experiment": "nominal_H60",
@@ -182861,8 +182862,8 @@
     "k": 0
    },
    "n_windows": 21346,
-   "ADE": 103.75108165337211,
-   "FDE": 215.97505568575437
+   "ADE": 96.07635977578913,
+   "FDE": 200.5837441703861
   },
   {
    "experiment": "RLA",
@@ -182876,8 +182877,8 @@
     "k": "per_window"
    },
    "n_windows": 21346,
-   "ADE": 106.75431141474816,
-   "FDE": 219.88228381927362
+   "ADE": 98.99077420249421,
+   "FDE": 204.5001991318527
   },
   {
    "experiment": "RLA",
@@ -182891,8 +182892,8 @@
     "k": "per_window"
    },
    "n_windows": 2135,
-   "ADE": 114.82747608277774,
-   "FDE": 231.06416542746936
+   "ADE": 107.92549399996427,
+   "FDE": 217.29690000140698
   },
   {
    "experiment": "RLA",
@@ -182906,8 +182907,8 @@
     "k": "per_window"
    },
    "n_windows": 574,
-   "ADE": 165.63940084214877,
-   "FDE": 301.50172640713595
+   "ADE": 160.06932586241618,
+   "FDE": 291.96631354176054
   },
   {
    "experiment": "nominal_H60",
@@ -182920,8 +182921,8 @@
     "k": 0
    },
    "n_windows": 21346,
-   "ADE": 102.19909441356371,
-   "FDE": 211.98008551357887
+   "ADE": 95.03528717867465,
+   "FDE": 197.69367397897838
   },
   {
    "experiment": "RLA",
@@ -182935,8 +182936,8 @@
     "k": "per_window"
    },
    "n_windows": 21346,
-   "ADE": 105.14460800433795,
-   "FDE": 215.81275707818216
+   "ADE": 97.89653941090316,
+   "FDE": 201.52133137358766
   },
   {
    "experiment": "RLA",
@@ -182950,8 +182951,8 @@
     "k": "per_window"
    },
    "n_windows": 2135,
-   "ADE": 113.77545424136783,
-   "FDE": 229.0242677134788
+   "ADE": 107.07123931451373,
+   "FDE": 215.16108432399093
   },
   {
    "experiment": "RLA",
@@ -182965,8 +182966,8 @@
     "k": "per_window"
    },
    "n_windows": 574,
-   "ADE": 166.71126367480784,
-   "FDE": 300.5941045509347
+   "ADE": 155.40359462662352,
+   "FDE": 282.261590670181
   },
   {
    "experiment": "nominal_H30",
@@ -185480,8 +185481,8 @@
     "k": 0
    },
    "n_windows": 57009,
-   "ADE": 105.40103893922704,
-   "FDE": 213.59689658335174
+   "ADE": 96.42972738380692,
+   "FDE": 195.6760255757813
   },
   {
    "experiment": "RLA",
@@ -185495,8 +185496,8 @@
     "k": "per_window"
    },
    "n_windows": 57009,
-   "ADE": 108.4051923222196,
-   "FDE": 217.48319252081367
+   "ADE": 99.29749603918049,
+   "FDE": 199.49718302514322
   },
   {
    "experiment": "RLA",
@@ -185510,8 +185511,8 @@
     "k": "per_window"
    },
    "n_windows": 5701,
-   "ADE": 115.89904239391285,
-   "FDE": 226.7270256260222
+   "ADE": 107.3509410336081,
+   "FDE": 209.885614066837
   },
   {
    "experiment": "RLA",
@@ -185525,8 +185526,8 @@
     "k": "per_window"
    },
    "n_windows": 1276,
-   "ADE": 171.8637206043063,
-   "FDE": 292.5502957247264
+   "ADE": 161.35646904018347,
+   "FDE": 276.5534806609724
   },
   {
    "experiment": "nominal_H60",
@@ -185539,8 +185540,8 @@
     "k": 0
    },
    "n_windows": 57009,
-   "ADE": 105.2816976678932,
-   "FDE": 214.88908457719427
+   "ADE": 99.40197419149854,
+   "FDE": 200.09227635617196
   },
   {
    "experiment": "RLA",
@@ -185554,8 +185555,8 @@
     "k": "per_window"
    },
    "n_windows": 57009,
-   "ADE": 108.35513741467173,
-   "FDE": 218.97915071874385
+   "ADE": 102.34073947512428,
+   "FDE": 203.99211679895893
   },
   {
    "experiment": "RLA",
@@ -185569,8 +185570,8 @@
     "k": "per_window"
    },
    "n_windows": 5701,
-   "ADE": 116.06166795963367,
-   "FDE": 228.5418780800013
+   "ADE": 110.86159127441616,
+   "FDE": 215.23693189485013
   },
   {
    "experiment": "RLA",
@@ -185584,8 +185585,8 @@
     "k": "per_window"
    },
    "n_windows": 1276,
-   "ADE": 171.5669603145066,
-   "FDE": 295.8274243145357
+   "ADE": 165.00122988070385,
+   "FDE": 282.2101819506404
   },
   {
    "experiment": "nominal_H60",
@@ -185598,8 +185599,8 @@
     "k": 0
    },
    "n_windows": 57009,
-   "ADE": 105.00485847742614,
-   "FDE": 213.13026528601554
+   "ADE": 96.25819032745626,
+   "FDE": 195.88253727992424
   },
   {
    "experiment": "RLA",
@@ -185613,8 +185614,8 @@
     "k": "per_window"
    },
    "n_windows": 57009,
-   "ADE": 108.02610539523486,
-   "FDE": 217.02651508221882
+   "ADE": 99.2104926412046,
+   "FDE": 199.87444682970784
   },
   {
    "experiment": "RLA",
@@ -185628,8 +185629,8 @@
     "k": "per_window"
    },
    "n_windows": 5701,
-   "ADE": 116.5745365256364,
-   "FDE": 228.48701291988894
+   "ADE": 107.71380427510547,
+   "FDE": 210.96387043022867
   },
   {
    "experiment": "RLA",
@@ -185643,8 +185644,8 @@
     "k": "per_window"
    },
    "n_windows": 1276,
-   "ADE": 172.1739740368792,
-   "FDE": 293.65691677041207
+   "ADE": 162.99555935133668,
+   "FDE": 278.4182919962862
   }
  ],
  "rankings": {

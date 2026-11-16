@@ -35,17 +35,17 @@ RLA assignments — all: 21,346, worst_decile: 2,135, k_ge_3: 574; loss 20.5342%
 | PatchTST | 179.94 ± 9.90 | 179.91 ± 9.89 | -0.02 | 184.72 ± 9.05 | 178.25 ± 6.94 | 182.56 ± 6.88 | +2.42 | 200.40 ± 6.05 | 264.65 ± 4.66 |
 | TimeMixer | 142.16 ± 5.02 | 142.25 ± 4.86 | +0.07 | 148.35 ± 4.27 | 147.14 ± 2.76 | 152.17 ± 2.74 | +3.42 | 171.41 ± 3.23 | 249.70 ± 3.91 |
 | TSMixer | 120.34 ± 2.89 | 120.47 ± 2.87 | +0.11 | 124.54 ± 2.96 | 137.23 ± 0.68 | 139.78 ± 0.64 | +1.86 | 147.93 ± 0.36 | 192.91 ± 1.20 |
-| PA-TSMixer | **100.23 ± 0.47** | **100.37 ± 0.48** | +0.15 | **104.95 ± 0.40** | **103.59 ± 1.31** | **106.58 ± 1.36** | +2.89 | **115.13 ± 1.53** | **167.39 ± 2.18** |
+| PA-TSMixer | **100.23 ± 0.47** | **100.37 ± 0.48** | +0.15 | **104.95 ± 0.40** | **95.31 ± 0.68** | **98.20 ± 0.69** | +3.03 | **106.91 ± 1.11** | **157.83 ± 2.34** |
 
 - Nominal H30: PA-TSMixer 100.2279, rank 1/10; best PA-TSMixer (100.2279); best competitor FlightBERT++ (105.5594).
 - RL: PA-TSMixer 100.3744, rank 1/10; best PA-TSMixer (100.3744); best competitor FlightBERT++ (104.6217).
 - RL change (%): PA-TSMixer 0.1462, rank 10/10; best FlightBERT++ (-0.8883); best competitor FlightBERT++ (-0.8883).
 - RL worst 10%: PA-TSMixer 104.9461, rank 1/10; best PA-TSMixer (104.9461); best competitor FlightBERT++ (106.5701).
-- H60 nominal [0:30]: PA-TSMixer 103.5879, rank 1/10; best PA-TSMixer (103.5879); best competitor FlightBERT++ (109.7936).
-- RLA: PA-TSMixer 106.5844, rank 1/10; best PA-TSMixer (106.5844); best competitor FlightBERT++ (111.8125).
-- RLA change (%): PA-TSMixer 2.8927, rank 6/10; best CNN-GRU (1.5689); best competitor CNN-GRU (1.5689).
-- RLA worst 10%: PA-TSMixer 115.1307, rank 1/10; best PA-TSMixer (115.1307); best competitor FlightBERT++ (121.9023).
-- RLA k>=3: PA-TSMixer 167.3930, rank 1/10; best PA-TSMixer (167.3930); best competitor CNN-GRU (173.3621).
+- H60 nominal [0:30]: PA-TSMixer 95.3073, rank 1/10; best PA-TSMixer (95.3073); best competitor FlightBERT++ (109.7936).
+- RLA: PA-TSMixer 98.1965, rank 1/10; best PA-TSMixer (98.1965); best competitor FlightBERT++ (111.8125).
+- RLA change (%): PA-TSMixer 3.0315, rank 6/10; best CNN-GRU (1.5689); best competitor CNN-GRU (1.5689).
+- RLA worst 10%: PA-TSMixer 106.9060, rank 1/10; best PA-TSMixer (106.9060); best competitor FlightBERT++ (121.9023).
+- RLA k>=3: PA-TSMixer 157.8291, rank 1/10; best PA-TSMixer (157.8291); best competitor CNN-GRU (173.3621).
 
 ### FDE (m; percentage columns in %)
 
@@ -53,24 +53,24 @@ RLA assignments — all: 21,346, worst_decile: 2,135, k_ge_3: 574; loss 20.5342%
 |:--|--:|--:|--:|--:|--:|--:|--:|--:|--:|
 | CV | 418.49 (det.) | 419.08 (det.) | +0.14 | 438.37 (det.) | 418.49 (det.) | 427.73 (det.) | +2.21 | 468.57 (det.) | 607.06 (det.) |
 | CA | 565.56 (det.) | 564.08 (det.) | -0.26 | 587.40 (det.) | 565.56 (det.) | 578.77 (det.) | +2.34 | 622.95 (det.) | 838.22 (det.) |
-| CNN-GRU | 222.12 ± 1.74 | 222.24 ± 1.75 | +0.06 | 227.20 ± 2.42 | **212.36 ± 2.23** | **215.63 ± 2.16** | +1.54 | **227.61 ± 3.06** | **294.88 ± 1.54** |
+| CNN-GRU | 222.12 ± 1.74 | 222.24 ± 1.75 | +0.06 | 227.20 ± 2.42 | 212.36 ± 2.23 | 215.63 ± 2.16 | +1.54 | 227.61 ± 3.06 | 294.88 ± 1.54 |
 | FlightBERT++ | 224.32 ± 1.55 | 222.51 ± 1.86 | **-0.80** | **225.28 ± 1.77** | 231.00 ± 1.32 | 232.64 ± 1.41 | **+0.71** | 247.52 ± 1.00 | 318.06 ± 8.98 |
 | DLinear | 402.17 ± 0.64 | 402.56 ± 0.64 | +0.10 | 411.90 ± 0.55 | 401.36 ± 1.56 | 408.93 ± 1.55 | +1.89 | 439.05 ± 1.76 | 540.81 ± 2.02 |
 | Transformer | 237.66 ± 2.42 | 237.63 ± 2.40 | -0.01 | 245.26 ± 2.48 | 245.41 ± 4.18 | 249.05 ± 4.30 | +1.48 | 257.37 ± 3.20 | 324.94 ± 5.74 |
 | PatchTST | 361.26 ± 15.36 | 361.55 ± 15.30 | +0.08 | 373.15 ± 12.94 | 345.63 ± 2.62 | 352.46 ± 2.78 | +1.98 | 382.84 ± 3.43 | 463.43 ± 5.11 |
 | TimeMixer | 334.43 ± 8.25 | 334.72 ± 8.10 | +0.09 | 347.95 ± 7.33 | 332.35 ± 5.28 | 339.95 ± 5.18 | +2.29 | 371.87 ± 6.06 | 483.20 ± 3.46 |
 | TSMixer | 254.74 ± 5.83 | 255.09 ± 5.79 | +0.13 | 264.19 ± 6.01 | 238.53 ± 1.32 | 242.43 ± 1.36 | +1.64 | 254.96 ± 1.40 | 321.94 ± 2.78 |
-| PA-TSMixer | **220.45 ± 0.91** | **220.73 ± 0.92** | +0.13 | 228.46 ± 1.17 | 215.13 ± 2.82 | 219.02 ± 2.88 | +1.81 | 231.54 ± 2.78 | 302.51 ± 2.58 |
+| PA-TSMixer | **220.45 ± 0.91** | **220.73 ± 0.92** | +0.13 | 228.46 ± 1.17 | **199.03 ± 1.46** | **202.93 ± 1.50** | +1.96 | **215.55 ± 1.58** | **287.73 ± 4.97** |
 
 - Nominal H30: PA-TSMixer 220.4534, rank 1/10; best PA-TSMixer (220.4534); best competitor CNN-GRU (222.1156).
 - RL: PA-TSMixer 220.7347, rank 1/10; best PA-TSMixer (220.7347); best competitor CNN-GRU (222.2415).
 - RL change (%): PA-TSMixer 0.1276, rank 8/10; best FlightBERT++ (-0.8033); best competitor FlightBERT++ (-0.8033).
 - RL worst 10%: PA-TSMixer 228.4612, rank 3/10; best FlightBERT++ (225.2751); best competitor FlightBERT++ (225.2751).
-- H60 nominal [0:30]: PA-TSMixer 215.1256, rank 2/10; best CNN-GRU (212.3577); best competitor CNN-GRU (212.3577).
-- RLA: PA-TSMixer 219.0219, rank 2/10; best CNN-GRU (215.6312); best competitor CNN-GRU (215.6312).
-- RLA change (%): PA-TSMixer 1.8111, rank 5/10; best FlightBERT++ (0.7123); best competitor FlightBERT++ (0.7123).
-- RLA worst 10%: PA-TSMixer 231.5379, rank 2/10; best CNN-GRU (227.6144); best competitor CNN-GRU (227.6144).
-- RLA k>=3: PA-TSMixer 302.5136, rank 2/10; best CNN-GRU (294.8816); best competitor CNN-GRU (294.8816).
+- H60 nominal [0:30]: PA-TSMixer 199.0319, rank 1/10; best PA-TSMixer (199.0319); best competitor CNN-GRU (212.3577).
+- RLA: PA-TSMixer 202.9337, rank 1/10; best PA-TSMixer (202.9337); best competitor CNN-GRU (215.6312).
+- RLA change (%): PA-TSMixer 1.9604, rank 6/10; best FlightBERT++ (0.7123); best competitor FlightBERT++ (0.7123).
+- RLA worst 10%: PA-TSMixer 215.5544, rank 1/10; best PA-TSMixer (215.5544); best competitor CNN-GRU (227.6144).
+- RLA k>=3: PA-TSMixer 287.7288, rank 1/10; best PA-TSMixer (287.7288); best competitor CNN-GRU (294.8816).
 
 ## tartanaviation
 
@@ -95,17 +95,17 @@ RLA assignments — all: 57,009, worst_decile: 5,701, k_ge_3: 1,276; loss 21.222
 | PatchTST | 262.41 ± 14.72 | 262.19 ± 14.58 | -0.08 | 262.65 ± 13.97 | 246.72 ± 15.51 | 251.15 ± 14.89 | +1.79 | 265.42 ± 13.93 | 356.15 ± 8.64 |
 | TimeMixer | 155.87 ± 17.06 | 156.03 ± 16.85 | +0.10 | 158.76 ± 15.20 | 157.05 ± 2.35 | 161.59 ± 2.28 | +2.89 | 175.58 ± 0.95 | 270.29 ± 5.20 |
 | TSMixer | 128.91 ± 8.04 | 129.13 ± 7.99 | +0.18 | 130.40 ± 7.31 | 152.57 ± 7.96 | 155.23 ± 7.89 | +1.74 | 162.35 ± 7.58 | 214.16 ± 6.24 |
-| PA-TSMixer | **100.54 ± 2.09** | **100.79 ± 2.09** | +0.25 | **102.40 ± 1.85** | **105.23 ± 0.20** | **108.26 ± 0.21** | +2.88 | **116.18 ± 0.35** | **171.87 ± 0.30** |
+| PA-TSMixer | **100.54 ± 2.09** | **100.79 ± 2.09** | +0.25 | **102.40 ± 1.85** | **97.36 ± 1.77** | **100.28 ± 1.78** | +3.00 | **108.64 ± 1.93** | **163.12 ± 1.83** |
 
 - Nominal H30: PA-TSMixer 100.5413, rank 1/10; best PA-TSMixer (100.5413); best competitor FlightBERT++ (127.0079).
 - RL: PA-TSMixer 100.7880, rank 1/10; best PA-TSMixer (100.7880); best competitor FlightBERT++ (125.0398).
 - RL change (%): PA-TSMixer 0.2454, rank 10/10; best FlightBERT++ (-1.5495); best competitor FlightBERT++ (-1.5495).
 - RL worst 10%: PA-TSMixer 102.3983, rank 1/10; best PA-TSMixer (102.3983); best competitor FlightBERT++ (125.1834).
-- H60 nominal [0:30]: PA-TSMixer 105.2292, rank 1/10; best PA-TSMixer (105.2292); best competitor FlightBERT++ (136.7798).
-- RLA: PA-TSMixer 108.2621, rank 1/10; best PA-TSMixer (108.2621); best competitor FlightBERT++ (136.9798).
-- RLA change (%): PA-TSMixer 2.8822, rank 6/10; best FlightBERT++ (0.1462); best competitor FlightBERT++ (0.1462).
-- RLA worst 10%: PA-TSMixer 116.1784, rank 1/10; best PA-TSMixer (116.1784); best competitor FlightBERT++ (142.7357).
-- RLA k>=3: PA-TSMixer 171.8682, rank 1/10; best PA-TSMixer (171.8682); best competitor TSMixer (214.1632).
+- H60 nominal [0:30]: PA-TSMixer 97.3633, rank 1/10; best PA-TSMixer (97.3633); best competitor FlightBERT++ (136.7798).
+- RLA: PA-TSMixer 100.2829, rank 1/10; best PA-TSMixer (100.2829); best competitor FlightBERT++ (136.9798).
+- RLA change (%): PA-TSMixer 2.9987, rank 7/10; best FlightBERT++ (0.1462); best competitor FlightBERT++ (0.1462).
+- RLA worst 10%: PA-TSMixer 108.6421, rank 1/10; best PA-TSMixer (108.6421); best competitor FlightBERT++ (142.7357).
+- RLA k>=3: PA-TSMixer 163.1178, rank 1/10; best PA-TSMixer (163.1178); best competitor TSMixer (214.1632).
 
 ### FDE (m; percentage columns in %)
 
@@ -120,17 +120,17 @@ RLA assignments — all: 57,009, worst_decile: 5,701, k_ge_3: 1,276; loss 21.222
 | PatchTST | 429.68 ± 7.33 | 429.54 ± 7.23 | -0.03 | 433.01 ± 7.47 | 427.49 ± 4.48 | 434.27 ± 4.72 | +1.59 | 455.45 ± 5.47 | 573.93 ± 3.74 |
 | TimeMixer | 346.61 ± 23.96 | 346.99 ± 23.72 | +0.11 | 351.66 ± 20.74 | 344.03 ± 4.87 | 350.62 ± 4.95 | +1.92 | 372.84 ± 4.26 | 499.27 ± 11.95 |
 | TSMixer | 258.33 ± 8.86 | 258.81 ± 8.76 | +0.19 | 261.02 ± 7.38 | 250.92 ± 5.34 | 255.08 ± 5.33 | +1.66 | 265.47 ± 5.86 | 335.67 ± 5.23 |
-| PA-TSMixer | **214.85 ± 4.47** | **215.33 ± 4.48** | +0.22 | **217.16 ± 3.72** | **213.87 ± 0.91** | **217.83 ± 1.02** | +1.85 | **227.92 ± 1.03** | **294.01 ± 1.67** |
+| PA-TSMixer | **214.85 ± 4.47** | **215.33 ± 4.48** | +0.22 | **217.16 ± 3.72** | **197.22 ± 2.49** | **201.12 ± 2.49** | +1.98 | **212.03 ± 2.83** | **279.06 ± 2.88** |
 
 - Nominal H30: PA-TSMixer 214.8511, rank 1/10; best PA-TSMixer (214.8511); best competitor TSMixer (258.3302).
 - RL: PA-TSMixer 215.3269, rank 1/10; best PA-TSMixer (215.3269); best competitor TSMixer (258.8142).
 - RL change (%): PA-TSMixer 0.2214, rank 10/10; best FlightBERT++ (-1.4182); best competitor FlightBERT++ (-1.4182).
 - RL worst 10%: PA-TSMixer 217.1643, rank 1/10; best PA-TSMixer (217.1643); best competitor FlightBERT++ (258.8543).
-- H60 nominal [0:30]: PA-TSMixer 213.8721, rank 1/10; best PA-TSMixer (213.8721); best competitor TSMixer (250.9185).
-- RLA: PA-TSMixer 217.8296, rank 1/10; best PA-TSMixer (217.8296); best competitor TSMixer (255.0757).
-- RLA change (%): PA-TSMixer 1.8504, rank 6/10; best FlightBERT++ (-0.7694); best competitor FlightBERT++ (-0.7694).
-- RLA worst 10%: PA-TSMixer 227.9186, rank 1/10; best PA-TSMixer (227.9186); best competitor TSMixer (265.4734).
-- RLA k>=3: PA-TSMixer 294.0115, rank 1/10; best PA-TSMixer (294.0115); best competitor TSMixer (335.6710).
+- H60 nominal [0:30]: PA-TSMixer 197.2169, rank 1/10; best PA-TSMixer (197.2169); best competitor TSMixer (250.9185).
+- RLA: PA-TSMixer 201.1212, rank 1/10; best PA-TSMixer (201.1212); best competitor TSMixer (255.0757).
+- RLA change (%): PA-TSMixer 1.9797, rank 8/10; best FlightBERT++ (-0.7694); best competitor FlightBERT++ (-0.7694).
+- RLA worst 10%: PA-TSMixer 212.0288, rank 1/10; best PA-TSMixer (212.0288); best competitor TSMixer (265.4734).
+- RLA k>=3: PA-TSMixer 279.0607, rank 1/10; best PA-TSMixer (279.0607); best competitor TSMixer (335.6710).
 
 ## Implementation and scope
 

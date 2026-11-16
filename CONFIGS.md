@@ -1,7 +1,7 @@
 # Protocol and configurations
 
 *Lightweight Multi-Scale Aircraft Trajectory Prediction Under Degraded ADS-B Reception for Aerial IoT*, by C. Liu,
-P. Wu, H. Ye, S. He, G. Pan, and J. H. Park; manuscript under review.
+P. Wu, H. Ye, G. Pan, and J. H. Park; manuscript under review.
 
 ## Data and evaluation
 

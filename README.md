@@ -2,7 +2,7 @@
 
 Code, checkpoints and evaluation outputs for
 
-> C. Liu, P. Wu, H. Ye, S. He, G. Pan, and J. H. Park, *Lightweight Multi-Scale Aircraft Trajectory Prediction Under
+> C. Liu, P. Wu, H. Ye, G. Pan, and J. H. Park, *Lightweight Multi-Scale Aircraft Trajectory Prediction Under
 > Degraded ADS-B Reception for Aerial IoT*, manuscript under review.
 
 This release contains the PA-TSMixer model and its single-scale parent, the construction of the processed
